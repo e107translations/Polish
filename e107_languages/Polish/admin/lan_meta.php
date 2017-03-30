@@ -1,10 +1,22 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_meta.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("METLAN_00", "Znaczniki meta");
 
-define("METLAN_00", "Meta tagi");
 define("METLAN_1", "Dodatkowe tagi meta");
-define("METLAN_2", "np.< meta='' name='revisit-after' content='30 days'>");
-define("METLAN_3", "Użyj wiadomości tytuł i Krótki opis jako meta opis na stronach wiadomości.");
+define("METLAN_2", "np. < meta name='revisit-after' content='30 days' />"); //FIXME space between < and meta: parses meta tag for some reason
+define("METLAN_3", "Używaj tytułu oraz streszczenia aktualności jako znacznika 'Opis' na stronie aktualności..");
+
+?>

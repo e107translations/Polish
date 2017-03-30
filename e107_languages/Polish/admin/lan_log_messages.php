@@ -1,249 +1,395 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_log_messages.php               *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
+Definicje w tym pliku są dla standardowych "wyjaśnień" wiadomości, które mogą być wprowadzone
+do którejś wiadomości z logów systemowych. Są trzy grupy o różnych przedrostkach:
+	LAN_ADMIN_LOG_nnn - the admin log (rejestruje działania zamierzone przez adminów)
+	LAN_AUDIT_LOG_nnn - the audit log (rejestruje działania, zwykle zamierzone przez użytkowników)
+	LAN_ROLL_LOG_nnn - the rolling log (Zapisy zewnętrzne wydarzenia, debugowanie itd)
+*/
 
-define("LAN_AUDIT_LOG_001", "Dostęp przez zbanowanych użytkowników");
-define("LAN_AUDIT_LOG_002", "Aktywna ochrona przeciwpowodziowa");
-define("LAN_AUDIT_LOG_003", "Dostęp z zakazanych IP");
+
+// User audit trail events. For messages 11-30, the last 2 digits must match the define for the event type in the admin log class file
+define("LAN_AUDIT_LOG_001", "Dostępne dla zablokowanych użytkowników");
+define("LAN_AUDIT_LOG_002", "Aktywna ochrona przed zatykaniem");
+define("LAN_AUDIT_LOG_003", "Dostępne dla zablokowanych adresów IP");
 define("LAN_AUDIT_LOG_004", "");
 define("LAN_AUDIT_LOG_005", "");
 define("LAN_AUDIT_LOG_006", "Użytkownik zmienił hasło");
 define("LAN_AUDIT_LOG_007", "Użytkownik zmienił adres e-mail");
 define("LAN_AUDIT_LOG_008", "");
 define("LAN_AUDIT_LOG_009", "");
-define("LAN_AUDIT_LOG_010", "Użytkownika danych zmienione przez admin");
-define("LAN_AUDIT_LOG_011", "Użytkownik zarejestrowany");
-define("LAN_AUDIT_LOG_012", "Użytkownik potwierdził rejestracji");
-define("LAN_AUDIT_LOG_013", "Logowanie użytkownika");
-define("LAN_AUDIT_LOG_014", "Wylogowanie użytkownika");
-define("LAN_AUDIT_LOG_015", "Nazwę zmieniono sposób wyświetlania użytkownika");
+define("LAN_AUDIT_LOG_010", "Dane użytkownika zmienione przez admina");
+define("LAN_AUDIT_LOG_011", "Użytkownik zerejestrował się");
+define("LAN_AUDIT_LOG_012", "Użytkownik potwierdził rejestrację");
+define("LAN_AUDIT_LOG_013", "Użytkownik zalogował się");
+define("LAN_AUDIT_LOG_014", "Użytkownik wylogował się");
+define("LAN_AUDIT_LOG_015", "Użytkownik zmienił swoją wyświetlaną nazwę");
 define("LAN_AUDIT_LOG_016", "Użytkownik zmienił hasło");
 define("LAN_AUDIT_LOG_017", "Użytkownik zmienił adres e-mail");
-define("LAN_AUDIT_LOG_018", "Resetowanie hasła użytkownika");
-define("LAN_AUDIT_LOG_019", "Użytkownik zmienił ustawienia");
-define("LAN_AUDIT_LOG_020", "Użytkownik dodany przez admin");
-define("LAN_AUDIT_LOG_021", "Bounce e-mail użytkownika");
-define("LAN_AUDIT_LOG_022", "Użytkownik zbanowany");
-define("LAN_AUDIT_LOG_023", "Użytkownik bounce reset");
-define("LAN_AUDIT_LOG_024", "Tymczasowy stan użytkownika");
-define("LAN_AL_ADLOG_01", "Admin log - prefs aktualizacja");
-define("LAN_AL_ADLOG_02", "Admin log - Usuń stare dane");
-define("LAN_AL_ADLOG_03", "Dziennik inspekcji użytkownika - Usuń stare dane");
-define("LAN_AL_ADLOG_04", "Opcje kontroli użytkownika zaktualizowane");
+define("LAN_AUDIT_LOG_018", "Użytkownik zresetował swoje hasło");
+define("LAN_AUDIT_LOG_019", "Użytkownik zmienił swoje ustawienia");
+define("LAN_AUDIT_LOG_020", "Użytkownik dodany przez admina");
+define("LAN_AUDIT_LOG_021", "Użytkownik odbił e-maila");
+define("LAN_AUDIT_LOG_022", "Użytkownik zablokowany");
+define("LAN_AUDIT_LOG_023", "Użytkownik odrzucił reset");
+define("LAN_AUDIT_LOG_024", "Czasowy status użytkownika");
+
+
+// Admin log events
+//-----------------
+define("LAN_AL_ADLOG_01", "Działania admina - preferencje zaktualizowano");
+define("LAN_AL_ADLOG_02", "Działania admina - kasowanie starych danych");
+define("LAN_AL_ADLOG_03", "Działania użytkownika - kasowanie starych danych");//User Audit log - delete old data
+define("LAN_AL_ADLOG_04", "Działania użytkownika - zaktualizowano opcje");//User audit options updated
 define("LAN_AL_ADLOG_05", "");
-define("LAN_AL_USET_01", "Dane użytkownika admin edytowane");
-define("LAN_AL_USET_02", "Użytkownik dodany przez Admin");
-define("LAN_AL_USET_03", "Opcje użytkownika zaktualizowane");
-define("LAN_AL_USET_04", "Użytkownicy przycinane");
-define("LAN_AL_USET_05", "Użytkownik zbanowany");
-define("LAN_AL_USET_06", "Użytkownik unbanned");
-define("LAN_AL_USET_07", "Użytkownik usunięty");
-define("LAN_AL_USET_08", "Wprowadzone użytkownika admin");
-define("LAN_AL_USET_09", "Użytkownik Administrator stan odwołany");
-define("LAN_AL_USET_10", "Zatwierdzony");
-define("LAN_AL_USET_11", "Wyślij ponownie e-mail sprawdzania poprawności");
-define("LAN_AL_USET_12", "Wyślij ponownie wszystkie sprawdzania poprawności wiadomości e-mail");
-define("LAN_AL_USET_13", "Odbijania wiadomości usunięte");
-define("LAN_AL_USET_14", "Klasa członkostwa aktualizacja");
-define("LAN_AL_USET_15", "Odmowa rejestracji");
-define("LAN_AL_UCLASS_00", "Zdarzenia związane z userclass nieznany");
-define("LAN_AL_UCLASS_01", "Userclass utworzone");
-define("LAN_AL_UCLASS_02", "Userclass usunięte");
-define("LAN_AL_UCLASS_03", "Userclass edytowane");
-define("LAN_AL_UCLASS_04", "Klasa członkostwa aktualizacja");
-define("LAN_AL_UCLASS_05", "Ustawienia początkowe userclass edytowane");
-define("LAN_AL_UCLASS_06", "Klasa członkostwa opróżnione");
-define("LAN_AL_BANLIST_00", "Zdarzenia związane z ban nieznany");
-define("LAN_AL_BANLIST_01", "Ręcznego ban dodany");
-define("LAN_AL_BANLIST_02", "Ban usunięte");
-define("LAN_AL_BANLIST_03", "Czas zakazu zmieniony");
-define("LAN_AL_BANLIST_04", "Biała lista wpis dodany");
-define("LAN_AL_BANLIST_05", "Biała lista wpis usunięty");
-define("LAN_AL_BANLIST_06", "Lista banów eksportowane");
-define("LAN_AL_BANLIST_07", "Lista banów importowane");
-define("LAN_AL_BANLIST_08", "Lista banów opcje aktualizacja");
-define("LAN_AL_BANLIST_09", "Lista banów wpis edytowane");
-define("LAN_AL_BANLIST_10", "Biała lista wpis edytowane");
-define("LAN_AL_BANLIST_11", "Biała lista hit dla zakazu wjazdu");
-define("LAN_AL_BANLIST_12", "Wygasłych banów wyczyszczone");
-define("LAN_AL_COMMENT_01", "Komentarze usunięte");
-define("LAN_ROLL_LOG_01", "Pusta nazwa użytkownika lub hasło");
-define("LAN_ROLL_LOG_02", "Wprowadzony kod nieprawidłowego obrazu");
-define("LAN_ROLL_LOG_03", "Nieprawidłowa nazwa użytkownika i hasło połączenia");
-define("LAN_ROLL_LOG_04", "Nieprawidłowa nazwa użytkownika, wprowadzona");
-define("LAN_ROLL_LOG_05", "Próba logowania przez użytkownika nie jest w pełni podpisały");
-define("LAN_ROLL_LOG_06", "Zablokowany przez program obsługi zdarzeń wyzwalacza logowania");
-define("LAN_ROLL_LOG_07", "Wielokrotne loginy z tego samego adresu");
-define("LAN_ROLL_LOG_08", "Długość username nadmiernego");
-define("LAN_ROLL_LOG_09", "Zakazanej użytkownik próby logowania");
-define("LAN_ROLL_LOG_10", "Niepowodzenie logowania - nieznany powód");
-define("LAN_ROLL_LOG_11", "Niepowodzenie logowania administratora");
-define("LAN_AL_PREFS_01", "Zmienić preferencje");
-define("LAN_AL_PREFS_02", "Nowe preferencje utworzone");
-define("LAN_AL_PREFS_03", "Wystąpił błąd podczas zapisywania prefs");
-define("LAN_AL_FRONTPG_00", "Nieznany front zdarzenie związane z stronę");
-define("LAN_AL_FRONTPG_01", "Kolejność reguł zmieniony");
-define("LAN_AL_FRONTPG_02", "Reguła dodane");
-define("LAN_AL_FRONTPG_03", "Reguła edytowane");
-define("LAN_AL_FRONTPG_04", "Reguła usunięte");
+
+// User edits
+//-----------
+define("LAN_AL_USET_01", "Admin edytował dane użytkownika");
+define("LAN_AL_USET_02", "Użytkownik dodany przez admina");
+define("LAN_AL_USET_03", "Opcje użytkownika zaktualizowano");
+define("LAN_AL_USET_04", "Usunięci użytkownicy");
+define("LAN_AL_USET_05", "Zablokowany użytkownik");
+define("LAN_AL_USET_06", "Odblokowany użytkownik");
+define("LAN_AL_USET_07", "Użytkownik skasowany");
+define("LAN_AL_USET_08", "Użytkownik jest adminem");
+define("LAN_AL_USET_09", "Cofnięty status użytkownika admina");
+define("LAN_AL_USET_10", "Zatwierdzony użytkownik");
+define("LAN_AL_USET_11", "Ponowne wysłanie e-maila aktywacyjnego");
+define("LAN_AL_USET_12", "Ponowne wysłanie wszystkich e-maili aktywacyjnych");
+define("LAN_AL_USET_13", "Skasowane odbite e-maile");
+define("LAN_AL_USET_14", "Klasa użytkowników zaktualizowana");
+define("LAN_AL_USET_15", "Odmowa rejestracji");				// Too many users at same IP address
+
+// Userclass events
+//------------------
+define("LAN_AL_UCLASS_00", "Nieznane wydarzenie klasy użytkownika");//Unknown userclass-related event
+define("LAN_AL_UCLASS_01", "Utworzona klasa użytkownika");
+define("LAN_AL_UCLASS_02", "Klasa użytkownika skasowana");
+define("LAN_AL_UCLASS_03", "Edytowana klasa użytkownika");
+define("LAN_AL_UCLASS_04", "Zaktualizowana klasa członków");
+define("LAN_AL_UCLASS_05", "Edytowane wstępne ustawienia klasy użytkownika");
+define("LAN_AL_UCLASS_06", "Opróżniona klasa członków");
+
+// Banlist events
+//----------------
+define("LAN_AL_BANLIST_00", "Nieznane wydarzenie związane z blokadą");
+define("LAN_AL_BANLIST_01", "Ręcznie dodana blokada");
+define("LAN_AL_BANLIST_02", "Blokada skasowana");
+define("LAN_AL_BANLIST_03", "Zmiana czasu blokady");
+define("LAN_AL_BANLIST_04", "Dodany wpis do białej listy");
+define("LAN_AL_BANLIST_05", "Usunięty wpis z białej listy");
+define("LAN_AL_BANLIST_06", "Wyeksportowana lista blokad");
+define("LAN_AL_BANLIST_07", "Importowanie listy blokad");
+define("LAN_AL_BANLIST_08", "Zaktualizowanie opcji listy blokad");
+define("LAN_AL_BANLIST_09", "Edycja listy blokad");
+define("LAN_AL_BANLIST_10", "Edycja białej listy");
+define("LAN_AL_BANLIST_11", "Wpis do białej listy");//Whitelist hit for ban entry
+define("LAN_AL_BANLIST_12", "Wyczyszczono przedawnione blokady");
+
+
+// Comment-related events
+//-----------------------
+define("LAN_AL_COMMENT_01", "Komentarz/Komentarze skasowano");
+
+// Rolling log events
+//-------------------
+define("LAN_ROLL_LOG_01", "Puste pole nazwa użytkownika i/lub hasło");
+define("LAN_ROLL_LOG_02", "Błędnie wpisany kod z obrazka");
+define("LAN_ROLL_LOG_03", "Błędna kombinacja nazwa użytkownika/hasło");
+define("LAN_ROLL_LOG_04", "Błędnie wpisana nazwa użytkownika");
+define("LAN_ROLL_LOG_05", "Próba zalogowania się użytkownika, który nie dokończył procesu rejestracji");
+define("LAN_ROLL_LOG_06", "Logowanie zablokowane przez procedury wyzwalania zdarzeń");
+define("LAN_ROLL_LOG_07", "Wielekrotne logowanie z tego samego adresu");
+define("LAN_ROLL_LOG_08", "Nadmierna długość nazwy użytkownika");
+define("LAN_ROLL_LOG_09", "Próba zalogowania się przez zablokowanego użytkownika");
+define("LAN_ROLL_LOG_10", "Logowanie nie powiodło się - powód nieznany");
+define("LAN_ROLL_LOG_11", "Błędne logowanie się administratora");
+
+// Prefs events
+//-------------
+define("LAN_AL_PREFS_01", "Zmiana ustawień");
+define("LAN_AL_PREFS_02", "Utworzono nowe ustawienia");
+define("LAN_AL_PREFS_03", "Błąd zapisu ustawień");
+
+
+// Front Page events
+//------------------
+define("LAN_AL_FRONTPG_00", "Nieznane wydarzenie związane ze stroną główną");
+define("LAN_AL_FRONTPG_01", "Zmiana kolejności reguł");
+define("LAN_AL_FRONTPG_02", "Dodanie reguł");
+define("LAN_AL_FRONTPG_03", "Edycja reguły");
+define("LAN_AL_FRONTPG_04", "Skasowanie reguły");
 define("LAN_AL_FRONTPG_05", "");
 define("LAN_AL_FRONTPG_06", "");
-define("LAN_AL_UTHEME_00", "Nieznany użytkownik tematu zdarzenia związane");
-define("LAN_AL_UTHEME_01", "Użytkownika ustawienia motywu zmianie");
+
+
+// User theme admin
+//-----------------
+define("LAN_AL_UTHEME_00", "Nieznane wydarzenie związane z szablonem użytkownika");
+define("LAN_AL_UTHEME_01", "Zmienione ustawienia szablonu użytkownika");
 define("LAN_AL_UTHEME_02", "");
-define("LAN_AL_UPDATE_00", "Nieznanego oprogramowania aktualizacji zdarzenia związane");
-define("LAN_AL_UPDATE_01", "Aktualizacja od 1.0 do 2.0 wykonywane");
-define("LAN_AL_UPDATE_02", "Aktualizacja z 0.7.x 0.7.6 wykonywane");
-define("LAN_AL_UPDATE_03", "Brakujące prefs dodane");
-define("LAN_AL_ADMIN_00", "Zdarzenia nieznany administratora");
-define("LAN_AL_ADMIN_01", "Uprawnienia administratora aktualizacja");
-define("LAN_AL_ADMIN_02", "Usunięcia praw admina");
+
+
+// Update routines
+//----------------
+define("LAN_AL_UPDATE_00", "Nieznane wydarzenie związane z aktualizacją oprogramowania");
+define("LAN_AL_UPDATE_01", "Aktualizacja z 1.0 do 2.0 wykonana");
+define("LAN_AL_UPDATE_02", "Aktualizacja z 0.7.x do 0.7.6 wykonana");
+define("LAN_AL_UPDATE_03", "Dodano brakujące preferencje");
+
+
+// Administrator routines
+//-----------------------
+define("LAN_AL_ADMIN_00", "Nieznane wydarzenie związane z administratorem");
+define("LAN_AL_ADMIN_01", "Aktualizacja uprawnień administracyjnych");
+define("LAN_AL_ADMIN_02", "Usunięto prawa administratora");
 define("LAN_AL_ADMIN_03", "");
-define("LAN_AL_MAINT_00", "Komunikat serwisowy nieznany");
-define("LAN_AL_MAINT_01", "Zestaw tryb konserwacji");
-define("LAN_AL_MAINT_02", "Tryb konserwacji wyczyszczone");
-define("LAN_AL_SLINKS_00", "Komunikat nieznany linki do podstron");
-define("LAN_AL_SLINKS_01", "Sublinks generowane");
-define("LAN_AL_SLINKS_02", "Link do podstrony, przeniósł się");
-define("LAN_AL_SLINKS_03", "Link do podstrony, przeniósł się w dół");
-define("LAN_AL_SLINKS_04", "Kolejność linków do podstron, aktualizacja");
-define("LAN_AL_SLINKS_05", "Linki do podstron opcje aktualizacja");
-define("LAN_AL_SLINKS_06", "Link do podstrony, usunięte");
-define("LAN_AL_SLINKS_07", "Link do podstrony, przekazywane");
-define("LAN_AL_SLINKS_08", "Link do podstrony, aktualizacja");
-define("LAN_AL_THEME_00", "Wiadomości związane z tematu nieznany");
-define("LAN_AL_THEME_01", "Motyw witryny aktualizacja");
-define("LAN_AL_THEME_02", "Administrator temat aktualizacja");
-define("LAN_AL_THEME_03", "Napięcie wstępne/strony obrazu CSS aktualizacja");
-define("LAN_AL_THEME_04", "Admin/CSS style aktualizacja");
+
+// Maintenance mode
+//-----------------
+define("LAN_AL_MAINT_00", "Nieznana wiadomość konserwacji");
+define("LAN_AL_MAINT_01", "Ustawienia trybu konserwacji");
+define("LAN_AL_MAINT_02", "Wyczyszczono tryb konserwacji");
+
+
+// Sitelinks routines
+//-------------------
+define("LAN_AL_SLINKS_00", "Nieznana wiadomość odnośników strony");
+define("LAN_AL_SLINKS_01", "Wygenerowano odnośniki podrzędne");
+define("LAN_AL_SLINKS_02", "Odnośnik przeniesiono w górę");
+define("LAN_AL_SLINKS_03", "Odnośnik przeniesiono w dół");
+define("LAN_AL_SLINKS_04", "Zaktualizowano kolejność odnośników");
+define("LAN_AL_SLINKS_05", "Zaktualizowano opcje odnośników");
+define("LAN_AL_SLINKS_06", "Usunięto odnośnik");
+define("LAN_AL_SLINKS_07", "Odnośnik wysłany");
+define("LAN_AL_SLINKS_08", "Odnośnik zaktualizowany");
+
+
+// Theme manager routines
+//-----------------------
+define("LAN_AL_THEME_00", "Nieznane wydarzenie związane z szablonem");
+define("LAN_AL_THEME_01", "Zaktualizowano szablon witryny");
+define("LAN_AL_THEME_02", "Zaktualizowano szablon administracyjny");
+define("LAN_AL_THEME_03", "Zaktualizowano preload grafik z szablonu css");
+define("LAN_AL_THEME_04", "Zaktualizowano styl css administracji");
 define("LAN_AL_THEME_05", "");
-define("LAN_AL_CACHE_00", "Komunikat nieznany kontroli pamięci podręcznej");
-define("LAN_AL_CACHE_01", "Ustawienia pamięci podręcznej zaktualizowane");
-define("LAN_AL_CACHE_02", "Opróżnić pamięć podręczną systemu");
-define("LAN_AL_CACHE_03", "Zawartość pamięci podręcznej");
+
+
+// Cache control routines
+//-----------------------
+define("LAN_AL_CACHE_00", "Nieznana wiadomość kontrolna cache");
+define("LAN_AL_CACHE_01", "Zaktualizowano ustawienia cache");
+define("LAN_AL_CACHE_02", "Wyczyszczono system cache");
+define("LAN_AL_CACHE_03", "Wyczyszczono cache zawartości");
 define("LAN_AL_CACHE_04", "");
-define("LAN_AL_EMOTE_00", "Wiadomości związane z emote nieznany");
-define("LAN_AL_EMOTE_01", "Aktywne emotikony pack zmieniony");
-define("LAN_AL_EMOTE_02", "Emotki aktywowany");
-define("LAN_AL_EMOTE_03", "Emotki wyłączone");
-define("LAN_AL_WELCOME_00", "Wiadomości związane z gościny nieznany");
-define("LAN_AL_WELCOME_01", "Wiadomość powitalna utworzone");
-define("LAN_AL_WELCOME_02", "Komunikat powitalny aktualizacja");
-define("LAN_AL_WELCOME_03", "Usunięte wiadomości powitalnej");
-define("LAN_AL_WELCOME_04", "Opcje wiadomości powitalnej, zmienione");
+
+
+// Emote admin
+//------------
+define("LAN_AL_EMOTE_00", "Nieznana wiadomość dotycząca emotikon");
+define("LAN_AL_EMOTE_01", "Zmieniono aktywny zestaw emotikon");
+define("LAN_AL_EMOTE_02", "Aktywowano emotikony");
+define("LAN_AL_EMOTE_03", "Wyłączono emotikony");
+
+
+// Welcome message
+//----------------
+define("LAN_AL_WELCOME_00", "Nieznana wiadomość powitalna");
+define("LAN_AL_WELCOME_01", "Wiadomość powitalna została utworzona");
+define("LAN_AL_WELCOME_02", "Zaktualizowano wiadomość powitalną");
+define("LAN_AL_WELCOME_03", "Skasowano wiadomość powitalną");
+define("LAN_AL_WELCOME_04", "Zmieniono opcje wiadomości powitalnej");
 define("LAN_AL_WELCOME_05", "");
-define("LAN_AL_ADMINPW_01", "Zmianie hasła administratora");
-define("LAN_AL_BANNER_00", "Wiadomości związane z transparent nieznany");
-define("LAN_AL_BANNER_01", "Transparent menu aktualizacji");
-define("LAN_AL_BANNER_02", "Baner jest");
-define("LAN_AL_BANNER_03", "Baner, aktualizacja");
-define("LAN_AL_BANNER_04", "Transparent usunięte");
-define("LAN_AL_BANNER_05", "Aktualizacja konfiguracja banera");
+
+
+// Admin Password
+//---------------
+define("LAN_AL_ADMINPW_01", "Zmieniono hasło administratora");
+
+
+// Banners Admin
+//--------------
+define("LAN_AL_BANNER_00", "Nieznana wiadomość dotycząca bnera");
+define("LAN_AL_BANNER_01", "Zaktualizowano menu banera");
+define("LAN_AL_BANNER_02", "Utworzono baner");
+define("LAN_AL_BANNER_03", "Zaktualizowano baner");
+define("LAN_AL_BANNER_04", "Skasowano baner");
+define("LAN_AL_BANNER_05", "Zaktualizowano ustawienia banera");
 define("LAN_AL_BANNER_06", "");
-define("LAN_AL_IMALAN_00", "Wiadomości związane z obrazu nieznany");
-define("LAN_AL_IMALAN_01", "Avatar usunięte");
-define("LAN_AL_IMALAN_02", "Wszystkie avatary i zdjęcia usunięte");
-define("LAN_AL_IMALAN_03", "Avatar usunięte");
-define("LAN_AL_IMALAN_04", "Zaktualizowane ustawienia");
+
+// Image management
+//-----------------
+define("LAN_AL_IMALAN_00", "Nieznana wiadomość dotycząca grafiki");
+define("LAN_AL_IMALAN_01", "Skasowano awatar");
+define("LAN_AL_IMALAN_02", "Skasowano wszystkie awatary oraz zdjęcia");
+define("LAN_AL_IMALAN_03", "Skasowano awatar");
+define("LAN_AL_IMALAN_04", "Zaktualizowano ustawienia");
 define("LAN_AL_IMALAN_05", "");
 define("LAN_AL_IMALAN_06", "");
-define("LAN_AL_LANG_00", "Wiadomości związane z językiem nieznany");
-define("LAN_AL_LANG_01", "Prefs język zmienił");
-define("LAN_AL_LANG_02", "Język tabele usunięte");
-define("LAN_AL_LANG_03", "Język tabele utworzone");
-define("LAN_AL_LANG_04", "Język zip stworzone");
+
+// Language management
+//--------------------
+define("LAN_AL_LANG_00", "Nieznana wiadomość dotycząca języka");
+define("LAN_AL_LANG_01", "Zmieniono preferencje języka");
+define("LAN_AL_LANG_02", "Skasowano tabele językowe");
+define("LAN_AL_LANG_03", "Utworzono tabele językowe");
+define("LAN_AL_LANG_04", "Utworzono pakiet zip języka");
 define("LAN_AL_LANG_05", "");
-define("LAN_AL_META_01", "Meta tagi aktualizacja");
-define("LAN_AL_DOWNL_01", "Zmienić opcje pobierania");
-define("LAN_AL_DOWNL_02", "Pobierz kategorii utworzone");
-define("LAN_AL_DOWNL_03", "Pobierz Aktualizacja kategorii");
-define("LAN_AL_DOWNL_04", "Pobierz kategorii usunięte");
-define("LAN_AL_DOWNL_05", "Pobierz utworzone");
-define("LAN_AL_DOWNL_06", "Pobierz zaktualizowane");
-define("LAN_AL_DOWNL_07", "Pobierz usunięte");
-define("LAN_AL_DOWNL_08", "Pobierz Aktualizacja porządku według kategorii");
-define("LAN_AL_DOWNL_09", "Pobierz limit dodane");
-define("LAN_AL_DOWNL_10", "Pobierz limit edytowane");
-define("LAN_AL_DOWNL_11", "Pobierz limit usunięte");
-define("LAN_AL_DOWNL_12", "Pobierz lustro dodaje");
-define("LAN_AL_DOWNL_13", "Pobierz Lustro aktualizacja");
-define("LAN_AL_DOWNL_14", "Pobierz Lustro usunięte");
+
+// Meta Tags
+//----------
+define("LAN_AL_META_01", "Zaktualizowano meta tagi");
+
+// Downloads
+//----------
+define("LAN_AL_DOWNL_01", "Zmieniono opcje downloadu");
+define("LAN_AL_DOWNL_02", "Utworzono opcje downloadu");
+define("LAN_AL_DOWNL_03", "Utworzono opcje downloadu");
+define("LAN_AL_DOWNL_04", "Skasowano kategorię downloadu");
+define("LAN_AL_DOWNL_05", "Utworzono download");
+define("LAN_AL_DOWNL_06", "Zaktualizowano download");
+define("LAN_AL_DOWNL_07", "Skasowano download");
+define("LAN_AL_DOWNL_08", "Zaktualizowano kolejność sortowania kategorii download");
+define("LAN_AL_DOWNL_09", "Dodano limit pobierania");
+define("LAN_AL_DOWNL_10", "Zaktualizowano limit pobierania");
+define("LAN_AL_DOWNL_11", "Usunięto limit pobierania");
+define("LAN_AL_DOWNL_12", "Dodano mirror");
+define("LAN_AL_DOWNL_13", "Zaktualizowano mirror");
+define("LAN_AL_DOWNL_14", "Skasowano mirror");
 define("LAN_AL_DOWNL_15", "");
-define("LAN_AL_CPAGE_01", "Dodano stronę/menu niestandardowe");
-define("LAN_AL_CPAGE_02", "Aktualizacja strony/menu niestandardowe");
-define("LAN_AL_CPAGE_03", "Usunięte strony/menu niestandardowe");
-define("LAN_AL_CPAGE_04", "Zaktualizowane ustawienia niestandardowe strony/menu");
-define("LAN_AL_EUF_01", "EUF przeniósł się");
-define("LAN_AL_EUF_02", "EUF przeniósł się w dół");
-define("LAN_AL_EUF_03", "Kategorii EUF przeniósł się");
-define("LAN_AL_EUF_04", "Kategorii EUF przenoszone w dół");
-define("LAN_AL_EUF_05", "Rozszerzone pole użytkownika dodane");
-define("LAN_AL_EUF_06", "Rozszerzone pole użytkownik, aktualizacja");
-define("LAN_AL_EUF_07", "Rozszerzone pole użytkownika usunięte");
-define("LAN_AL_EUF_08", "EUF kategorii dodane");
-define("LAN_AL_EUF_09", "EUF kategorii aktualizacja");
-define("LAN_AL_EUF_10", "Kategorii EUF usunięte");
-define("LAN_AL_EUF_11", "Pól rozszerzonych użytkownika aktywowany");
-define("LAN_AL_EUF_12", "Rozszerzone użytkownika pola wyłączone");
-define("LAN_AL_MENU_01", "Menu aktywowane");
-define("LAN_AL_MENU_02", "Menu - Ustaw widoczność");
-define("LAN_AL_MENU_03", "Menu - zmiana obszaru");
-define("LAN_AL_MENU_04", "Menu wyłączone");
-define("LAN_AL_MENU_05", "Menu - Przenieś w górę");
-define("LAN_AL_MENU_06", "Menu - ruch w dół");
-define("LAN_AL_MENU_07", "Menu - Przenieś w górę");
-define("LAN_AL_MENU_08", "Menu - ruch w dół");
+
+// Custom Pages/Menus
+//-------------------
+define("LAN_AL_CPAGE_01", "Dodano własne strony/menu");
+define("LAN_AL_CPAGE_02", "Zaktualizowano własne menu/strony");
+define("LAN_AL_CPAGE_03", "Skasowano własne menu/strony");
+define("LAN_AL_CPAGE_04", "Zaktualizowano ustawienia własnych menu/stron");
+
+// Extended User Fields
+//---------------------
+define("LAN_AL_EUF_01", "EUF przeniesiono do góry");
+define("LAN_AL_EUF_02", "EUF przeniesiono w dół");
+define("LAN_AL_EUF_03", "Przeniesiono w górę kategorię EUF");
+define("LAN_AL_EUF_04", "Przeniesiono w dół kategorię EUF");
+define("LAN_AL_EUF_05", "Dodano dodatkowe pole użytkownika");
+define("LAN_AL_EUF_06", "Zaktualizowano dodatkowe pole użytkownika");
+define("LAN_AL_EUF_07", "Skasowano dodatkowe pole użytkownika");
+define("LAN_AL_EUF_08", "Dodano kategorię EUF");
+define("LAN_AL_EUF_09", "Zaktualizowano kategorię EUF");
+define("LAN_AL_EUF_10", "Skasowano kategorię EUF");
+define("LAN_AL_EUF_11", "Aktywowano dodatkowe pole użytkownika");
+define("LAN_AL_EUF_12", "Dezaktywowano dodatkowe pole użytkownika");
+
+// Menus
+//------
+define("LAN_AL_MENU_01", "Aktywowano menud");
+define("LAN_AL_MENU_02", "Ustawiono widoczność menu");
+define("LAN_AL_MENU_03", "Zmieniono obszar wyświetlania menu");
+define("LAN_AL_MENU_04", "Dezaktywowano menu");
+define("LAN_AL_MENU_05", "Menu przesunięto do góry");
+define("LAN_AL_MENU_06", "Menu przesunięto w dół");
+define("LAN_AL_MENU_07", "Menu przeniesiono do góry");
+define("LAN_AL_MENU_08", "Menu przeniesiono w dół");
 define("LAN_AL_MENU_09", "");
-define("LAN_AL_UPLOAD_01", "Przesłany plik usunięty");
-define("LAN_AL_UPLOAD_02", "Przesłać zmienione prefs");
-define("LAN_AL_SEARCH_01", "Zaktualizowane ustawienia wyszukiwania");
-define("LAN_AL_SEARCH_02", "Szukaj prefs aktualizacja");
-define("LAN_AL_SEARCH_03", "Szukaj params auto aktualizacji");
-define("LAN_AL_SEARCH_04", "Można wyszukiwać obszary aktualizacja");
-define("LAN_AL_SEARCH_05", "Zaktualizowane ustawienia obsługi wyszukiwania");
+
+// Public Uploads
+//---------------
+define("LAN_AL_UPLOAD_01", "Skasowano nadesłany plik");
+define("LAN_AL_UPLOAD_02", "Zmieniono preferencje uploadu");
+
+// Search
+//-------
+define("LAN_AL_SEARCH_01", "Zaktualizowano ustawienia wyszukiwania");
+define("LAN_AL_SEARCH_02", "Zaktualizowano preferencje wyszukiwania");
+define("LAN_AL_SEARCH_03", "Auto aktualizacja parametrów wyszukiwania");
+define("LAN_AL_SEARCH_04", "Zaktualizowano obszary wyszukiwania");
+define("LAN_AL_SEARCH_05", "Zaktualizowano ustawienia wyszukiwania");
 define("LAN_AL_SEARCH_06", "");
-define("LAN_AL_NOTIFY_01", "Zaktualizowane ustawienia powiadamiania");
-define("LAN_AL_NEWS_01", "Elementów usuniętych wiadomości");
-define("LAN_AL_NEWS_02", "Kategoria wiadomości usunięte");
-define("LAN_AL_NEWS_03", "Przesłanych wiadomości usunięte");
-define("LAN_AL_NEWS_04", "Kategoria Aktualności utworzony");
-define("LAN_AL_NEWS_05", "Kategoria Aktualności, aktualizacja");
-define("LAN_AL_NEWS_06", "Preferencje aktualności zaktualizowane");
-define("LAN_AL_NEWS_07", "News dodano upoważniony");
-define("LAN_AL_NEWS_08", "Aktualności, dodane");
-define("LAN_AL_NEWS_09", "Wiadomości elementu aktualizowany");
-define("LAN_AL_NEWS_10", "Przepisać kategorii Aktualności zmieniony");
-define("LAN_AL_NEWS_11", "Przepisać kategorii wiadomości usunięte");
-define("LAN_AL_NEWS_12", "Przepisać Aktualności zmieniony");
-define("LAN_AL_NEWS_13", "Przepisać wiadomości usunięte");
-define("LAN_AL_FILEMAN_01", "Pliki usunięte");
-define("LAN_AL_FILEMAN_02", "Pliki przeniesione");
-define("LAN_AL_FILEMAN_03", "Pliki przesłane");
+
+// Notify
+//-------
+define("LAN_AL_NOTIFY_01", "Zaktualizowano ustawienia powiadamiania");
+
+// News
+//-----
+define("LAN_AL_NEWS_01", "Skasowano pozycję nowości");
+define("LAN_AL_NEWS_02", "Skasowano kategorię nowości");
+define("LAN_AL_NEWS_03", "Usunięto nadesłane nowości");
+define("LAN_AL_NEWS_04", "Utworzono kategorię nowości");
+define("LAN_AL_NEWS_05", "Zaktualizowano kategorię nowości");
+define("LAN_AL_NEWS_06", "Zaktualizowano preferencje nowości");
+define("LAN_AL_NEWS_07", "Autoryzowano nadesłene wiadomości");
+define("LAN_AL_NEWS_08", "Dodano nowość");
+define("LAN_AL_NEWS_09", "Zaktualizowano nowość");
+define("LAN_AL_NEWS_10", "Zmieniono kategorię nowości");
+define("LAN_AL_NEWS_11", "Skasowano zmienioną kategorię nowości");
+define("LAN_AL_NEWS_12", "Zmieniono przepisaną kategorię nowości");
+define("LAN_AL_NEWS_13", "Skasowano przepisaną kategorię nowości");
+
+
+
+// File Manager
+//-------------
+define("LAN_AL_FILEMAN_01", "Skasowano plik/pliki");
+define("LAN_AL_FILEMAN_02", "Przeniesiono plik/pliki");
+define("LAN_AL_FILEMAN_03", "Nadesłany plik/pliki");
 define("LAN_AL_FILEMAN_04", "");
-define("LAN_AL_MAIL_01", "Wysłano wiadomość e-mail Test");
-define("LAN_AL_MAIL_02", "Przesyłki utworzone");
-define("LAN_AL_MAIL_03", "Zaktualizowane ustawienia poczty");
-define("LAN_AL_MAIL_04", "Szczegóły przesyłki usunięte");
-define("LAN_AL_MAIL_05", "Poczta bazy danych tidy");
-define("LAN_AL_MAIL_06", "Wysyłki aktywny");
+
+// Mail
+//-----
+define("LAN_AL_MAIL_01", "Wysłano e-mail testowy");
+define("LAN_AL_MAIL_02", "Utworzono Mailshot");
+define("LAN_AL_MAIL_03", "Zaktualizowano ustawienia e-mail");
+define("LAN_AL_MAIL_04", "Skasowano szczegóły Mailshot");
+define("LAN_AL_MAIL_05", "Uporządkowano bazę danych poczty");
+define("LAN_AL_MAIL_06", "Aktywowano Mailout");
 define("LAN_AL_MAIL_07", "");
-define("LAN_AL_PLUGMAN_01", "Zainstalowane wtyczki");
-define("LAN_AL_PLUGMAN_02", "Aktualizacja wtyczki");
-define("LAN_AL_PLUGMAN_03", "Plugin odinstalowane");
-define("LAN_AL_PLUGMAN_04", "Plugin odświeżony");
-define("LAN_AL_EURL_01", "Zmieniono konfigurację adresu URL witryny");
-define("LAN_AL_MISC_01", "Drzewo menu Ustawienia aktualizacji");
-define("LAN_AL_MISC_02", "Zaktualizowane ustawienia online menu");
-define("LAN_AL_MISC_03", "Zaktualizowane ustawienia menu logowania");
-define("LAN_AL_MISC_04", "Zaktualizowane ustawienia menu komentarz");
-define("LAN_AL_MISC_05", "Zaktualizowane ustawienia menu zegar");
-define("LAN_AL_MISC_06", "Ustawienia menu kalendarz blog aktualizacja");
+
+// Plugin Manager
+//---------------
+define("LAN_AL_PLUGMAN_01", "Zainstalowano wtyczkę");
+define("LAN_AL_PLUGMAN_02", "Zaktualizowano wtyczkę");
+define("LAN_AL_PLUGMAN_03", "Odinstalowano wtyczkę");
+define("LAN_AL_PLUGMAN_04", "Odświeżono wtyczkę");
+
+// URL Manager
+//---------------
+define("LAN_AL_EURL_01", "Zamieniono konfigurację adresów url strony");
+
+// Sundry Pseudo-plugins - technically they"re plugins, but not worth the file overhead of treating them separately
+//----------------------
+define("LAN_AL_MISC_01", "Zaktualizowano ustawienia rozwijanego menu");
+define("LAN_AL_MISC_02", "Zaktualizowano ustawienia menu online");
+define("LAN_AL_MISC_03", "Zaktualizowano ustawienia menu login");
+define("LAN_AL_MISC_04", "Zaktualizowano ustawienia menu komentarzy");
+define("LAN_AL_MISC_05", "Zaktualizowano ustawienia menu zegara");
+define("LAN_AL_MISC_06", "Zaktualizowano ustawienia menu kalendarza");
 define("LAN_AL_MISC_07", "");
-define("LAN_AL_PING_01", "Ping do usługi");
-define("LAN_AL_ADMINUI_01", "Wstaw tabela DB interfejsu użytkownika admin: [x]");
-define("LAN_AL_ADMINUI_02", "Aktualizacja tabeli DB admin-UI: [x]");
-define("LAN_AL_ADMINUI_03", "Usuwanie tabeli interfejsu użytkownika admin DB: [x]");
-define("LAN_AL_ADMINUI_04", "Admin-UI DB błąd: [x]");
+
+
+define("LAN_AL_PING_01", "Ping do serwisu");
+
+define("LAN_AL_ADMINUI_01", "Wpisano do tabel Admin-UI : [x]");
+define("LAN_AL_ADMINUI_02", "Zaktualizowano tabele Admin-UI : [x]");
+define("LAN_AL_ADMINUI_03", "Skasowano tabele Admin-UI : [x]");
+define("LAN_AL_ADMINUI_04", "Błąd tabeli Admin-UI : [x]");
+
 define("LAN_AL_BACKUP", "Kopia zapasowa bazy danych");
+
+
+?>

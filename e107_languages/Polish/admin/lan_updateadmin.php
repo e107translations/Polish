@@ -1,13 +1,25 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_updateadmin.php                *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("UDALAN_1", "Błąd - Proszę ponownie prześlij.");
-define("UDALAN_2", "Zaktualizowane ustawienia administratora");
-define("UDALAN_3", "Aktualizacja dla ustawienia");
-define("UDALAN_4", "Nazwa");
-define("UDALAN_6", "Wpisz ponownie hasło");
+define("UDALAN_1", "Błąd - wyślij ponownie.");
+define("UDALAN_2", "Ustawienia zaktualizowano");
+define("UDALAN_3", "Ustawienia zaktualizowano dla");
+define("UDALAN_4", "Login");
+//define("UDALAN_5", "Password");//LAN_PASSWORD
+define("UDALAN_6", "Powtórz hasło");
 define("UDALAN_7", "Zmień hasło");
-define("UDALAN_8", "Zaktualizowano hasło");
+define("UDALAN_8", "Zaktualizowano hasło dla");
+
+?>

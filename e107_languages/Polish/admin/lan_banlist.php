@@ -1,119 +1,142 @@
 <?php
+/*
++====================================================================+
+* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_banlist.php                    *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("BANLAN_2", "Bany na liście.");
-define("BANLAN_3", "Istniejące blokady");
-define("BANLAN_5", "Wpisz IP, adres e-mail lub hosta");
+// define("BANLAN_1", "Ban removed.");
+define("BANLAN_2", "Obecnie niema żadnych blokad.");
+define("BANLAN_3", "Istniejące blokady.");
+// define("BANLAN_4", "Remove ban");
+define("BANLAN_5", "Wpisz IP, adres e-mail, lub nazwę hosta");
 define("BANLAN_7", "Powód");
-define("BANLAN_8", "Adres bana");
-define("BANLAN_9", "Zablokuj użytkowników z witryny przez e-mail, adres IP lub host");
-define("BANLAN_10", "IP / E-mail / Przyczyna");
-define("BANLAN_11", "Auto-ban: więcej niż 10 nieudanych próbach logowania");
-define("BANLAN_12", "Uwaga: Reverse DNS jest obecnie wyłączona; musi być włączony aby umożliwić banowanie przez hosta.  Banowanie przez adres IP i e-mail wciąż będzie działać normalnie.");
-define("BANLAN_13", "Uwaga: Zakaz nazwy użytkownika przez użytkownika, przejdź do strony Administrator użytkowników:");
-define("BANLAN_14", "Lista banow");
-define("BANLAN_15", "Wiadomości/Ban okresy");
-define("BANLAN_16", "Banowanie");
-define("BANLAN_17", "Data bana");
-define("BANLAN_18", "Zakazu wygasa");
-define("BANLAN_19", "Notatki");
-define("BANLAN_20", "Typu");
-define("BANLAN_22", "Nieznane");
-define("BANLAN_23", "dzień (dni)");
+define("BANLAN_8", "Zablokuj adres");
+define("BANLAN_9", "Zablokuj użytkowników strony po adresie e-mail, numerze IP lub nazwie hosta");
+define("BANLAN_10", "IP / e-mail / Powód");
+define("BANLAN_11", "Auto-blokowanie: Więcej niż 10 błędnych prób logowania");
+define("BANLAN_12", "Uwaga: rDNS (Reverse DNS - odwrotny DNS) jest obecnie niedostępny. rDNS musi być dostępny, aby umożliwić blokowanie poprzez nazwę hosta. Blokowanie ze względu na adres IP oraz adres e-mail wciąż funkcjonuje normalnie.");
+define("BANLAN_13", "Uwaga: Aby zablokować użytkownika po jego nazwie, przejdź do podstrony Użytkownicy w Panelu admina: ");
+define("BANLAN_14", "Lista blokad");
+define("BANLAN_15", "Komunikaty/Okresy blokad");
+define("BANLAN_16", "Zablokowany");
+define("BANLAN_17", "Data blokady");
+define("BANLAN_18", "Zakończenie blokady");
+define("BANLAN_19", "Notatka");
+define("BANLAN_20", "Typ");
+//define("BANLAN_21", "Never");
+define("BANLAN_22", "Nieznany");
+define("BANLAN_23", "dzień/dni");
 define("BANLAN_24", "godzin");
-define("BANLAN_25", "Dodać do Lista banów");
-define("BANLAN_26", "Obecnie");
-define("BANLAN_27", "Nieprawidłowe znaki w adresie IP pozbawiony - teraz:");
-define("BANLAN_28", "Typ bana");
-define("BANLAN_29", "Komunikat będzie wyświetlany do zbanowany użytkownik");
-define("BANLAN_30", "Czas trwania bana");
-define("BANLAN_31", "(Użyj pustej wiadomości, jeśli chcesz, aby użytkownik, aby uzyskać pusty ekran)");
+define("BANLAN_25", "Dadaj do blokad");
+define("BANLAN_26", "Aktualnie ");
+define("BANLAN_27", "Nieprawidłowe znaki w adresie IP -teraz:");
+define("BANLAN_28", "Typ blokady");
+define("BANLAN_29", "Wiadomość do pokazania zablokowanemu użytkownikowi");
+define("BANLAN_30", "Okres trwania blokady");
+define("BANLAN_31", "(Zostaw pustą wiadomość, aby wyświetlić czystą stronę)");
 define("BANLAN_32", "Nieokreślony");
-define("BANLAN_34", "Skończony");
-define("BANLAN_35", "Import/eksport");
-define("BANLAN_36", "Wyeksportować typy");
-define("BANLAN_37", "Separator pól");
-define("BANLAN_38", "Cytat (okrągły każdej wartości)");
+//define("BANLAN_33", "Settings Updated");
+define("BANLAN_34", "Przedawniony");
+define("BANLAN_35", "Import/Eksport");
+define("BANLAN_36", "Eksport Typów");
+define("BANLAN_37", "Separator pola");
+define("BANLAN_38", "Cytat (zaokrąglenie dla każdej wartości)");
 define("BANLAN_39", "Eksport");
-define("BANLAN_40", "Lista banów eksportu");
-define("BANLAN_41", "Lista banów importu");
-define("BANLAN_42", "Opcje importu");
-define("BANLAN_43", "Zamień wszystkie istniejące importowanych bany");
-define("BANLAN_44", "Użyj daty/czas wygaśnięcia z importu");
-define("BANLAN_45", "Importu");
-define("BANLAN_46", "Plik importu:");
-define("BANLAN_47", "Błąd przesyłania plików");
-define("BANLAN_48", "Usunięte--NUM--wygasły ban lista wpisów");
-define("BANLAN_49", "Import plików CSV: niesymetryczne Cytaty w linii");
-define("BANLAN_50", "Import plików CSV: błąd zapisu rekordu Lista banów w linii");
-define("BANLAN_51", "Import plików CSV: sukces,--NUM--wiersze zaimportowane z pliku");
+define("BANLAN_40", "Eksport listy blokad");
+define("BANLAN_41", "Import listy blokad");
+define("BANLAN_42", "Wybór importowania");
+define("BANLAN_43", "Zastąp wszystkie istniejące importowane blokady ");
+define("BANLAN_44", "Użyj daty/czasu wygaśnięcia z importowania");
+define("BANLAN_45", "Importowanie");
+define("BANLAN_46", "Import Pliku:");
+define("BANLAN_47", "Błąd ładowania pliku");
+define("BANLAN_48", "Skasowano --NUM-- wpisów z listy wygasłych blokad.");
+define("BANLAN_49", "CSV import: niesymetryczne cudzysłowia w linii ");
+define("BANLAN_50", "CSV import: Błąd zapisu blokad w linii ");
+define("BANLAN_51", "CSV import: Sukces, --NUM-- linii zaimportowano z pliku ");
 define("BANLAN_52", "Biała lista");
-define("BANLAN_53", "Dodaj do białej listy");
-define("BANLAN_54", "Brak wpisów w białej listy");
-define("BANLAN_55", "Data wejścia");
-define("BANLAN_56", "IP/E-mail, użytkownik");
-define("BANLAN_57", "Użytkownika");
+define("BANLAN_53", "Dodaj do Białej listy");
+define("BANLAN_54", "Brak wpisów w białej liście");
+define("BANLAN_55", "Data wpisu");//Entry Date
+define("BANLAN_56", "IP/e-mail, Użytkownik");
+define("BANLAN_57", "Użytkownik");
 define("BANLAN_58", "Dodaj użytkowników do białej listy");
-define("BANLAN_59", "Edytowanie istniejącego wpisu z białej listy");
-define("BANLAN_60", "Edytować istniejący wpis Lista banów");
-define("BANLAN_61", "Istniejących wpisów z białej listy");
-define("BANLAN_63", "Użyj reverse DNS, aby umożliwić hosta banowanie");
-define("BANLAN_64", "Reverse DNS uzyskuje dostęp do podczas dodawania bana");
-define("BANLAN_65", "Włączenie tej opcji będzie można banować użytkowników według nazwy hosta, a następnie po prostu adres IP lub adres e-mail.<br>Uwaga: Może to wpłynąć na razy pageload na niektóre hosty, lub jeśli serwer nie odpowiada");
-define("BANLAN_66", "W przypadku wystąpienia bana ta opcja dodaje domeny adres zakazanych do powód");
-define("BANLAN_67", "Określ maksymalny dostęp do kursu");
-define("BANLAN_68", "Określa maksymalną liczbę uzyskuje dostęp do witryny w ciągu 5 minut");
-define("BANLAN_69", "dla członków");
-define("BANLAN_70", "dla Gości");
-define("BANLAN_71", "Wywo│aµ okresu zakazu");
-define("BANLAN_72", "Opcje bana");
-define("BANLAN_73", "Spowoduje to ponowne uruchomienie okresu zakazu Jeśli zakazanej użytkownik uzyskuje dostęp do witryny");
-define("BANLAN_74", "Lista banów konserwacji");
-define("BANLAN_75", "Usuwanie wygasłych banów z listy");
-define("BANLAN_76", "Wykonanie");
-define("BANLAN_77", "Wiadomości/Ban okresy");
-define("BANLAN_78", "Przekroczona liczba trafień ([x] żądania w wyznaczonym terminie)");
-define("BANLAN_79", "Format CSV eksportu:");
-define("BANLAN_80", "Format importu CSV:");
-define("BANLAN_81", "Dziennik akcji bana");
-define("BANLAN_82", "Brak wpisów w Ban dziennik akcji");
-define("BANLAN_83", "Data/godzina");
+define("BANLAN_59", "Edytuj istniejące wpisy białej listy");
+define("BANLAN_60", "Edytuj istniejące wpisy blokad");
+define("BANLAN_61", "Istniejące wpisy białej listy");
+// define("BANLAN_62", "Options");
+define("BANLAN_63", "Użyj odwrotnej translacji adresów DNS'a, aby zezwolić na blokowanie hosta");
+define("BANLAN_64", "Odwrotny DNS dostępny, podczas dodawania blokady");
+define("BANLAN_65", "Właczenie tej opcji umożliwi blokowanie użytkowników po nazwie hosta,Turning this option on will allow you to ban users by hostname, zamiast .  <br />UWAGA: Może to mieć wpływ na czas ładowania strony na niektórych hostach, lub gdy serwer nie odpowiada");
+define("BANLAN_66", "Gdy następuje blokada, to ta opcja dodaje domenę do adresów zablokowanych z powodu");
+define("BANLAN_67", "Ustaw maksymalny wskaźnik dostępu");//Set maximum access rate
+define("BANLAN_68", "Określa maksymalną liczbę stron dostępnych w ciągu 5 min.");
+define("BANLAN_69", "dla użytkowników");
+define("BANLAN_70", "dla gości");
+define("BANLAN_71", "Wywolanie okresu blokady");
+define("BANLAN_72", "Opcje blokad");
+define("BANLAN_73", "Spowoduje to restart okresu blokady, gdy zablokowany użytkownik uzyska ponowny dostęp do strony.");
+define("BANLAN_74", "Konserwacja listy blokad");
+define("BANLAN_75", "Usuń z listy przedawnione blokady");
+define("BANLAN_76", "Wykonaj");
+define("BANLAN_77", "Wiadomości/Okresy Blokad");
+
+define("BANLAN_78", "Licznik trafień przekroczył ([x] żądania w wyznaczonym terminie)");
+define("BANLAN_79", "Format eksportu pliku CSV:");
+define("BANLAN_80", "Format importu pliku CSV:");
+define("BANLAN_81", "Dziennik wykonanych blokad");
+define("BANLAN_82", "Brak wpisów w dzienniku blokad");
+define("BANLAN_83", "Data/Czas");
 define("BANLAN_84", "Adres IP");
 define("BANLAN_85", "Dodatkowe informacje");
-define("BANLAN_86", "Zdarzenia związane z Ban");
-define("BANLAN_87", "--Zdobywasz--wpisów na liście");
-define("BANLAN_88", "Pusty dziennik akcji Ban");
-define("BANLAN_89", "Usunięty plik dziennika");
-define("BANLAN_90", "Usuwanie pliku dziennika błędów");
-define("BANLAN_91", "Format daty i godziny dla dziennika ban");
+define("BANLAN_86", "Zdarzenia związane z blokadami");
+define("BANLAN_87", "Łącznie --NUM-- wpisów w liście");
+define("BANLAN_88", "Pusty dziennik blokad");
+define("BANLAN_89", "Plik dziennika usunięto");
+define("BANLAN_90", "Bład kasowania pliku dziennika");
+define("BANLAN_91", "Format daty/czasu dla dziennika blokad");
 define("BANLAN_92", "Zobacz stronę funkcji strftime na php.net");
 define("BANLAN_93", "");
-define("BANLAN_100", "Nieznane");
+
+// Ban types - block reserved 100-109
+define("BANLAN_100", "Nieznany");
 define("BANLAN_101", "Ręcznie");
-define("BANLAN_102", "Powódź");
-define("BANLAN_103", "Liczba trafień");
-define("BANLAN_104", "Błąd logowania");
-define("BANLAN_105", "Importowane");
-define("BANLAN_106", "Użytkownika");
+define("BANLAN_102", "Zatykanie");
+define("BANLAN_103", "Licznik odwiedzin");
+define("BANLAN_104", "Bład logowania");
+define("BANLAN_105", "Zaimportowane");
+define("BANLAN_106", "Użytkownik");
 define("BANLAN_107", "Nieznane");
 define("BANLAN_108", "Nieznane");
-define("BANLAN_109", "Stary");
-define("BANLAN_110", "Najprawdopodobniej bana, który został nałożony, zanim e107 został uaktualniony z 0.7.x");
-define("BANLAN_111", "Wprowadzone przez administratora");
-define("BANLAN_112", "Próby aktualizacji witryny zbyt szybko");
-define("BANLAN_113", "Próbuje uzyskać dostęp do witryny zbyt często z tego samego adresu");
-define("BANLAN_114", "Wiele Logowanie nieudane próby z tego samego użytkownika");
-define("BANLAN_115", "Dodane z listy zewnętrznej");
-define("BANLAN_116", "Adres IP zakazane ze względu na zakaz użytkownika");
-define("BANLAN_117", "Zamienne powodu");
-define("BANLAN_118", "Zamienne powodu");
-define("BANLAN_119", "Wskazuje na błąd importu - wcześniej zaimportowanej bany");
-define("BANLAN_120", "Wpisu z białej listy");
-define("BANLAN_121", "Wpisu z czarnej listy");
+define("BANLAN_109", "Starsze");
+
+// Detailed explanations for ban types - block reserved 110-119
+define("BANLAN_110", "Najczęściej używane blokady, które były nałożone zanim e107 został uaktualniony z wersji 0.7.x");
+define("BANLAN_111", "Wpisane przez admina");
+define("BANLAN_112", "Przy próbie częstego szybkiego odświeżania strony");
+define("BANLAN_113", "Przy próbie częstego szybkiego uzyskania dostępu do strony z tego samego adresu");
+define("BANLAN_114", "Wielokrotne błędne logowanie dla tego samego użytkownika");
+define("BANLAN_115", "Dodane z zewnętrznej listy");
+define("BANLAN_116", "Zablokowany adres IP ze względu na blokadę użytkownika");
+define("BANLAN_117", "Dodatkowy powód");
+define("BANLAN_118", "Dodatkowy powód");
+define("BANLAN_119", "Wykazuje bład importu - wcześniej zaimportowanych blokad");
+
+define("BANLAN_120", "Wpisy Białej listy");
+define("BANLAN_121", "Wpisy czarnej listy");
 define("BANLAN_122", "Czarna lista");
 define("BANLAN_123", "Dodaj do czarnej listy");
-define("BANLAN_124", "Wygaśnięcia");
-define("BANLAN_125", "Użyj moje IP");
+define("BANLAN_124", "Wygasa");   // not ban_lan_34
+define("BANLAN_125", "Użyj mojego IP");
+
+?>

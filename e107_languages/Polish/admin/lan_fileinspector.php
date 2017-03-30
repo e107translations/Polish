@@ -1,70 +1,86 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("FC_LAN_1", "Plik Inspektor");
-define("FC_LAN_2", "Opcje skanowania");
-define("FC_LAN_4", "Wszystkie");
-define("FC_LAN_5", "Pliki Core");
-define("FC_LAN_6", "Integralność Fail tylko");
-define("FC_LAN_7", "Pliki non Core");
-define("FC_LAN_8", "Sprawdzić integralność plików Core");
-define("FC_LAN_9", "Na");
-define("FC_LAN_10", "Wył.");
-define("FC_LAN_11", "Skanuj teraz");
-define("FC_LAN_12", "Brak");
-define("FC_LAN_13", "Brakujące pliki Core");
-define("FC_LAN_14", "Wyświetla wyniki jako");
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_fileinspector.php              *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
+define("FC_LAN_1", "Kontrola plików");
+define("FC_LAN_5", "pliki rdzenia");
+define("FC_LAN_6", "Tylko niespójne pliki");
+define("FC_LAN_7", "nieznane pliki rdzenia");
+define("FC_LAN_8", "Sprawdź spójność plików rdzenia");
+define("FC_LAN_11", "Skanuj");
+define("FC_LAN_13", "brakujące pliki rdzenia");
+define("FC_LAN_14", "Wyświetlaj wyniki jako");
 define("FC_LAN_15", "Drzewo katalogów");
-define("FC_LAN_16", "Listy");
-define("FC_LAN_17", "Ciąg dopasowania");
-define("FC_LAN_18", "Wyrażenie regularne");
-define("FC_LAN_19", "Pokaż numery linii");
-define("FC_LAN_20", "Pokaż linie dopasowane");
-define("FC_LAN_21", "Stare pliki Core");
-define("FC_LAN_22", "Podświetl tekst dopasowane");
+define("FC_LAN_17", "Dopasowany ciąg");
+define("FC_LAN_18", "Regularne wyrażenia");
+define("FC_LAN_19", "Pokaż numer linii");
+define("FC_LAN_20", "Pokaż powiązane linie");
+define("FC_LAN_21", "stare pliki rdzenia");
+define("FC_LAN_23", "Wyklucz pliki językowe");
+define("FC_LAN_24", "Folder rdzenia (Pozytywna integralność)");
+define("FC_LAN_25", "Folder rdzenia (Błędna integralność)");
+define("FC_LAN_26", "Folder rdzenia (Brakujące)");
+define("FC_LAN_27", "Folder rdzenia (Stare)");
+define("FC_LAN_28", "Folder inny niż rdzenia");
+define("FC_LAN_29", "Plik rdzenia (Pozytywna integralność)");
+define("FC_LAN_30", "Plik rdzenia (Nie zaznaczone)");
+define("FC_LAN_31", "Plik rdzenia (Błędna integralność)");
+define("FC_LAN_32", "Plik rdzenia (Brakujący)");
+define("FC_LAN_33", "Plik rdzenia (Stary)");
+define("FC_LAN_34", "Plik rdzenia (Nieoszacowany)");
+define("FC_LAN_35", "Znane problemy dotyczące zabezpieczeń");
+define("FC_LAN_36", "Plik inny niż rdzenia");
+define("FC_LAN_37", "Klucz pliku");
 define("FR_LAN_1", "Skanowanie");
-define("FR_LAN_2", "Wyniki skanowania");
-define("FR_LAN_3", "Przegląd");
-define("FR_LAN_4", "Pliki Core");
-define("FR_LAN_5", "Pliki spoza rdzenia");
-define("FR_LAN_6", "Całkowita liczba plików");
+define("FR_LAN_2", "Wynik skanowania");
+define("FR_LAN_3", "Statystyki");
+define("FR_LAN_4", "Plików rdzenia");
+define("FR_LAN_5", "Nieznane pliki rdzenia");
+define("FR_LAN_6", "Wszystkich plików");
 define("FR_LAN_7", "Sprawdzanie integralności");
-define("FR_LAN_8", "Pliki Core, przekazany");
-define("FR_LAN_9", "Pliki Core nie powiodło się");
-define("FR_LAN_10", "Możliwe przyczyny plików nie powiedzie się");
+define("FR_LAN_8", "Poprawnych plików rdzenia");
+define("FR_LAN_9", "Błędnych plików rdzenia");
+define("FR_LAN_10", "Prawdopodobne przyczyny błędów w plikach");
 define("FR_LAN_11", "Plik jest uszkodzony");
-define("FR_LAN_12", "Może to być dla wielu powodów, takich jak plik jest uszkodzony w zip, uszkodzony podczas ekstrakcji lub uszkodzony podczas przesyłania plików przez FTP. Należy spróbuj ponownie przesłać plik do serwera i ponownie Uruchom skanowanie, aby zobaczyć, jeśli rozwiązuje ten błąd.");
+define("FR_LAN_12", "Może być wiele przyczyn powodujących niepoprawne działanie plików zaczynając od uszkodzonych archiwów .zip, błędów podczas rozpakowywania lub uszkodzenia plików podczas wysyłania na serwer poprzez FTP. Należy spróbować ponownie przesłać plik na serwer i uruchomić jeszcze raz skanowanie, aby zobaczyć czy problem został rozwiązany.");
 define("FR_LAN_13", "Plik jest nieaktualny");
-define("FR_LAN_14", "Jeśli plik jest od starszego wydania e107 do wersji, które są uruchomione, następnie zakończy się niepowodzeniem sprawdzania integralności. Upewnij się, że masz wgrane najnowsze wersji tego pliku.");
-define("FR_LAN_15", "Plik był edytowany");
-define("FR_LAN_16", "Jeśli edytowano plik ten w żaden sposób nie przejdzie sprawdzanie integralności. Jeśli celowo edycji tego pliku, a następnie nie musisz się martwić i można zignorować ten fail sprawdzanie integralności. Jeśli jednak plik był edytowany przez kogoś bez zezwolenia można ponownie przesłać odpowiednią wersję tego pliku z e107 zip.");
-define("FR_LAN_17", "Jeśli jesteś użytkownikiem SVN");
-define("FR_LAN_18", "Po uruchomieniu zł z e107 zwalnia SVN w witrynie zamiast oficjalnej e107 stabilny, to odkryjesz, że pliki mają nie powiodło się sprawdzanie integralności, ponieważ zostały one zredagowane przez dev po najnowszy core image migawka został utworzony.");
-define("FR_LAN_19", "plików nie powiodło się");
-define("FR_LAN_20", "Wszystkie pliki przekazywane");
-define("FR_LAN_21", "Brak");
-define("FR_LAN_22", "Brakujące pliki core");
-define("FR_LAN_23", "Nie znaleziono odpowiedników.");
-define("FR_LAN_24", "Stare pliki core");
-define("FR_LAN_25", "Integralność nieobliczalne");
-define("FR_LAN_26", "Ostrzeżenie! Wykrycia znanych niepewności!");
-define("FR_LAN_27", "Tam są pliki na serwerze, które są znane do wykorzystania omawianej luki i musi być natychmiast usuwane.");
-define("FR_LAN_28", "Znane niezabezpieczone pliki");
-define("FR_LAN_29", "Całkowita liczba plików dopasowane");
-define("FR_LAN_30", "Całkowita liczba wierszy dopasowane");
-define("FR_LAN_31", "Brakuje folderu plugin kompletny");
-define("FS_LAN_1", "Tworzenie migawka");
-define("FS_LAN_2", "Bezwzględna ścieżka katalogu głównego do tworzenia obrazu z");
-define("FS_LAN_3", "Utwórz migawkę dla wtyczki: (wtyczki będą wyświetlane, gdy plik zapisywalny e_inspect.php istnieje w katalogu głównym wtyczki.)");
+define("FR_LAN_14", "Jeśli plik pochodzi ze starszej wersji e107 niż obecna, może powodować niepoprawne działanie skanera integralności plików. Upewnij się, że masz na serwerze najnowszą wersję tego pliku.");
+define("FR_LAN_15", "Plik został zmodyfikowany");
+define("FR_LAN_16", "Posiadasz zmodyfikowany plik, w takim razie nie przejdzie on poprawnie sprawdzania integralność. Jeśli modyfikacja została wykonana przez Ciebie, nie musisz się niczego obawiać i możesz zignorować wskazane błędy spójności plików. Jeśli jednak plik został zmodyfikowany przez osobę nie posiadającą do tego uprawnień, należy przywrócić poprawną wersję pliku z archiwum .zip e107.");
+define("FR_LAN_17", "Jeśli jesteś użytkownikiem wersji SVN");
+define("FR_LAN_18", "Jeśli prowadzisz testy na wersji SVN e107 zamiast na stabilnej wersji e107, pliki nie przejdą poprawnie testu spójności, ponieważ zostały zmodyfikowane po ostatnio utworzonym obrazie kontrolnym rdzenia.");
+define("FR_LAN_19", "niepoprawnych plików");
+define("FR_LAN_20", "Wszystkie pliki są poprawne");
+define("FR_LAN_22", "Brakujące pliki rdzenia");
+define("FR_LAN_23", "Nie znaleziono żadnych wyników.");
+define("FR_LAN_24", "Stare pliki rdzenia");
+define("FR_LAN_25", "Spójność niesprawdzona");
+define("FR_LAN_26", "Uwaga! Wykryto zagrożenie bezpieczeństwa!");
+define("FR_LAN_27", "Na Twoim serwerze znajdują się pliki rozpoznane jako exploity w celu zachowania bezpieczeństwa usuń je niezwłocznie.");
+define("FR_LAN_28", "Rozpoznane niebezpieczne pliki");
+define("FR_LAN_32", "Najpierw musisz uruchomić skanowanie");
+define("FS_LAN_1", "Tworzenie zrzutu ekranowego");
+define("FS_LAN_2", "Bezwzględna ścieżka do katalogu głównego do tworzenia obrazu z");
+define("FS_LAN_3", "Utwórz obraz dla wtyczki: (Twoja wtyczka będzie wymieniona gdy zapisywalny plik e_inspect.php będzie istnieć w głównym folderze wtyczek.)");
 define("FS_LAN_4", "Wybierz...");
-define("FS_LAN_5", "Utworzyć migawkę bieżącego lub przestarzałe pliki");
-define("FS_LAN_6", "Prąd");
-define("FS_LAN_7", "Niezalecane");
-define("FS_LAN_8", "Tworzenie migawka");
+define("FS_LAN_5", "Utwórz migawkę bieżących lub nieaktualnych plików");
+define("FS_LAN_6", "Aktualne");
+define("FS_LAN_7", "Nieaktualne");
+define("FS_LAN_8", "Tworzenie migawki");
 define("FS_LAN_9", "Migawka");
-define("FS_LAN_10", "Migawki tworzone");
-define("FS_LAN_11", "Migawka został utworzony pomyślnie.");
-define("FS_LAN_12", "Powrót na główną stronę");
+define("FS_LAN_10", "Migawka została utworzona");
+define("FS_LAN_11", "Migawka została pomyślnie utworzona.");
+define("FS_LAN_12", "Powrót do strony głównej");
+
+
+?>

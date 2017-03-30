@@ -1,31 +1,72 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_filemanager.php                *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+// define("FMLAN_1", "Uploaded");
+// define("FMLAN_2", "to");
+// define("FMLAN_3", "directory");
+// define("FMLAN_4", "The uploaded file exceeds the upload_max_filesize directive in php.ini.");
+// define("FMLAN_5", "The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in the html form.");
+// define("FMLAN_6", "The uploaded file was only partially uploaded.");
+// define("FMLAN_7", "No file was uploaded.");
+// define("FMLAN_8", "Uploaded file size 0 bytes");
+// define("FMLAN_9", "The file did not upload. Filename");
+//define("FMLAN_10", "Error");
+// define("FMLAN_11", "Probably incorrect permissions on upload directory.");
 define("FMLAN_12", "plik");
 define("FMLAN_13", "pliki");
-define("FMLAN_14", "katalogu");
-define("FMLAN_15", "katalogi");
-define("FMLAN_16", "Katalog główny");
+define("FMLAN_14", "katalog");
+define("FMLAN_15", "katalogów");
+define("FMLAN_16", "Główny katalog");
+//define("FMLAN_17", "Name");
 define("FMLAN_18", "Rozmiar");
-define("FMLAN_19", "Ostatnio zmodyfikowano");
-define("FMLAN_21", "Prześlij plik do tego dir");
-define("FMLAN_22", "Upload");
-define("FMLAN_29", "Ścieżka");
-define("FMLAN_30", "Poziom w górę");
-define("FMLAN_31", "folderze");
+define("FMLAN_19", "Ostatnio modyfikowany");
+
+define("FMLAN_21", "Załaduj plik do tego katalogu");
+define("FMLAN_22", "Załaduj");
+
+//define("FMLAN_26", "Deleted");
+//define("FMLAN_27", "successfully");
+//define("FMLAN_28", "Unable to delete");
+define("FMLAN_29", "Ścieżka dostępu");
+define("FMLAN_30", "W górę");
+define("FMLAN_31", "katalog");
+
 define("FMLAN_32", "Wybierz katalog");
+// define("FMLAN_33", "Select");
 define("FMLAN_34", "Wybór katalogu");
 define("FMLAN_35", "Katalog plików");
+
+// define("FMLAN_36", "Custom Menus Directory");
+// define("FMLAN_37", "Custom Pages Directory");
+
 define("FMLAN_38", "Plik pomyślnie przeniesiony do");
 define("FMLAN_39", "Nie można przenieść pliku do");
-define("FMLAN_40", "Katalogu posta obrazy");
-define("FMLAN_43", "Usunąć wybrane pliki");
-define("FMLAN_46", "Proszę potwierdzić, że chcesz usunąć wybrane pliki.");
-define("FMLAN_47", "Dodane użytkownika");
-define("FMLAN_48", "Przenieś wybrane do");
-define("FMLAN_49", "Proszę potwierdzić, że chcesz przenieść wybrane pliki.");
-define("FMLAN_50", "Przenieść");
-define("FMLAN_51", "Niezidentyfikowany błąd");
+define("FMLAN_40", "Grafiki aktualności");
+
+
+define("FMLAN_43", "Usuń zaznaczone pliki");
+
+
+define("FMLAN_46", "Proszę potwierdzić chęć USUNIĘCIA zaznaczonych plików.");
+define("FMLAN_47", "Pliki użytkowników");
+
+define("FMLAN_48", "Przenieś zaznaczone do");
+define("FMLAN_49", "Proszę potwierdzić chęć PRZENIESIENIA zaznaczonych plików.");
+define("FMLAN_50", "Przenieś");
+define('FMLAN_51', 'Niezidentyfikowany błąd: ');
+
+
+
+?>

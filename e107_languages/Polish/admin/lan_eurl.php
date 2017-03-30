@@ -1,85 +1,144 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_EURL_NAME", "Zarządzanie adresami URL witryny");
+define("LAN_EURL_NAME", "Zarządzanie ");
 define("LAN_EURL_NAME_CONFIG", "Profile");
 define("LAN_EURL_NAME_ALIASES", "Aliasy");
-define("LAN_EURL_NAME_SETTINGS", "Ustawienia ogólne");
+define("LAN_EURL_NAME_SETTINGS", "Ustawienia główne");
 define("LAN_EURL_NAME_HELP", "Pomoc");
+
 define("LAN_EURL_EMPTY", "Lista jest pusta");
-define("LAN_EURL_LEGEND_CONFIG", "Wybierz adres URL profilu na stronie obszaru");
-define("LAN_EURL_LEGEND_ALIASES", "Konfigurowanie aliasów podstawowy adres URL na adres URL profilu");
-define("LAN_EURL_DEFAULT", "Domyślne");
-define("LAN_EURL_PROFILE", "Profil użytkownika");
-define("LAN_EURL_INFOALT", "Informacje");
-define("LAN_EURL_PROFILE_INFO", "Profil Informacje niedostępne");
-define("LAN_EURL_LOCATION", "Lokalizacja profilu użytkownika");
+define("LAN_EURL_LEGEND_CONFIG", "Wybierz profil url dla obszaru strony");//Choose URL profile per site area
+define("LAN_EURL_LEGEND_ALIASES", "Ustawienia głównych aliasów url na profil url");
+
+define("LAN_EURL_DEFAULT", "Domyślnie");
+define("LAN_EURL_PROFILE", "Profil");
+
+define("LAN_EURL_INFOALT", "Informacja");
+define("LAN_EURL_PROFILE_INFO", "Informacja o profilu niedostępna");
+define("LAN_EURL_LOCATION", "Lokalizacja profilu");
 define("LAN_EURL_LOCATION_NONE", "Plik konfiguracyjny nie jest dostępny");
-define("LAN_EURL_FORM_HELP_DEFAULT", "Alias w język domyślny.");
-define("LAN_EURL_FORM_HELP_ALIAS_0", "Wartość domyślna to");
-define("LAN_EURL_FORM_HELP_ALIAS_1", "Alias w");
-define("LAN_EURL_FORM_HELP_EXAMPLE", "Podstawowy adres URL");
-define("LAN_EURL_ERR_ALIAS_MODULE", "Aliasu '%1\$s' nie można zapisać - istnieje profil URL system o tej samej nazwie. Proszę wybrać inną wartość alias dla systemu adres URL profilu '%2\$s'");
-define("LAN_EURL_SURL_UPD", "SEF URL zostały zaktualizowane.");
-define("LAN_EURL_SURL_NUPD", "SEF URL nie zostały zaktualizowane.");
-define("LAN_EURL_SETTINGS_PATHINFO", "Usuwanie pliku z adresu URL");
-define("LAN_EURL_SETTINGS_MAINMODULE", "Skojarzyć głównego obszaru nazw");
-define("LAN_EURL_SETTINGS_MAINMODULE_HELP", "Wybierz obszar witryny zostanie połączony z adresu URL witryny podstawowej. Przykład: Gdy wiadomość jest Twój http://yoursite.com/News-Item-Title obszaru nazw root zostanie skojarzony z wiadomości (element widoku strony zostaną rozwiązane)");
-define("LAN_EURL_SETTINGS_REDIRECT", "Przekierowanie do systemu nie znaleziono strony");
-define("LAN_EURL_SETTINGS_REDIRECT_HELP", "Jeśli ustawiona na false, nie znaleziono strony będzie bezpośrednie renderowane (bez przeglądarki przekierowanie)");
-define("LAN_EURL_SETTINGS_SEFTRANSLATE", "Zautomatyzowane typu tworzenie ciąg SEF");
-define("LAN_EURL_SETTINGS_SEFTRANSLATE_HELP", "Wybierz jak będą montowane SEF ciąg, gdy automatycznie jest zbudowany z tytułu wartości (np. w wiadomości, strony niestandardowe, itp.)");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_NONE", "Po prostu je zabezpieczyć");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHL", "dasherize na małe litery");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHC", "Dasherize do Camel wypadku");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_DASH", "Dasherize z bez wypadku zmian");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREL", "underscore_to_lower_case");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREC", "Underscore_To_Camel_Case");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCORE", "Underscore_with_no_case_CHANGE");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSL", "Plus + separator + do + Dolna + futerał");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSC", "Plus + Separator + do + Camel + futerał");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUS", "Plus + separator + z + nie + sprawa + zmiana");
-define("LAN_EURL_MODREWR_DESCR", "Usuwa wpis nazwy pliku skryptu (index.php/) z adresów URL. Najpierw musisz mod_rewrite zainstalowany i uruchomiony na serwerze (serwer WWW Apache). Po włączeniu tego ustawienia przejdź do katalogu głównego, należy zmienić htaccess.txt .htaccess i modifgy <em>'RewriteBase'</em> dyrektywy, jeśli wymagane.");
-define("LAN_EURL_MENU", "Adresy URL witryny");
-define("LAN_EURL_MENU_CONFIG", "Konfiguracje");
-define("LAN_EURL_MENU_ALIASES", "Profil użytkownika aliasy");
+define("LAN_EURL_FORM_HELP_DEFAULT", "Alias, gdy w języku domyślnym.");
+define("LAN_EURL_FORM_HELP_ALIAS_0", "Domyślną wartością jest ");
+define("LAN_EURL_FORM_HELP_ALIAS_1", "Alias gdy w ");
+define("LAN_EURL_FORM_HELP_EXAMPLE", "url bazowy");
+
+// messages
+define("LAN_EURL_ERR_ALIAS_MODULE", "Alias &quot;%1\$s&quot; nie może być zapisany - w systemie jest profil url o takiej samej nazwie. Proszę wybrać inną nazwę aliasu  &quot;%2\$s&quot;"); // FIXME HTML IN LAN
+define("LAN_EURL_SURL_UPD",    "&nbsp; Adresy SEF zostały zaktualizowane.");
+define("LAN_EURL_SURL_NUPD",    "&nbsp; Adresy SEF nie zostały zaktualizowane.");
+
+// settings
+define("LAN_EURL_SETTINGS_PATHINFO", "Usuń nazwę z adresu url");
+define("LAN_EURL_SETTINGS_MAINMODULE", "Kojarzenie głównego obszaru nazw");//Associate Root namespace
+define("LAN_EURL_SETTINGS_MAINMODULE_HELP", "Wybierz obszar strony, który będzie połaczony z głównym adresem url. Przykład: Gdy News jest ustawiony na jako główny obszar http://yoursite.com/News-Item-Title będzie powiązane z aktualnościami (podgląd strony zostanie odłaczony)");
+define("LAN_EURL_SETTINGS_REDIRECT", "Nie znaleziono strony przekierowanie do systemu");
+define("LAN_EURL_SETTINGS_REDIRECT_HELP", "Jeżeli ustawiono na Wyłaczone, to Strony nie znaleziono, będzie wyświetlane bezpośrednio (bez przekierowania przeglądarki)");
+define("LAN_EURL_SETTINGS_SEFTRANSLATE", "Automatyczne tworzenie ciągu SEF");
+define("LAN_EURL_SETTINGS_SEFTRANSLATE_HELP", "Wybierz w jaki sposób ma być wyświetlany ciąg SEF gdy jest automatycznie zbudowany z tytułu (np. w nowości, własne strony, itd.)");
+define("LAN_EURL_SETTINGS_SEFTRTYPE_NONE", "Wystarczy wybrać");//Just secure it
+define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHL", "zamień-na-małe-litery");                 //dasherize-to-lower-case
+define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHC", "Zamień-Na-Z-Wielkiej-Litery");                //Dasherize-To-Camel-Case
+define("LAN_EURL_SETTINGS_SEFTRTYPE_DASH", "Zamień-with-no-case-CHANGE");           //Dasherize-with-no-case-CHANGE
+define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREL", "małe_litery_oddzielaj_podkreślnikiem");         //underscore_to_lower_case
+define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREC", "Dolny_Podkreślnik_Z_Dużych_Liter");         //Underscore_To_Camel_Case
+define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCORE", "Dolny_podkreślnik_with_no_case_CHANGE");    //Underscore_with_no_case_CHANGE
+define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSL", "dodaj+znak_plus+małe+litery");           //plus+separator+to+lower+case
+define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSC", "Dodaj+Znak+Plus+Z+Dużej+Litery");           //Plus+Separator+To+Camel+Case
+define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUS", "Dodaj+znak+plus++separator+with+no+case+CHANGE");      //Plus+separator+with+no+case+CHANGE
+
+define("LAN_EURL_MODREWR_DESCR", "Usunięcie nazwy skryptu (index.php/) z adresu url. Potrzebujesz zainstalowanego i działającego mod_rewrite na swoim serwerze (Apache Web Server). Po włączeniu tych ustawień, zmień nazwę pliku htaccess.txt na .htaccess w głównym folderze oraz zmodyfikuj <em>&quot;RewriteBase&quot;</em> prawa dostępu, jeśli są wymagane.");//Directive if required
+
+// navigation
+define("LAN_EURL_MENU", "Adresy url");
+define("LAN_EURL_MENU_CONFIG", "Profile url");
+define("LAN_EURL_MENU_ALIASES", "Aliasy");
 define("LAN_EURL_MENU_SETTINGS", "Ustawienia");
 define("LAN_EURL_MENU_HELP", "Pomoc");
+//define("LAN_EURL_MENU_REDIRECTS", "Przekierowania");
 define("LAN_EURL_MENU_PROFILES", "Profile");
+
 define("LAN_EURL_UC", "W budowie");
-define("LAN_EURL_CORE_MAIN", "Witryny Root Namespace - alias nie jest w użyciu.");
-define("LAN_EURL_FRIENDLY", "Przyjazny dla");
-define("LAN_EURL_LEGACY", "Starszych bezpośrednie adresy URL.");
-define("LAN_EURL_REWRITE_LABEL", "Przyjazne adresy URL");
-define("LAN_EURL_REWRITE_DESCR", "Szukaj silnika i użytkownika przyjazne adresy URL.");
-define("LAN_EURL_CORE_NEWS", "Aktualności");
-define("LAN_EURL_NEWS_REWRITEF_LABEL", "Pełny przyjaznych adresów URL (nie wydajności i najbardziej przyjazne)");
+
+
+define("LAN_EURL_CORE_MAIN", "Główna nazwa strony - alias nie będzie użyty.");//Site Root Namespace - alias not in use
+
+
+
+define("LAN_EURL_FRIENDLY",   "Przyjazny");
+define("LAN_EURL_LEGACY", "Dziedziczenie bezpośrednich adresów url.");//Legacy direct URLs
+
+define("LAN_EURL_REWRITE_LABEL", "Przyjazne adresy url");
+define("LAN_EURL_REWRITE_DESCR", "Wyszukiwarka oraz przyjazne adresy url.");//Search engine and user friendly URLs
+
+
+// News
+define("LAN_EURL_CORE_NEWS", "Nowości");
+//define("LAN_EURL_NEWS_DEFAULT_LABEL", "Default");
+//define("LAN_EURL_NEWS_DEFAULT_DESCR", "Legacy direct URLs.");
+
+define("LAN_EURL_NEWS_REWRITEF_LABEL", "Pełne Przyjazne adresy url (większa wydajność oraz bardziej przyjazny)");//(no performance, more friendly)
 define("LAN_EURL_NEWS_REWRITEF_DESCR", "");
-define("LAN_EURL_NEWS_REWRITE_LABEL", "Przyjazne adresy URL bez ID (nie wydajności, bardziej przyjazne)");
-define("LAN_EURL_NEWS_REWRITE_DESCR", "Pokazuje, ręczne link, analizowania i montaż.");
-define("LAN_EURL_NEWS_REWRITEX_LABEL", "Przyjazne adresy URL z ID (wydajność mądry)");
-define("LAN_EURL_NEWS_REWRITEX_DESCR", "Pokazuje, że automatyczne łącze, analizowania i montaż w oparciu o reguły wstępnie zdefiniowane trasy.");
+
+define("LAN_EURL_NEWS_REWRITE_LABEL", "Przyjazne adresy url bez ID (większa wydajność oraz bardziej przyjazny)");//(no performance, more friendly)
+define("LAN_EURL_NEWS_REWRITE_DESCR", "Demonstruje własne linki oraz ich wyświetlanie.");//Demonstrates manual link parsing and assembling
+
+define("LAN_EURL_NEWS_REWRITEX_LABEL", "Przyjazne adresy url wraz z ich ID (rozsądne wydajności)");
+define("LAN_EURL_NEWS_REWRITEX_DESCR", "Demonstruje automatyczne przeanalizowane linki zamontowane na podstawie predefiniowanych regół tras.");
+
+
+// Downloads
+//define("LAN_EURL_CORE_DOWNLOADS", "Downloads");
+
+// Users
 define("LAN_EURL_CORE_USER", "Użytkownicy");
-define("LAN_EURL_USER_REWRITE_LABEL", "Przyjazne adresy URL");
-define("LAN_EURL_USER_REWRITE_DESCR", "Szukaj silnika i użytkownika przyjazne adresy URL.");
-define("LAN_EURL_CORE_PAGE", "Niestandardowe strony");
-define("LAN_EURL_PAGE_SEF_LABEL", "Przyjazne adresy URL z ID (wydajność)");
-define("LAN_EURL_PAGE_SEF_DESCR", "Szukaj silnika i użytkownika przyjazne adresy URL.");
-define("LAN_EURL_PAGE_SEFNOID_LABEL", "Przyjazne adresy URL bez ID (nie wydajności, bardziej przyjazne)");
-define("LAN_EURL_PAGE_SEFNOID_DESCR", "Szukaj silnika i użytkownika przyjazne adresy URL.");
+//define("LAN_EURL_USER_DEFAULT_LABEL", "Default");
+//define("LAN_EURL_USER_DEFAULT_DESCR", "Legacy direct URLs.");
+
+define("LAN_EURL_USER_REWRITE_LABEL", "Przyjazne adresy url");
+define("LAN_EURL_USER_REWRITE_DESCR", "Wyszukiwarka oraz przyjazne adresy url.");
+
+// Users
+define("LAN_EURL_CORE_PAGE", "Własne strony");
+//define("LAN_EURL_PAGE_DEFAULT_LABEL", "Default");
+//define("LAN_EURL_PAGE_DEFAULT_DESCR", "Legacy direct URLs. ");
+
+define("LAN_EURL_PAGE_SEF_LABEL", "Przyjazne adresy url wraz z ID (wydajność)");
+define("LAN_EURL_PAGE_SEF_DESCR", "Wyszukiwarka oraz przyjazne adresy url.");
+
+define("LAN_EURL_PAGE_SEFNOID_LABEL", "Przyjazne adresy url bez ID (większa wydajność oraz bardziej przyjazny)");//(no performance, more friendly)
+define("LAN_EURL_PAGE_SEFNOID_DESCR", "Wyszukiwarka oraz przyjazne adresy url.");
+
+// Search
 define("LAN_EURL_CORE_SEARCH", "Szukaj");
-define("LAN_EURL_SEARCH_DEFAULT_LABEL", "Adres URL domyślnej wyszukiwarki");
-define("LAN_EURL_SEARCH_DEFAULT_DESCR", "Starszych bezpośredni adres URL.");
-define("LAN_EURL_SEARCH_REWRITE_LABEL", "Przyjaznego adresu URL");
+define("LAN_EURL_SEARCH_DEFAULT_LABEL", "Domyślne adresy url wyszukiwania");
+define("LAN_EURL_SEARCH_DEFAULT_DESCR", "Dziedziczenie bezpośrednich adresów url.");//Legacy direct URLs
+define("LAN_EURL_SEARCH_REWRITE_LABEL", "Przyjazne adresy url");
 define("LAN_EURL_SEARCH_REWRITE_DESCR", "");
-define("LAN_EURL_CORE_SYSTEM", "Systemu");
-define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "Domyślnie System adresy URL");
-define("LAN_EURL_SYSTEM_DEFAULT_DESCR", "Adresy URL dla stron, jak nie znaleziono, odmowa dostępu, itp.");
-define("LAN_EURL_SYSTEM_REWRITE_LABEL", "Przyjazny System adresów URL");
-define("LAN_EURL_SYSTEM_REWRITE_DESCR", "Adresy URL dla stron, jak nie znaleziono, odmowa dostępu, itp.");
-define("LAN_EURL_CORE_INDEX", "Strona frontowa");
-define("LAN_EURL_CORE_INDEX_INFO", "Przednia strona nie ma aliasu.");
-define("LAN_EURL_REBUILD", "Odbudować");
+
+// System
+define("LAN_EURL_CORE_SYSTEM", " System");
+define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "Domyślne adresy url systemu");
+define("LAN_EURL_SYSTEM_DEFAULT_DESCR", "Adresy url dla stron Nie Znaleziono, Odmowa Dostępu itp.");
+
+define("LAN_EURL_SYSTEM_REWRITE_LABEL", "Domyślne adresy url systemu");
+define("LAN_EURL_SYSTEM_REWRITE_DESCR", "Adresy url dla stron Nie Znaleziono, Odmowa Dostępu itp.");
+
+// System
+define("LAN_EURL_CORE_INDEX", "Strona Startowa");
+define("LAN_EURL_CORE_INDEX_INFO", "Strona Startowa nie może mieć aliasu.");
+define("LAN_EURL_REBUILD",    "Odbudowa");
+define("LAN_EURL_REGULAR_EXPRESSION", "Wyrażenie regularne");
+define("LAN_EURL_KEY", "Klucz");
