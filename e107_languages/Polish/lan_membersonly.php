@@ -1,12 +1,25 @@
 <?php
+/*
++====================================================================+
+* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - lan_membersonly.php                      *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
+define("PAGE_NAME", "Tylko dla zarejestrowanych");
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("LAN_MEMBERS_0", "Ograniczenie strefy");
+define("LAN_MEMBERS_1", "Jesteś w strefie zastrzeżonej.");
+define("LAN_MEMBERS_2","Aby uzyskać dostęp [log in]");
+define("LAN_MEMBERS_3","lub [register] zarejestruj się");
+define("LAN_MEMBERS_4","Kliknij tutaj, aby powrócić do strony głównej");
 
-define("PAGE_NAME", "Tylko dla członków");
-define("LAN_MEMBERS_0", "ograniczony obszar");
-define("LAN_MEMBERS_1", "Jest to obszar ograniczony.");
-define("LAN_MEMBERS_2", "Dla dostępu proszę [Zaloguj się]");
-define("LAN_MEMBERS_3", "lub [Zarejestruj się] jako członek.");
-define("LAN_MEMBERS_4", "Kliknij tutaj, aby powrócić do strony głównej.");
+
+?>

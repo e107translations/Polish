@@ -1,55 +1,71 @@
 <?php
+/*
++====================================================================+
+* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - lan_online.php                           *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("ONLINE_EL1", "Goście:");
-define("ONLINE_EL2", "Członkowie:");
-define("ONLINE_EL3", "Na tej stronie:");
-define("ONLINE_EL4", "Online");
-define("ONLINE_EL5", "Członkowie");
-define("ONLINE_EL6", "Najnowszy użytkownik");
-define("ONLINE_EL7", "Wyświetlanie");
-define("ONLINE_EL8", "najwięcej online:");
-define("ONLINE_EL9", "na");
-define("ONLINE_EL10", "Nazwa elementu członkowskiego");
-define("ONLINE_EL11", "Wyświetlanie strony");
-define("ONLINE_EL12", "Odpowiadanie na");
-define("ONLINE_EL13", "Forum");
+//v.616
+define("ONLINE_EL1", "Gości: ");
+define("ONLINE_EL2", "Użytkowników: ");
+define("ONLINE_EL3", "Na tej stronie: ");
+define("ONLINE_EL4", "online");
+define("ONLINE_EL5", "Użytkownicy");
+define("ONLINE_EL6", "Najnowszy");
+define("ONLINE_EL7", "przegląda");
+define("ONLINE_EL8", "Najwięcej online: ");
+define("ONLINE_EL9", "dnia");
+define("ONLINE_EL10", "Nazwa użytkownika");
+define("ONLINE_EL11", "Przeglądana strona");
+define("ONLINE_EL12", "Odpowiada na");
+define("ONLINE_EL13", " Forum ");
 define("ONLINE_EL14", "Wątek");
 define("ONLINE_EL15", "Strona");
 define("ONLINE_EL16", "Informacje nie są dostępne");
-define("CLASSRESTRICTED", "Klasa strony");
+
+define("CLASSRESTRICTED", "Strona ograniczona dla klasy");
+//define("ARTICLEPAGE", "Article/Review");
 define("CHAT", "Czat");
-define("DOWNLOAD", "Pliki do pobrania");
-define("EMAIL", "email.php");
-define("FORUM", "Główne Forum Index");
+//define("COMMENT", "Komentarze");
+define("DOWNLOAD", "Pobieralnia");
+define("EMAIL", " email.php");
+define("FORUM", "Strona główna forum");
 define("LINKS", "Linki");
 define("NEWS", "Aktualności");
-define("OLDPOLLS", "Stary ankiety");
+define("OLDPOLLS", "Stare ankiety");
 define("POLLCOMMENT", "Ankieta");
 define("PRINTPAGE", "Drukuj");
 define("LOGIN", "Logowanie");
-define("SEARCH", "Wyszukiwanie");
+define("SEARCH", "Wyszukiwarka");
 define("STATS", "Statystyki strony");
-define("SUBMITNEWS", "Przesyłanie wiadomości");
-define("UPLOAD", "Ładowanie plików");
-define("USERPAGE", "Profile użytkownika");
+define("SUBMITNEWS", "Dodaj newsa");
+define("UPLOAD", "Wyślij plik");
+define("USERPAGE", "Profile użytkowników");
 define("USERSETTINGS", "Ustawienia użytkownika");
-define("ONLINE", "Użytkowników online");
-define("LISTNEW", "Lista nowych elementów");
-define("USERPOSTS", "Posty użytkownika");
-define("SUBCONTENT", "Przesyłać treści");
-define("TOP", "Najlepsze plakaty/najbardziej aktywne wątki");
-define("ADMINAREA", "Admin Area");
-define("BUGTRACKER", "Bugtracker");
+define("ONLINE", "Użytkownicy online");
+define("LISTNEW", "Lista aktualności");
+define("USERPOSTS", "Wpisy użytkownika");
+define("SUBCONTENT", "Wyślij artykuł");
+define("TOP", "Najwięcej napisali/Najchętniej czytane wątki");
+define("ADMINAREA", "Panel administracyjny");
+define("BUGTRACKER", "Śledzenie Błędów");
 define("EVENT", "Lista wydarzeń");
 define("CALENDAR", "Kalendarz wydarzeń");
-define("FAQ", "FAQ");
-define("PM", "Prywatne wiadomości");
+define("FAQ", " Faq");
+define("PM", "Wiadomości prywatne");
 define("SURVEY", "Ankieta");
 define("ARTICLE", "Artykuł");
-define("CONTENT", "Zawartość strony");
-define("REVIEW", "Przegląd");
-define("OTHER", "Inne strony:");
+define("CONTENT", "Publikacje");
+define("REVIEW", "Recenzja");
+define('OTHER', 'Pozostałe strony: ');
+
+?>

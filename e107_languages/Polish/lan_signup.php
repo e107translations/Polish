@@ -1,102 +1,121 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("PAGE_NAME", "Zarejestruj się");
-define("LAN_EMAIL_01", "Szanowni Państwo");
-define("LAN_EMAIL_04", "Proszę zachować tę wiadomość e-mail dla własnej informacji.");
-define("LAN_EMAIL_05", "Twoje hasło został zaszyfrowany i nie może być pobierane, jeśli zgubisz lub zapomnisz. Jeśli tak się stanie, może jednak poprosić o nowe hasło.");
-define("LAN_EMAIL_06", "Dziękujemy za rejestrację.");
-define("LAN_SIGNUP_1", "Min.");
+/*
++====================================================================+
+* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - lan_signup.php                           *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
+define("PAGE_NAME", "Rejestracja");
+define("LAN_EMAIL_01", "Witaj");
+define("LAN_EMAIL_04", "Proszę zachować treść e-maila dla własnej wiadomości.");
+define("LAN_EMAIL_05", "Twoje hasło zostało zaszyfrowane i nie będzie możliwe jego odzyskanie, gdy je zgubisz lub zapomnisz. Jeśli jednak dojdzie do takiej sytuacji, będzie możliwe wygenerowanie nowego hasła.");
+define("LAN_EMAIL_06", "Dziękujemy za zarejestrowanie się.");
+define("LAN_SIGNUP_1", " Min.");
 define("LAN_SIGNUP_2", "znaków.");
-define("LAN_SIGNUP_3", "Kod weryfikacyjny nie powiodło się.");
+define("LAN_SIGNUP_3", "Błędny kod weryfikacyjny.");
 define("LAN_SIGNUP_4", "Hasło musi mieć co najmniej");
-define("LAN_SIGNUP_5", "znaków długości.");
-define("LAN_SIGNUP_8", "Dziękuję!");
+define("LAN_SIGNUP_5", " znaków.");
+define("LAN_SIGNUP_8", "Dziękujemy!");
 define("LAN_SIGNUP_9", "Nie można kontynuować.");
-define("LAN_SIGNUP_11", ".");
-define("LAN_SIGNUP_12", "Proszę zachować nazwę użytkownika i hasło, spisane w bezpiecznym miejscu, tak jakby stracił że nie można pobrać.");
-define("LAN_SIGNUP_13", "Teraz można zalogować z okna logowania lub [tutaj].");
+define("LAN_SIGNUP_11", " .");
+define("LAN_SIGNUP_12", "Proszę zachować swoje hasło i login w bezpiecznym miejscu, ponieważ w wypadku zgubienia podanych danych, odzyskanie ich będzie niemożliwe.");
+define("LAN_SIGNUP_13", "Możesz się teraz zalogować za pomocą Menu Login lub ze strony [here].");
 define("LAN_SIGNUP_14", "tutaj");
-define("LAN_SIGNUP_15", "Prosimy o kontakt z administratorem, Strona główna");
-define("LAN_SIGNUP_16", "Jeśli potrzebujesz pomocy.");
-define("LAN_SIGNUP_17", "Należy upewnić się, że są 13 lub w wieku powyżej 13.");
-define("LAN_SIGNUP_18", "Twoja rejestracja została doręczona i utworzone za pomocą następujących informacji logowania:");
-define("LAN_SIGNUP_21", "Twoje konto jest obecnie oznaczone jako nieaktywne. Aby aktywować swoje konto przejdź do następujące łącze:");
-define("LAN_SIGNUP_22", "Kliknij tutaj");
-define("LAN_SIGNUP_23", "Aby się zalogować.");
-define("LAN_SIGNUP_24", "Dziękujemy za zarejestrowanie się na");
-define("LAN_SIGNUP_25", "Przesłać avatar");
+define("LAN_SIGNUP_15", "Proszę skontaktować się z głównym administratorem witryny");
+define("LAN_SIGNUP_16", "jeśli wymagana jest pomoc.");
+define("LAN_SIGNUP_17", "Zgadzam się z powyższymi warunkami i jestem osobą pełnoletnią w mniemaniu polskiego prawa, lub posiadam zgodę opiekuna prawnego (w przypadku osób niepełnoletnich)");
+define("LAN_SIGNUP_18", "Twoje konto zostało zarejestrowane i utworzone według następujących informacji:");
+define("LAN_SIGNUP_21", "Twoje konto jest obecnie nieaktywne. Aby aktywować konto, proszę udać się pod następujący adres:");
+define("LAN_SIGNUP_22", "kliknij tutaj");
+define("LAN_SIGNUP_23", "aby się zalogować.");
+define("LAN_SIGNUP_24", "Dziękujemy za rejestrację na stronie");
+define("LAN_SIGNUP_25", "Prześlij swojego awatara");
 define("LAN_SIGNUP_26", "Prześlij swoje zdjęcie");
-define("LAN_SIGNUP_30", "Jeśli nie chcesz wyświetlić adres e-mail na tej stronie, wybierz 'Tak', dla opcji 'Ukryj adres email?'.");
-define("LAN_SIGNUP_34", "Uwaga: każdy obraz przesłany do tego serwera, który jest uznawany przez administratorów będą natychmiast usuwane.");
-define("LAN_SIGNUP_36", "Wystąpił błąd podczas tworzenia danych użytkownika, skontaktuj się z administratorem");
-define("LAN_SIGNUP_37", "Tym etapie rejestracji są pełne. Umiejscowienie administrator będzie musiał potwierdzić swoje członkostwo.  Gdy to zostało zrobione, otrzymasz wiadomość e-mail z potwierdzeniem, informujący, że Twoje członkostwo został zatwierdzony.");
-define("LAN_SIGNUP_38", "Wprowadzono dwa adresy e-mail. Proszę wprowadzić prawidłowy adres e-mail w dwóch polach");
-define("LAN_SIGNUP_39", "Wpisz ponownie adres E-mail:");
-define("LAN_SIGNUP_40", "Aktywacja nie jest konieczne");
-define("LAN_SIGNUP_41", "Twoje konto jest już aktywne.");
-define("LAN_SIGNUP_42", "Było problemu, rejestracja poczta nie została wysłana, prosimy o kontakt z administratorem strony internetowej.");
-define("LAN_SIGNUP_43", "Wysłano wiadomość e-mail");
-define("LAN_SIGNUP_44", "E-mail aktywacyjny wysłany do:");
-define("LAN_SIGNUP_45", "Proszę sprawdzić skrzynkę odbiorczą.");
-define("LAN_SIGNUP_47", "Wyślij ponownie E-mail aktywacyjny");
-define("LAN_SIGNUP_48", "Nazwa użytkownika lub adres E-mail");
-define("LAN_SIGNUP_49", "Jeśli użytkownik zarejestrował się w zły adres e-mail, a także wypełnienie w polu powyżej, wpisz nowy adres e-mail i swoje hasło tutaj:");
-define("LAN_SIGNUP_50", "Nowa wiadomość E-mail");
+define("LAN_SIGNUP_30", "Jeśli nie chcesz wyświetlać swojego adresu e-mail na tej stronie, wybierz 'Tak' przy opcji 'Ukryć adres e-mail?'.");
+define("LAN_SIGNUP_34", "Uwaga: Wszystkie elementy graficzne przesłane na serwera, które zostaną uznane za nieodpowiedni, zostaną niezwłocznie skasowane przez administratorów.");
+define("LAN_SIGNUP_36", "Wystąpił błąd podczas tworzenia konta użytkownika, skontaktuj się z administratorem witryny");
+define("LAN_SIGNUP_37", "Ten etap rejestracji został zakończony. Administrator witryny musi zatwierdzić nową rejestrację. Gdy zostanie to zrobione, otrzymasz e-maila potwierdzającego założenie nowego konta");
+define("LAN_SIGNUP_38", "Wpisano dwa różne adresy e-mail. Wprowadź identyczne adres e-mail w wymaganych polach");
+define("LAN_SIGNUP_39", "Powtórz adres e-mail:");
+define("LAN_SIGNUP_40", "Aktywacja nie jest wymagana");
+define("LAN_SIGNUP_41", "Twoje konto zostało juz aktywowane.");
+define("LAN_SIGNUP_42", "Wystąpił problem, e-mail rejestracyjny nie został wysłany, proszę skontaktować się z administratorem strony.");
+define("LAN_SIGNUP_43", "E-mail został wysłany");
+define("LAN_SIGNUP_44", "E-mail aktywacyjny został wysłany na adres:");
+define("LAN_SIGNUP_45", "Proszę sprawdzić swoją skrzynkę odbiorczą.");
+define("LAN_SIGNUP_47", "Wyślij ponownie e-maila aktywacyjnego");
+define("LAN_SIGNUP_48", "Login lub adres e-mail");
+define("LAN_SIGNUP_49", "Jeśli rejestracja została dokonana z niewłaściwym adresem e-mail, wprowadź poniżej poprawny i wpisz swoje stare hasło:");
+define("LAN_SIGNUP_50", "Nowy adres e-mail");
 define("LAN_SIGNUP_51", "Stare hasło");
-define("LAN_SIGNUP_53", "pole testu sprawdzania poprawności nie powiodło się");
-define("LAN_SIGNUP_54", "Kliknij tutaj, aby wypełnić swoje dane do rejestracji");
-define("LAN_SIGNUP_58", "Zarejestruj się podgląd");
-define("LAN_SIGNUP_59", "Jeśli link nie działa, sprawdź, że część nie jest przepełniony do następnego wiersza. ****");
-define("LAN_SIGNUP_60", "Wyślij ponownie e-mail Rejestracja wymagane");
-define("LAN_SIGNUP_61", "Wyślij udało się");
-define("LAN_SIGNUP_62", "Wysyłanie nie powiodło się");
-define("LAN_SIGNUP_63", "Wyślij ponownie e-mail zgłoszony resetowania hasła");
-define("LAN_SIGNUP_64", "Które nie wydają się być poprawne informacje o użytkowniku");
-define("LAN_SIGNUP_65", "Ci, którym przypisano następujące nazwy logowania");
-define("LAN_SIGNUP_66", "Prosimy o zanotowanie go.");
-define("LAN_SIGNUP_67", "To będzie być przypisane przez system po rejestracji");
-define("LAN_SIGNUP_69", "");
-define("LAN_SIGNUP_70", "");
-define("LAN_SIGNUP_71", "Osiągnąłeś limit witryny dla rejestracji konta. Zaloguj się, korzystając z jednej z innych kont.");
-define("LAN_SIGNUP_72", "Dziękujemy za zarejestrowanie się na [sitename]! Mamy właśnie wysłał Ci wiadomość e-mail z potwierdzeniem na [email]. Proszę kliknąć na link potwierdzający w mailu swój znak się i aktywować swoje konto.");
-define("LAN_SIGNUP_73", "Dziękuję!");
-define("LAN_SIGNUP_74", "Twoje konto teraz zostały aktywowane, proszę");
-define("LAN_SIGNUP_75", "Rejestracja aktywna");
-define("LAN_SIGNUP_76", "Dziękuję! Jesteś teraz zarejestrowanym członkiem");
-define("LAN_SIGNUP_77", "Ta strona jest zgodny z Children's Online Privacy Protection Act of 1998 (COPPA) i jako takie nie może zaakceptować rejestracji od użytkowników w wieku poniżej 13 bez dokumentu pisemnego pozwolenia od rodziców lub opiekunów. Aby uzyskać więcej informacji można przeczytać przepisy");
+define("LAN_SIGNUP_53", "pole nie przeszło testu walidacji");
+define("LAN_SIGNUP_54", "Kliknij tutaj, aby wypełnić formularz rejestracyjny");
+define("LAN_SIGNUP_58", "Podgląd rejestracji");
+define("LAN_SIGNUP_59", "**** Jeśli odsyłacz nie działa, sprawdź czy jego część nie została przeniesiona do następnej linii. ****");
+define("LAN_SIGNUP_60", "Wyślij ponownie E-mail aktywacyjny");
+define("LAN_SIGNUP_61", "Wysłano pomyślnie");
+define("LAN_SIGNUP_62", "Błąd wysyłania");
+define("LAN_SIGNUP_63", "Wyślij ponownie E-mail z linkiem do resetowania hasła.");
+define("LAN_SIGNUP_64", "Podane informacje nie pasują do żadnego użytkownika");
+define("LAN_SIGNUP_65", "Został przypisany login");
+define("LAN_SIGNUP_66", "Proszę to sobie zapisać.");
+define("LAN_SIGNUP_67", "Zostanie przydzielone przez system po rejestracji.");
+define("LAN_SIGNUP_69", " ");
+define("LAN_SIGNUP_70", " ");
+define("LAN_SIGNUP_71", "Został przekroczony limit rejestracji kont. Zaloguj się na jedno ze swoich wcześniejszych kont.");
+define("LAN_SIGNUP_72", "Dziękujemy za zarejestrowanie się na stronie [sitename]! Właśnie wysłaliśmy e-maila potwierdzającego na adres [email]. Proszę kliknąć na odnośnik weryfikacyjny w e-mailu, aby zakończyć rejestrację i aktywować konto.");
+define("LAN_SIGNUP_73", "Dziękujemy");
+define("LAN_SIGNUP_74", "Twoje konto jest teraz aktywne, proszę");
+define("LAN_SIGNUP_75", "Rejestracja zakończona");
+define("LAN_SIGNUP_76", "Dziękujemy! Właśnie zostałeś zarejestrowanym użytkownikiem serwisu");
+define("LAN_SIGNUP_77", "Zgodnie z Dz.U. Nr 133, poz. 883 z dnia 29 sierpnia 1997 r. (zm.: Dz.U.2002.101.926, Dz.U.2002.153.1271, Dz.U.2004.25.219, Dz.U.2004.33.285 i późniejsze) stanowiącym o ochronie danych osobowych, w momencie rejestracji wyrażasz zgodę na przetwarzanie danych osobowych zawartych w formularzu na cele niniejszego serwisu. Równocześnie gwarantujemy Ci prawo do wglądu do swoich danych osobowych, możliwość ich poprawienia oraz w razie potrzeby możliwość zaprzestania przetwarzania danych na potrzeby serwisu (wiąże się z usunięciem konta). Dane osobowe podane w formularzu rejestracyjnym objęte są ochroną prawną oraz nie są one udostępniane osobom trzecim. Więcej na temat samej ustawy znajdziesz");
 define("LAN_SIGNUP_78", "Rejestracja");
-define("LAN_SIGNUP_79", "Zarejestruj się");
-define("LAN_SIGNUP_80", "Proszę wpisz swoje dane kontaktowe.");
-define("LAN_SIGNUP_81", "Nazwa użytkownika:");
-define("LAN_SIGNUP_82", "Nazwa, którego używasz do logowania");
+define("LAN_SIGNUP_79", "Rejestracja");
+define("LAN_SIGNUP_80", "Wpisz swoje dane.");
+define("LAN_SIGNUP_81", "Nick:");
+define("LAN_SIGNUP_82", "nazwa użytkownika, użyta do logowania");
 define("LAN_SIGNUP_83", "Hasło:");
-define("LAN_SIGNUP_84", "Wpisz ponownie hasło:");
-define("LAN_SIGNUP_85", "Nazwy użytkowników i hasła jest rozróżniana wielkość liter.");
+define("LAN_SIGNUP_84", "Powtórz hasło:");
+define("LAN_SIGNUP_85", "Pola Nick oraz hasło <b>wielkość liter nie ma znaczenia</b>.");
 define("LAN_SIGNUP_89", "Nazwa wyświetlana:");
-define("LAN_SIGNUP_90", "Nazwa, która będzie wyświetlana na stronie");
-define("LAN_SIGNUP_91", "Prawdziwe nazwisko:");
+define("LAN_SIGNUP_90", "ta nazwa będzie pokazywana na stronach");
+define("LAN_SIGNUP_91", "Prawdziwe imię:");
 define("LAN_SIGNUP_93", "Podpis:");
-define("LAN_SIGNUP_94", "Avatar:");
-define("LAN_SIGNUP_95", "Wprowadź kod widoczny na obrazku");
-define("LAN_SIGNUP_96", "Szczegóły rejestracji dla");
-define("LAN_SIGNUP_97", "Witamy");
-define("LAN_SIGNUP_98", "Potwierdź swój adres E-mail");
-define("LAN_SIGNUP_99", "Napotkał problem");
-define("LAN_SIGNUP_100", "Admin zatwierdzenia oczekujących");
-define("LAN_SIGNUP_101", "Aktualizacja rekordów nie powiodło się - skontaktuj się z administratorem serwisu");
-define("LAN_SIGNUP_103", "Zbyt wielu użytkowników już przy użyciu adresu IP:");
-define("LAN_SIGNUP_105", "Stanie działania życzenie - prosimy o kontakt z administratorem serwisu");
-define("LAN_SIGNUP_106", "Stanie działania żądania – czy masz już konto tutaj?");
-define("LAN_LOGINNAME", "Nazwa użytkownika");
+define("LAN_SIGNUP_94", "Awatar:");
+define("LAN_SIGNUP_95", "Wpisz kod widoczny na obrazku");
+define("LAN_SIGNUP_96", "Dane rejestracyjne");
+define("LAN_SIGNUP_97", "Witaj w");
+define("LAN_SIGNUP_98", "Potwierdź swój adres e-mail");
+define("LAN_SIGNUP_99", "Napotkano problem");
+define("LAN_SIGNUP_100", "Oczekuj na zatwierdzenie przez administratora");
+define("LAN_SIGNUP_101", "Bład zapisu danych - proszę skontaktować się z administratowem serwisu");
+define("LAN_SIGNUP_103", "Ten adres IP jest używany przez zbyt wielu użytkowników:");
+define("LAN_SIGNUP_105", "Nie można wykonać polecenia - proszę skontaktować się z administratowem serwisu.");
+define("LAN_SIGNUP_106", "Nie mogę wykonać żądania - czy na pewno posiadasz konto na tej stronie?");
+define("LAN_LOGINNAME", "Login");
 define("LAN_USERNAME", "Nazwa wyświetlana");
-define("LAN_SIGNUP_107", "Hasło musi być co najmniej [x] znaków i zawierać przynajmniej jedną wielką literę i cyfrę");
-define("LAN_SIGNUP_108", "Musi być prawidłowy adres e-mail");
-define("LAN_SIGNUP_109", "Rozróżnia wielkość liter i nie może zawierać spacji.");
-define("LAN_SIGNUP_110", "Imię i nazwisko");
-define("LAN_SIGNUP_111", "Wprowadź adres URL do obrazu, lub wybierz istniejący avatar.");
-define("LAN_SIGNUP_112", "Aktualnie zalogowany jako administrator główny.");
+define("LAN_SIGNUP_107", "Hasło musi składać się z minimum [x] znaków  oraz zawierać jedną WIELKĄ literę i cyfrę");
+define("LAN_SIGNUP_108", "Musi być poprawnym adresem E-mail");
+define("LAN_SIGNUP_109", "Może być ZmIeNnA wielkość liter bez spacji");
+define("LAN_SIGNUP_110", "Pełna nazwa");
+define("LAN_SIGNUP_111", "Wpisz adres www do swojego zdjęcia lub użyj istniejącego.");
+define("LAN_SIGNUP_112", "Aktualnie jesteś zalogowany jako Główny Administrator.");
 define("LAN_SIGNUP_113", "Subskrypcja");
+define("LAN_SIGNUP_114", "Rejestracja nowego użytkownika jest obecnie wyłączona.");
+define("LAN_SIGNUP_115", "Podgląd e-maila aktywacyjnego.");
+define("LAN_SIGNUP_116", "Podgląd po wysłaniu.");
+define("LAN_SIGNUP_117", "Testowe wysłanie aktywacji.");
+define("LAN_SIGNUP_118", "Do [x]");
+define("LAN_SIGNUP_119", "Nie wysyłać e-maila");
+define("LAN_SIGNUP_120", "LUB");
+
+
+?>
