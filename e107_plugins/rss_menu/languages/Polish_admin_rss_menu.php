@@ -1,71 +1,110 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/03/30                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("RSS_LAN05","Ilość pozycji (0 = nieaktywne)");
 
-define("RSS_LAN05", "Liczba elementów (0 = nieaktywny)");
-define("RSS_MENU_L1", "może być konsorcjalnych za pomocą tych kanałów rss.");
-define("RSS_MENU_L2", "Kanały RSS");
-define("RSS_MENU_L3", "Nasze aktualności");
-define("RSS_MENU_L4", "Nasze Komentarze");
-define("RSS_MENU_L5", "Nasze wątki na forum");
-define("RSS_MENU_L6", "Nasze posty na forum");
-define("RSS_MENU_L7", "Nasze posty chatbox");
-define("RSS_MENU_L8", "Nasze raporty bugtracker");
-define("RSS_MENU_L9", "Nasze pliki do pobrania");
-define("RSS_NEWS", "Aktualności");
-define("RSS_COM", "Komentarze");
-define("RSS_ART", "Artykuły");
-define("RSS_REV", "Opinie");
-define("RSS_FT", "Tematy na forum");
-define("RSS_FP", "Posty na forum");
-define("RSS_FSP", "Konkretne Post na forum");
-define("RSS_BUG", "Bugtracker");
-define("RSS_FOR", "Forum");
-define("RSS_DL", "Pliki do pobrania");
-define("RSS_PLUGIN_LAN_6", "Paszy linki");
-define("RSS_PLUGIN_LAN_7", "Kanał RSS News");
-define("RSS_PLUGIN_LAN_8", "Kanał RSS z pliki do pobrania");
-define("RSS_PLUGIN_LAN_9", "Źródła rss Komentarze");
-define("RSS_PLUGIN_LAN_10", "Kanał RSS nowości w kategorii:");
-define("RSS_PLUGIN_LAN_11", "Źródła rss Pobierz kategorii:");
+define("RSS_MENU_L1", " możesz dowiedzieć się za pośrednictwem kanałów rss.");
+define("RSS_MENU_L2", "Kolporter RSS");
+define("RSS_MENU_L3", "O najnowszych newsach");
+define("RSS_MENU_L4", "O najnowszych komentarzach");
+define("RSS_MENU_L5", "O najnowszych tematach na forum");
+define("RSS_MENU_L6", "O najnowszych postach na forum");
+define("RSS_MENU_L7", "O najnowszych postach na czacie");
+define("RSS_MENU_L8", "O najnowszych raportach bugtracker'a");
+define("RSS_MENU_L9", "O najnowszych plikach do pobrania");
+
+define("RSS_NEWS","Aktualności");
+define("RSS_COM","Komentarze");
+define("RSS_ART","Artykuły");
+define("RSS_REV", "Recenzje");
+define("RSS_FT","Tematy na forum");
+define("RSS_FP","Wypowiedzi na forum");
+define("RSS_FSP","Określone posty na forum");
+define("RSS_BUG"," Bugtracker");
+define("RSS_FOR"," Forum");
+define("RSS_DL"," Download");
+
+//define("RSS_PLUGIN_LAN_1", "RSS");
+//define("RSS_PLUGIN_LAN_2", "RSS Feeds from your site");
+
+define("RSS_PLUGIN_LAN_6", "Linki kanałów");
+define("RSS_PLUGIN_LAN_7", "Kanał rss działu aktualności");
+define("RSS_PLUGIN_LAN_8", "Kanał rss działu download");
+define("RSS_PLUGIN_LAN_9", "Kanał rss działu komentarze");
+define("RSS_PLUGIN_LAN_10", "Kanał rss działu kategorie aktualności:");
+define("RSS_PLUGIN_LAN_11", "Kanał rss działu kategorie downloadu:");
+
+// define("RSS_PLUGIN_LAN_14", "Comments");
+
 define("RSS_LAN_ADMINMENU_1", "Opcje RSS");
-define("RSS_LAN_ADMINMENU_2", "Aukcja");
-define("RSS_LAN_ADMINMENU_4", "Importu");
-define("RSS_LAN_ERROR_1", "Nie jest to prawidłowy kanał RSS. [br] [br] [Powrót do listy rss]");
-define("RSS_LAN_ERROR_2", "Plik e107_config.php lub pliki języka zawierają spacje lub ï» ¿znaków przed <? znaków. Należy usunąć to z edytorem tekstu utf8, jeśli chcesz mieć prawidłowe źródło danych RSS.");
-define("RSS_LAN_ERROR_3", "Nie kanałów rss są obecnie jeszcze [br] Proszę korzystać z funkcji importu do importowania rss dostępne źródła danych lub tworzenie pewien rss karmić ręcznie.");
-define("RSS_LAN_ERROR_4", "Nie ma źródła danych rss są jeszcze dostępne");
-define("RSS_LAN_ERROR_5", "Ten wpis rss nie istnieje");
-define("RSS_LAN_ERROR_6", "Istnieją nie kanałów rss, aby zaimportować");
-define("RSS_LAN_ERROR_7", "Niektóre wymagane pola są niewidoczne.");
-define("RSS_LAN_ADMIN_1", "Kanały RSS istniejących");
-define("RSS_LAN_ADMIN_2", "Identyfikator");
+define("RSS_LAN_ADMINMENU_2", "Wykaz");
+define("RSS_LAN_ADMINMENU_4", "Importowanie");
+
+define("RSS_LAN_ERROR_1", "To nie jest poprawny kanał rss[br][br][Powrót do listy]");
+define("RSS_LAN_ERROR_2", "Twój plik e107_config.php lub pliki językowe zawierają spacje bądź znaki &#65279;i&#187;&#191; przed znakami &lt;?. Powinieneś je usunąć przy pomocy edytora tekstu w formacie nie-utf8 jeśli chcesz dysponować poprawnym modułem RSS.");
+define("RSS_LAN_ERROR_3", "Obecnie nie ma jeszcze kanałów rss.[br]Proszę użyć funkcię importu do zaimportowania dostępnych kanałów rss lub utworzyć kanał rss ręcznie.");
+define("RSS_LAN_ERROR_4", "Nie ma jeszcze dostępnych kanałów rss");
+define("RSS_LAN_ERROR_5", "Wpis rss nie istnieje");
+define("RSS_LAN_ERROR_6", "Nie ma obecnie kanałów rss do importowania");
+define("RSS_LAN_ERROR_7", "Pewne wymagane pola zostały utracone.");
+
+define("RSS_LAN_ADMIN_1", "Aktualne kanały RSS");
+define("RSS_LAN_ADMIN_2", " Id");
 define("RSS_LAN_ADMIN_3", "Ścieżka");
+//define("RSS_LAN_ADMIN_4", "Name");
 define("RSS_LAN_ADMIN_5", "Adres URL");
-define("RSS_LAN_ADMIN_6", "Tekst");
-define("RSS_LAN_ADMIN_7", "Limitu");
+define("RSS_LAN_ADMIN_6", "Opis");
+define("RSS_LAN_ADMIN_7", " Limit");
 define("RSS_LAN_ADMIN_8", "Widoczność");
-define("RSS_LAN_ADMIN_10", "kanał RSS utworzyć wpis");
-define("RSS_LAN_ADMIN_11", "kanał RSS Importuj kanały");
-define("RSS_LAN_ADMIN_12", "Identyfikator tematu");
-define("RSS_LAN_ADMIN_13", "Obejmować inne newsy w aktualnościach?");
-define("RSS_LAN_ADMIN_14", "Włącz");
-define("RSS_LAN_ADMIN_15", "Zaznacz łącza do oznaczenia ich do importu...");
-define("RSS_LAN_ADMIN_16", "zaimportować?");
-define("RSS_LAN_ADMIN_17", "Importuj zaznaczone łącza");
-define("RSS_LAN_ADMIN_18", "RSS zestawień importowane.");
-define("RSS_LAN_ADMIN_19", "Użyj podsumowania wiadomości jako opis w aktualnościach?");
-define("RSS_LAN_ADMIN_21", "aktywne i widoczne w rss kanały informacyjne");
-define("RSS_LAN_ADMIN_22", "aktywne i nie są widoczne w rss kanały informacyjne");
-define("RSS_LAN_ADMIN_23", "nieaktywne");
-define("RSS_LAN_ADMIN_26", "Sprawdź wszystkie");
+//define("RSS_LAN_ADMIN_9", "Type");
+define("RSS_LAN_ADMIN_10", "Kolporter RSS - Tworzenie wpisów");
+define("RSS_LAN_ADMIN_11", "Kolporter RSS - Importowanie kanałów");
+define("RSS_LAN_ADMIN_12", "ID tematu");
+
+define("RSS_LAN_ADMIN_13", "Załączać newsy z menu aktualności 1 i 2 do kanału newsy?");
+define("RSS_LAN_ADMIN_14", "Włączone?");
+define("RSS_LAN_ADMIN_15", "Odznacz linki, aby oznaczyć je do importu...");
+define("RSS_LAN_ADMIN_16", "Importować?");
+define("RSS_LAN_ADMIN_17", "Importuj zaznaczone linki");
+define("RSS_LAN_ADMIN_18", " kanał(y) rss został(y) zaimportowany.");
+define("RSS_LAN_ADMIN_19", "Użyj streszczenia Aktualności jako opisu w Kanałach Aktualności?");
+
+define("RSS_LAN_ADMIN_21", "Aktywne i WIDOCZNE na liście kanałów RSS");
+define("RSS_LAN_ADMIN_22", "Aktywne i NIEWIDOCZNE na liście kanałów RSS");
+define("RSS_LAN_ADMIN_23", "Nieaktywne");
+
+define("RSS_LAN_ADMIN_26", "Zaznacz wszystkie");
 define("RSS_LAN_ADMIN_27", "Odznacz wszystkie");
-define("RSS_LAN_ADMIN_28", "Nic nie zmieniło - nie Zapisano");
-define("RSS_LAN_ADMIN_31", "Aktualizacja RSS wpisy limity");
+define("RSS_LAN_ADMIN_28", "Nic nie zmieniono - nic nie zapisano");
+
+define("RSS_LAN_ADMIN_31", "Limit wpisów rss został zaktualizowany");
 define("RSS_LAN_ADMIN_32", "");
-define("RSS_LAN_ADMIN_33", "Pokaż obraz w aktualnościach?");
-define("RSS_LAN_0", "RSS");
-define("RSS_LAN_2", "@nospam.com");
-define("RSS_LAN_3", "noauthor@nospam.com");
+define("RSS_LAN_ADMIN_33", "Pokazuj obrazki w kanałach Aktualności?");
+
+define("RSS_LAN_0", " RSS");
+define("RSS_LAN_2", " @nospam.com");
+define("RSS_LAN_3", " noauthor@nospam.com");
+
+// Admin log messages
+//-------------------
+/*
+define("LAN_AL_RSS_01","RSS feed deleted");
+define("LAN_AL_RSS_02","RSS feed created");
+define("LAN_AL_RSS_03","RSS feed updated");
+define("LAN_AL_RSS_04","RSS feed imported");
+define("LAN_AL_RSS_05","RSS limits updated");
+define("LAN_AL_RSS_06","RSS settings updated");
+define("LAN_AL_RSS_07","");
+*/
+?>
