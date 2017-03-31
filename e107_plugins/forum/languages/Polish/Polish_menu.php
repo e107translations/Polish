@@ -1,18 +1,31 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/02/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
 
-define("LAN_FORUM_MENU_001", "Wysłany przez");
-define("LAN_FORUM_MENU_002", "Brak postów jeszcze");
-define("LAN_FORUM_MENU_003", "Nowe posty na Forum menu konfiguracji zapisane");
-define("LAN_FORUM_MENU_004", "Podpis");
-define("LAN_FORUM_MENU_005", "Liczba postów do wyświetlenia?");
+define("LAN_FORUM_MENU_001", "Napisane przez");
+define("LAN_FORUM_MENU_002", "Brak wpisów");
+define("LAN_FORUM_MENU_003", "Ustawienia wyświetlania Nowości na Forum zapisano");
+define("LAN_FORUM_MENU_004", "Nagłowek");
+define("LAN_FORUM_MENU_005", "Ilość wyświetlanych postów");
 define("LAN_FORUM_MENU_006", "Liczba znaków do wyświetlania?");
-define("LAN_FORUM_MENU_007", "Postfix za zbyt długie posty?");
-define("LAN_FORUM_MENU_008", "Pokaż oryginalne tematy w menu?");
-define("LAN_FORUM_MENU_009", "Aktualizacja ustawień menu");
-define("LAN_FORUM_MENU_0010", "Nowe Forum posty Menu konfiguracji");
+define("LAN_FORUM_MENU_007", "Podpis dla zbyt długich postów?");
+define("LAN_FORUM_MENU_008", "Pokaż oryginalny tematy w menu?");
+define("LAN_FORUM_MENU_009", "Zaktualizuj ustawienia menu");
+define("LAN_FORUM_MENU_0010", "Ustawienia Menu Nowości na Forum");
+
 define("LAN_FORUM_MENU_0012", "Maksymalny wiek wyświetlanych postów");
-define("LAN_FORUM_MENU_0013", "Należy użyć wartości zero na cichym miejscu; ustawienie wartości w dni zmniejszy czas bazy danych na ruchliwym placu budowy");
+define("LAN_FORUM_MENU_0013", "Wpisz 0 dla stron o małej liczbie odwiedzin; wpisanie wartości dni znacznie zredukuje czas bazzy danych na stronach obleganych");
+
+
+?>
