@@ -1,17 +1,30 @@
 <?php
+/*
++==========================================================================================+
+* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)*
++------------------------------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                                         *
+   * Polish language file - e107_plugins/clock_menu/Polish.php                             *
+   *                                                                                       *
+	* e107 Polish Team                                                                      *
+	* Polskie wsparcie: www.e107poland.org                                                  *
+	* $Date: 2016/03/16                                                                     *
+	* $Author: JacekCich                                                                    *
++------------------------------------------------------------------------------------------+
++==========================================================================================+
+*/
+//define("CLOCK_AD_L1", "Clock menu configuration saved");
+define("CLOCK_AD_L2", "Nagłówek");
+//define("CLOCK_AD_L3", "Update Menu Settings");
+define("CLOCK_AD_L4", "Konfiguracja menu Data / Czas");
+define("CLOCK_AD_L5", " AM/PM ");
+define("CLOCK_AD_L6", "Jeśli zaznaczyłeś, godzina zostanie wyświetlona w standardzie angielskim (format 0-12 AM/PM). Jeśli natomiast pole jest odznaczone, godzina będzie wyświetlana w standardzie 'militarnym' z wykorzystaniem 24 godzin (format 0-24)");
+define("CLOCK_AD_L7", "Prefiks dla daty");
+define("CLOCK_AD_L8", "Jeśli język, którego używasz, wymaga przed datą przysłówka (Przykładowo 'on' dla języka angielskiego, 'le' dla języka francuskiego lub 'den' dla języka niemieckiego...), użyj tego pola. Jeśli nie wymaga, pozostaw puste.");
+define("CLOCK_AD_L9", "Przyrostek dla 1");
+define("CLOCK_AD_L10", "Przyrostek dla 2");
+define("CLOCK_AD_L11", "Przyrostek dla 3");
+define("CLOCK_AD_L12", "Przyrostek dla 4 i większych cyfr");
+define("CLOCK_AD_L13", "Jeśli język, którego używasz, wymaga wyświetlenia po cyfrach daty przyrostka, wypełnij te pola używając tylko tego przyrostka (Na przykład: dla użytkowników mówiących w języku angielskim 'st' dla 1, 'nd' dla 2, 'rd' dla 3 oraz 'th' dla 4 i większych cyfr). Jeśli nie wymaga, pozostaw puste.");
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("CLOCK_AD_L2", "Podpis");
-define("CLOCK_AD_L4", "Config Menu zegar");
-define("CLOCK_AD_L5", "AM/PM");
-define("CLOCK_AD_L6", "Jeśli zaznaczone, będzie on wyświetlany razem z USA format (format AM/PM 0-12). Niezaznaczone, będzie on wyświetlany na format format 'wojskowy' 0-24");
-define("CLOCK_AD_L7", "Data prefiks");
-define("CLOCK_AD_L8", "Jeśli Twój język wymaga krótkie słowo przed datą (np. ' le' francuski) lub 'den' niemiecki..., użyj tego pola. Jeśli nie jest to wymagane, pozostaw puste.");
-define("CLOCK_AD_L9", "Przyrostek 1");
-define("CLOCK_AD_L10", "Przyrostek 2");
-define("CLOCK_AD_L11", "Sufiks 3");
-define("CLOCK_AD_L12", "Sufiks 4 i więcej");
-define("CLOCK_AD_L13", "Jeśli Twój język wymaga, aby wyświetlić sufiks tylko po numerach dla daty, należy wypełnić te pola z przyrostkiem tylko (przykład: 'st' 1, 'kt', 2, 'rd' 3 a 'th' dla 4 i więcej - dla użytkowników angielski). Jeśli nie jest wymagane pozostaw puste.");
+?>
