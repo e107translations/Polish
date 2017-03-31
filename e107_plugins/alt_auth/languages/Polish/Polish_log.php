@@ -1,9 +1,29 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-define("LAN_AL_AUTH_01", "Alt auth ustawienia zmienione");
-define("LAN_AL_AUTH_02", "Alt auth przedłużony klasy użytkowników zmieniony");
-define("LAN_AL_AUTH_03", "Alt auth Metoda ustawienia zmienione");
+/**
+ *	e107 Alternate authorisation - Alternatywna autoryzacja plugin
+ *
+ *	@package	e107_plugins
+ *	@subpackage	alt_auth
+ */
+
+define("LAN_AL_AUTH_01","Alternatywna autoryzacja - zmieniono ustawienia");
+define("LAN_AL_AUTH_02","Alternatywna autoryzacja - zmieniono dodatkowe pola użytkownika");
+define("LAN_AL_AUTH_03","Alternatywna autoryzacja - zmieniono metody ustawień");
+
+
+?>

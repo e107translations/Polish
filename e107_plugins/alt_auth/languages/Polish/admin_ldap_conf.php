@@ -1,21 +1,45 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/**
+ *	e107 Alternate authorisation plugin
+ *
+ *	@package	e107_plugins
+ *	@subpackage	alt_auth
+ *	@version 	$Id$;
+ */
 
-define("LDAPLAN_1", "Adres serwera");
-define("LDAPLAN_2", "Podstawowa DN lub domeny<br>LDAP - wprowadź wyróżniająca<br>AD - wprowadź nazwę fqdn np ad.mydomain.co.uk");
-define("LDAPLAN_3", "LDAP przeglądania użytkownika<br>Pełny kontekst użytkownika, który jest w stanie wyszukać w katalogu.");
-define("LDAPLAN_4", "Hasło LDAP przeglądania<br>Hasło dla użytkownika LDAP przeglądania.");
-define("LDAPLAN_5", "Wersja protokołu LDAP");
-define("LDAPLAN_6", "Konfigurowanie uwierzytelniania LDAP");
-define("LDAPLAN_7", "eDirectory filtr wyszukiwania:");
-define("LDAPLAN_8", "Będzie to służyć do upewnij się, że nazwa użytkownika jest w odpowiednie drzewo,<br>np. '(objectclass=inetOrgPerson)'");
-define("LDAPLAN_9", "Bieżący filtr wyszukiwania będzie:");
-define("LDAPLAN_10", "Zaktualizowane ustawienia");
-define("LDAPLAN_11", "Ostrzeżenie: Wydaje się, że moduł ldap nie jest obecnie dostępna. ustawienie metodę uwierzytelniania LDAP prawdopodobnie nie będzie działać!");
-define("LDAPLAN_12", "Typ serwera");
-define("LDAPLAN_13", "Ustawienia aktualizacji");
-define("LDAPLAN_14", "Jednostki organizacyjnej dla reklamy (np. ou = itdept)");
-define("LAN_AUTHENTICATE_HELP", "Ta metoda może służyć do uwierzytelniania przeciwko większości serwerów LDAP, w tym Novell\ w eDirectory i Microsoft\ w usłudze Active Directory. Wymaga to, że PHP\'s LDAP rozszerzenie jest ładowany. Odnoszą się do wiki dla dalszych informacji.");
+define('LDAPLAN_1', 'Adres serwera');
+define('LDAPLAN_2', 'Adres bazowy DN lub domena<br />LDAP - wpisz adres bazowy DN<br />AD - wpisz nazwę fqdn np. ad.nazwadomeny.co.uk <br /> - Distinguished Name ');
+define('LDAPLAN_3', 'Użytkownik LDAP<br />Pełny kontekst użytkownika, który może przeszukiwać katalog.');
+define('LDAPLAN_4', 'Hasło LDAP<br />Hasło przeglądarki LDAP.');
+define('LDAPLAN_5', 'Wersja LDAP');
+define('LDAPLAN_6', 'Ustawienia autentykacji LDAP');
+define('LDAPLAN_7', 'Filtr wyszukiwarki w eKatalogu:');
+define('LDAPLAN_8', "Będzie używane w celu utrzymania nazwy użytkownika w prawidłowej strukturze drzewa katalogu, <br />np. '(objectclass=inetOrgPerson)'");
+define('LDAPLAN_9', 'Aktualny filtr będzie:');
+define('LDAPLAN_10', 'Zaktualizowano ustawienia');
+define('LDAPLAN_11', 'UWAGA:  Wydaje się, że moduł LDAP jest aktualnie nie dostępny; Ustawienia metody autentykacji LDAP prawdopodobnie nie będą działać!');
+define('LDAPLAN_12', 'Typ serwera');
+define('LDAPLAN_13', 'Zapisz ustawienia');
+define('LDAPLAN_14', 'OU dla AD (np. ou=itdept)');
+
+
+define('SHOW_COPY_HELP', TRUE);
+define('SHOW_CONVERSION_HELP', TRUE);
+define('LAN_AUTHENTICATE_HELP','Sposób ten może być wykorzystywany do uwierzytelniania w wielu serwerach LDAP, włączając Novell eKatalog oraz Microsoft Active Directory. Wymaga załadowanego rozszerzeniat PHP LDAP . Zapoznaj się z wiki aby uzyskać więcej informacji.');
+
+
+?>

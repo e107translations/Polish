@@ -1,13 +1,37 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-define("E107DB_LAN_1", "E107 format bazy danych");
-define("E107DB_LAN_9", "Metody hasło:");
-define("E107DB_LAN_10", "Konfiguracja E107 db auth");
-define("E107DB_LAN_11", "Zaznacz pole obok dowolnego pola, które chcesz przenieść się do lokalnej bazy danych:");
-define("IMPORTDB_LAN_7", "MD5 (E107 oryginał)");
-define("IMPORTDB_LAN_8", "E107 solone (opcja 2.0)");
-define("LAN_AUTHENTICATE_HELP", "Ta metoda uwierzytelniania ma być używany z drugiej E107 bazy danych, które mogą używać formatu innego hasła do tego systemu. Oryginalnego hasła jest odczytu z lokalnej bazy danych i sprawdzany format przechowywania oryginalnego systemu. Jeśli sprawdza, przekonwertowane do bieżącego formatu zgodnego z E107 i przechowywane w bazie danych.");
+/**
+ *	e107 Alternate authorisation plugin
+ *
+ *	@package	e107_plugins
+ *	@subpackage	alt_auth
+ *	@version 	$Id$;
+ */
+
+define('E107DB_LAN_1', 'Format bazy danych e107');
+define('E107DB_LAN_9', 'Metoda hasła:');
+define('E107DB_LAN_10', 'Ustawienia autentykacji bazy danych e107');
+define('E107DB_LAN_11', 'Ponownie zaznacz pole wyboru, aby przetransferować do lokalnej bazy danych:');
+
+
+define('IMPORTDB_LAN_7', ' MD5 (oryginalny e107)');
+define('IMPORTDB_LAN_8', ' e107 salted (opcja 2.0 )');
+
+
+define('LAN_AUTHENTICATE_HELP','Ta metoda autentykacji będzie używana w drugiej bazie danych e107, która używa innego formatu hasła do systemu. Oryginalne hasło odczytane z lokalnej bazy danych i po sprawdzeniu, ponownie zapisane w formacie w bazie danych. Jeżeli zostanie zweryfikowane, następuje konwersja do aktualnego kompatybilnego z e107 formatu oraz zapisane w bazie danych.');
+
+?>

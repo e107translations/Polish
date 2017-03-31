@@ -1,13 +1,37 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-define("LAN_RADIUS_01", "Adres serwera");
-define("LAN_RADIUS_02", "Wspólny klucz tajny");
-define("LAN_RADIUS_03", "Użytkownik serwera");
-define("LAN_RADIUS_04", "Hasło serwera");
-define("LAN_RADIUS_06", "Konfigurowanie uwierzytelniania usługi RADIUS");
-define("LAN_RADIUS_11", "Ostrzeżenie: Wydaje się, że moduł usługi RADIUS nie jest obecnie dostępna. ustawienie metodę uwierzytelniania RADIUS prawdopodobnie nie będzie działać!");
-define("LAN_AUTHENTICATE_HELP", "Ta metoda uwierzytelniania jest używana z zewnętrznego serwera RADIUS. To requres że PHP\'s promień rozszerzenie jest włączone.<br>Należy zauważyć, że serwer RADIUS może umożliwić dostęp tylko z określonego zakresu adresów IP");
+/**
+ *	e107 Alternate authorisation plugin
+ *
+ *	@package	e107_plugins
+ *	@subpackage	alt_auth
+ *	@version 	$Id$;
+ */
+
+define('LAN_RADIUS_01', 'Adres serwera');
+define('LAN_RADIUS_02', 'Wspólne hasło');
+define('LAN_RADIUS_03', 'Użytkownik serwera');
+define('LAN_RADIUS_04', 'Hasło serwera');
+define('LAN_RADIUS_06', 'Konfigurowanie uwierzytelniania RADIUS');
+define('LAN_RADIUS_11', 'UWAGA:  Wydaje się, że moduł RADIUS nie jest aktualnie dostępny; Ustawienia metody uwierzytelniających RADIUS prawdopodobnie nie działają!');
+
+
+define('LAN_AUTHENTICATE_HELP','Ta metoda uwierzytelniania jest używana z zewnętrznego serwera RADIUS. Wymaga ona włączonego rozszerzenia PHP RADIUS. <br />
+  Należy pamiętać, że serwer RADIUS może zezwolić na dostęp z określonego zakresu adresów IP.');
+
+
+?>
