@@ -1,10 +1,23 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/02/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Admin log messages
+//-------------------
+define("LAN_AL_GSMAP_01", "Importowane linki strony");
+define("LAN_AL_GSMAP_02", "Usunięto linki strony");
+define("LAN_AL_GSMAP_03", "Dodano linki strony");
+define("LAN_AL_GSMAP_04", "Zaktualizowano linki strony");
 
-define("LAN_AL_GSMAP_01", "Import linków do podstron");
-define("LAN_AL_GSMAP_02", "Mapa strony link usunięty");
-define("LAN_AL_GSMAP_03", "Mapa strony link dodany");
-define("LAN_AL_GSMAP_04", "Mapa strony link aktualizacja");
+
+?>
