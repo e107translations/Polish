@@ -1,13 +1,26 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/03/22                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
 
-define("NFLAN_29", "Dostępne kanały informacyjne");
-define("NFLAN_31", "Powrót do listy kanałów informacyjnych");
-define("NFLAN_33", "Data publikacji:");
-define("NFLAN_34", "nie znana");
-define("NFLAN_38", "Nagłówki");
+define("NFLAN_29", "Aktualne kanały informacyjne");
+define("NFLAN_31", "Powróć do listy");
+define("NFLAN_33", "Data publikacji: ");
+define("NFLAN_34", "nieznana");
+define("NFLAN_38", "Nagłowki");
 define("NFLAN_39", "Szczegóły");
-define("NFLAN_48", "Nie można zapisać dane w bazie danych.");
+define("NFLAN_48", "Nie mogę zapisać danych w bazie danych.");
+
+
+
+?>
