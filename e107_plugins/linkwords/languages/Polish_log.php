@@ -1,12 +1,24 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/02/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Admin log related
+define("LAN_AL_LINKWD_00", "Linki wyrazowe-powiązane wiadomości");
+define("LAN_AL_LINKWD_01", "Dodane linki wyrazowe");
+define("LAN_AL_LINKWD_02", "Edytowane linki wyrazowe");
+define("LAN_AL_LINKWD_03", "Skasowane linki wyrazowe");
+define("LAN_AL_LINKWD_04", "Zaktualizowane linki wyrazowe");
+define("LAN_AL_LINKWD_05", "Zaktualizowano wersję linków wyrazowych");					// Used in 0.7-compatible stub only
 
-define("LAN_AL_LINKWD_00", "Wiadomości związane z Linkword");
-define("LAN_AL_LINKWD_01", "Linkword dodane");
-define("LAN_AL_LINKWD_02", "Linkword edytowane");
-define("LAN_AL_LINKWD_03", "Linkword usunięte");
-define("LAN_AL_LINKWD_04", "Opcje Linkword, aktualizacja");
-define("LAN_AL_LINKWD_05", "Aktualizacja do wersji Linkwords");
+
+?>
