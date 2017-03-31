@@ -1,19 +1,35 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/02/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("LAN_PLUGIN_CHATBOX_MENU_NAME",		 	"Czat");
+define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", 	"Meenu Czatu");
+define("LAN_PLUGIN_CHATBOX_MENU_POSTS",			"Wpisy czatu");
 
-define("LAN_PLUGIN_CHATBOX_MENU_NAME", "ChatBox");
-define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", "ChatBox Menu");
-define("LAN_PLUGIN_CHATBOX_MENU_POSTS", "ChatBox postów");
-define("LAN_AL_CHBLAN_01", "Zaktualizowane ustawienia ChatBox");
-define("LAN_AL_CHBLAN_02", "ChatBox przycinane");
-define("LAN_AL_CHBLAN_03", "ChatBox postów przeliczone");
-define("LAN_AL_CHBLAN_04", "");
-define("LAN_AL_CHBLAN_05", "");
-define("NT_LAN_CB_1", "ChatBox zdarzenia");
-define("NT_LAN_CB_2", "Wiadomość wysłana");
-define("NT_LAN_CB_3", "Wysłany przez");
-define("NT_LAN_CB_5", "Komunikat");
-define("NT_LAN_CB_6", "ChatBox wiadomość wysłana");
+// Admin Log
+//FIXME - Global LANS must begin with LAN_PLUGIN_{FOLDER_NAME}_
+define("LAN_AL_CHBLAN_01","Ustawienia czatu zostały zaktualizowane");
+define("LAN_AL_CHBLAN_02","Czat został wyczyszczony");
+define("LAN_AL_CHBLAN_03","Ilość postów została skalkulowana");
+define("LAN_AL_CHBLAN_04","");
+define("LAN_AL_CHBLAN_05","");
+
+// Notify
+define("NT_LAN_CB_1", "Wydarzenia na czacie");
+define("NT_LAN_CB_2", "Napisane wiadomości");
+define("NT_LAN_CB_3", "napisane przez ");
+// define("NT_LAN_CB_4", "IP Address");
+define("NT_LAN_CB_5", "Wiadomość");
+define("NT_LAN_CB_6", "Napisana wiadomość na czacie");//Chatbox Message Posted
+
+?>
