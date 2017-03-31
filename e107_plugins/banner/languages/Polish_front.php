@@ -1,25 +1,30 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("BANNERLAN_16", "Nazwa użytkownika:");
-define("BANNERLAN_17", "Hasło:");
-define("BANNERLAN_19", "Proszę podać swój login klienta i hasło, aby kontynuować");
-define("BANNERLAN_20", "Niestety, nie można znaleźć te informacje w bazie danych. Aby uzyskać szczegółowe informacje, skontaktuj się z administratorem serwisu.");
-define("BANNERLAN_21", "Statystyki banery");
-define("BANNERLAN_22", "Klienta");
-define("BANNERLAN_23", "Identyfikator bannera");
-define("BANNERLAN_24", "Kliknięcia");
-define("BANNERLAN_25", "Kliknij przycisk %");
-define("BANNERLAN_26", "Wrażenia");
-define("BANNERLAN_27", "Wrażenia zakupione");
-define("BANNERLAN_28", "Wrażenia po lewej");
-define("BANNERLAN_29", "Żadnych banerów");
-define("BANNERLAN_30", "Nieograniczony");
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/02/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
+define("BANNERLAN_19", "Proszę wprowadzić swoją nazwę klienta oraz hasło");
+define("BANNERLAN_20", "Nie odnaleziono wskazanych informacji w bazie danych. Proszę skontaktować się z administratorem strony w celu wyjaśnienia.");
+define("BANNERLAN_21", "Statystyki banerów");
+define("BANNERLAN_22", "Klient");
+define("BANNERLAN_23", "Nr banera");
+define("BANNERLAN_24", "Klikających");
+define("BANNERLAN_25", "% kliknięć");
+define("BANNERLAN_26", "Wyświetleń");
+define("BANNERLAN_27", "Kupionych wyświetleń");
+define("BANNERLAN_28", "Pozostało wyświetleń");
+define("BANNERLAN_30", "Bez limitu");
 define("BANNERLAN_31", "Nie dotyczy");
-define("BANNERLAN_34", "Kończy się:");
-define("BANNERLAN_35", "Adresy IP kliknięć");
-define("BANNERLAN_36", "Active:");
-define("BANNERLAN_37", "Zaczyna się:");
+define("BANNERLAN_35", "Adresy IP klikających");
+define("BANNERLAN_39", "Brak obrazu przypisanego do tego banera");
+
+
+?>
