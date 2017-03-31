@@ -1,11 +1,24 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+* 'FAQ plugin' global language definitions
+*/
 
-define("LAN_PLUGIN_FAQS_NAME", "Najczęściej zadawane pytania");
-define("LAN_PLUGIN_FAQS_DESCRIPTION", "Prosty plugin, aby dodać najczęściej zadawane pytania do swojej witryny.");
-define("LAN_PLUGIN_FAQS_FUNCTIONNAME", "Kategorie najczęściej zadawanych pytań");
-define("LAN_PLUGIN_FAQS_FRONT_NAME", "FAQ (często zadawane pytania)");
-define("LAN_PLUGIN_FAQS_SEARCH", "Najczęściej zadawane pytania");
+define("LAN_PLUGIN_FAQS_NAME", 			"FAQ");
+define("LAN_PLUGIN_FAQS_DESCRIPTION", 	"Wtyczka umożliwiająca zadawanie pytań przez stronę www.");
+define("LAN_PLUGIN_FAQS_FUNCTIONNAME",	"Kategorie FAQ");
+define("LAN_PLUGIN_FAQS_FRONT_NAME", 	"FAQ (Często Zadawane Pytania)");
+define("LAN_PLUGIN_FAQS_SEARCH",        "Wuszukiwarka FAQ");
+
+?>

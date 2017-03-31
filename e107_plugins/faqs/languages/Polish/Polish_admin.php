@@ -1,18 +1,34 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+* "FAQ plugin" admin-area language definitions
+*/
+
+
 
 define("LANA_FAQ_QUESTION", "Pytanie");
 define("LANA_FAQ_ANSWER", "Odpowiedź");
-define("LANA_FAQ_COMMENT", "Komentarz");
-define("LANA_FAQ_UNAME", "Nazwa użytkownika");
-define("LANA_FAQ_ULOGINNAME", "Logowanie użytkownika");
+define("LANA_FAQ_COMMENT", "Komentarz"); //FIXME Use generic
+define("LANA_FAQ_UNAME", "Użytkownik"); //FIXME Use generic
+define("LANA_FAQ_ULOGINNAME", "Login użytkownika"); //FIXME Use generic
 define("LANA_FAQ_TAGS", "Tagi");
-define("LANA_FAQ_TAGS_HELP", "Oddzielone przecinkami lista tagów");
-define("LANA_FAQ_METAD", "Opis meta");
-define("LANA_FAQ_METAK", "Meta słowa kluczowe");
-define("LANA_FAQ_PREF_1", "Umożliwić złożenie przez nich najczęściej zadawanych pytań:");
-define("LANA_FAQ_PREF_2", "'Zadaj pytanie' jest ograniczona do");
-define("LANA_FAQ_PREF_3", "Klasyczny układ za pomocą");
+define("LANA_FAQ_TAGS_HELP", "Lista tagów oddzielona przecinkami");
+define("LANA_FAQ_METAD", " Meta Description");
+define("LANA_FAQ_METAK", " Meta Keywords");
+
+define("LANA_FAQ_PREF_1", "Wysyłanie pytań FAQ możliwe dla:");
+define("LANA_FAQ_PREF_2", "'Zadaj pytanie' jest ograniczone dla");
+define("LANA_FAQ_PREF_3", "Wybierz styl klasyczny");
+
+?>

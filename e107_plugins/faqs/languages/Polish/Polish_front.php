@@ -1,10 +1,23 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file - admin/lan_eurl.php                       *
+   *                                                                 *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/01/20                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+* 'FAQ plugin' global language definitions
+*/
 
 define("LAN_FAQS_TAGS", "Tagi");
-define("LAN_FAQS_FILTER_ACTIVE", "Filtr aktywny");
-define("LAN_FAQS_NONE_AVAILABLE", "Dostępne są obecnie nie najczęściej zadawane pytania.");
-define("LAN_FAQS_ASKQUESTION_AFTER", "Dziękuję. Twoje pytanie zostało zapisane i odpowie tak szybko, jak to możliwe.");
+define("LAN_FAQS_FILTER_ACTIVE", "Aktywny filtr");
+define("LAN_FAQS_NONE_AVAILABLE", "Obecnie nie ma dostępnych FAQ.");
+define("LAN_FAQS_ASKQUESTION_AFTER", "Dziękujemy. Twoje pytanie zostało zapisane a odpowiedź, zostanie udzielona jak najszybciej.");
+
+?>
