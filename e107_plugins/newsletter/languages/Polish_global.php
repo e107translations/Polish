@@ -1,8 +1,18 @@
 <?php
+/*
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+   * Polish language file                                            *
+	* e107 Polish Team                                                *
+	* www.d4e.pl                                                      *
+	* $Date: 2016/03/30                                               *
+	* $Author: JacekCich                                              *
++--------------------------------------------------------------------+
++====================================================================+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+define("LAN_PLUGIN_NEWSLETTER_NAME", " Newsletter");
+define("LAN_PLUGIN_NEWSLETTER_DESCRIPTION", "Pozwala w prosty i szybki sposób tworzyć i wysyłać e-biuletyny, newslettery itp.");
 
-define("LAN_PLUGIN_NEWSLETTER_NAME", "Biuletyn");
-define("LAN_PLUGIN_NEWSLETTER_DESCRIPTION", "Zapewnia szybki i łatwy sposób, aby skonfigurować i otrzymywać biuletyn.");
+?>
