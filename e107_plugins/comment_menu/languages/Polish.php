@@ -1,4 +1,4 @@
-<?php
+  <?php
 /*
 +====================================================================+
 +--------------------------------------------------------------------+
@@ -12,7 +12,7 @@
 +====================================================================+
 */
 define("CM_L1", "Nie ma jeszcze żadnych komentarzy.");
-define("CM_L2", "");
+define("CM_L2", " ");
 define("CM_L3", "Nagłówek");
 define("CM_L4", "Ilość wyświetlanych komentarzy");
 define("CM_L5", "Ilość wyświetlanych znaków");
