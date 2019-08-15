@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_date.php                             *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -32,7 +28,7 @@ define("LANDT_08s", " min");
 define("LANDT_09", "sek");
 define("LANDT_09s", "sek");
 define("LANDT_AGO", "temu");
-define("LANDT_10", "Właśnie teraz");
-
-
-?>
+define("LANDT_IN", "w");
+define("LANDT_10", "Przed chwilą");
+define("LANDT_XAGO", "[x] temu");
+define("LANDT_INX", "[x]");

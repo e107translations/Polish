@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_fpw.php                              *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -48,11 +44,11 @@ define("LAN_FPW12","i niezwłocznie zmienić hasło ze względów bezpieczeństw
 define("LAN_FPW13", "Prosimy postępować zgodnie z instrukcjami zawartymi w e-mailu, aby zatwierdzić hasło.");
 define("LAN_FPW14", "została wysłana przez kogoś o adresie IP");
 define("LAN_FPW15", "Nie znaczy to jednak, że twoje hasło zostało już zresetowane. Aby tego dokonać, musisz przejść pod odnośnik wskazany poniżej i dokończyć proces resetowania hasła.");
-define("LAN_FPW16", "Jeśli to nie na twoją prośbę rozoczęto proces resetowanie hasła i NIE chcesz go zresetować, możesz po prostu zignorować tę wiadomość");
+define("LAN_FPW16", "Jeśli to nie na twoją prośbę rozpoczęto proces resetowanie hasła i NIE chcesz go zresetować, możesz po prostu zignorować tę wiadomość");
 define("LAN_FPW17", "Poniższy odnośnik będzie ważny przez 48 godzin.");
 define('LAN_FPW18','Zażądano zmiany hasła');
-define('LAN_FPW19','Błąd wysłania email');
-define('LAN_FPW20','Wiadomość email została wysłana poprawnie');
+define('LAN_FPW19','Błąd wysłania e-mail');
+define('LAN_FPW20','Wiadomość e-mail została wysłana poprawnie');
 define('LAN_FPW21','Użytkownik kliknął na odnośnik resetowania hasła');
 
 
@@ -60,4 +56,3 @@ define("LAN_FPW_100", "Nie pamiętasz hasła?");
 define("LAN_FPW_101", "Nie martw się. Po prostu wpisz poniżej swój adres e-mail, a wyślemy Ci e-mail z linkiem do zmiany hasła.");
 define("LAN_FPW_102", "Zmiana Hasła");
 
-?>

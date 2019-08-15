@@ -3,15 +3,11 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/03/30                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
-define("e_PAGETITLE", " Forum");
 define("LAN_FORUM_0002", "Tematy");
 define("LAN_FORUM_0003", "Odpowiedzi");
 define("LAN_FORUM_0004", "Ostatni post");
@@ -88,14 +84,14 @@ define("LAN_FORUM_1002", "Subfora");
 define("LAN_FORUM_1003", "Temat");
 define("LAN_FORUM_1004", "Rozpoczęty");
 define("LAN_FORUM_1005", "Odsłon");
-define("LAN_FORUM_1006", "Ważne tamaty");
+define("LAN_FORUM_1006", "Ważne tematy");
 define("LAN_FORUM_1007", "Tematy forum");
 define("LAN_FORUM_1008", "Obecnie w tym forum nie ma jeszcze żadnych tematów.");
 define("LAN_FORUM_1009", "Moderatorem tego forum jest");
 define("LAN_FORUM_1010", "[popularny]");
 define("LAN_FORUM_1011", "Przyklejony");
 define("LAN_FORUM_1012", "Przyklejony/Zamknięty");
-define("LAN_FORUM_1013", "Ogloszenie");
+define("LAN_FORUM_1013", "Ogłoszenie");
 define("LAN_FORUM_1014", "Temat zamknięty");
 define("LAN_FORUM_1015", "[użytkownik skasowany]");
 define("LAN_FORUM_1016", "Ankieta");
@@ -128,7 +124,7 @@ define("LAN_FORUM_2024", "Zgłoszone posty w temacie");
 define("LAN_FORUM_2025", "Tytuł tematu");
 define("LAN_FORUM_2026", "Zobacz wpis");
 define("LAN_FORUM_2027", "Moderator zostanie powiadomiony o tym temacie. Wyjaśnij w kilku słowach, co jest niedopuszczalne.");
-define("LAN_FORUM_2028", "[Nie] używaj bez powodu, tego forum do kontaktowania się z administartorem.");
+define("LAN_FORUM_2028", "[Nie] używaj bez powodu, tego forum do kontaktowania się z administratorem.");
 define("LAN_FORUM_2029", "Wyślij zgłoszenie");
 define("LAN_FORUM_2030", "Powrót do góry");
 define("LAN_FORUM_2031", "Dołączył");
@@ -173,16 +169,16 @@ define("LAN_FORUM_3026", "Rodzaj tematu");
 define("LAN_FORUM_3028", "Dodaj ankietę");
 define("LAN_FORUM_3038", "Normalny");
 define("LAN_FORUM_3039", "Wyłącz emotikony w tym poście");
-define("LAN_FORUM_3040", "Jeśli chcesz być powiadomiony emailem o odpowiedziach zamieszczonych w tym temacie, zaznacz pole obok");
-define("LAN_FORUM_3041", "Włączenie/wyłączenie śledzenia");
-define("LAN_FORUM_3042", "Nowy Temat");
+define("LAN_FORUM_3040", "Jeśli chcesz być powiadomiony e-mailem o odpowiedziach zamieszczonych w tym temacie, zaznacz pole obok");
+define("LAN_FORUM_3041", "Wł/wył śledzenie tego wątku");
+define("LAN_FORUM_3042", "Nowy temat");
 define("LAN_FORUM_3043", "Dziękujemy");
-define("LAN_FORUM_3045", "Twoja ankieta została pomyślniedodana.");
+define("LAN_FORUM_3045", "Twoja ankieta została pomyślnie dodana.");
 define("LAN_FORUM_3046", "Kliknij tutaj, aby zobaczyć swoją ankietę");
 define("LAN_FORUM_3047", "Twoja wiadomość została pomyślnie dodana.");
 define("LAN_FORUM_3048", "Kliknij tutaj aby zobaczyć swoją wiadomość");
 define("LAN_FORUM_3049", "Twoja odpowiedź została pomyślnie dodana.");
-define("LAN_FORUM_3050", "Punkt podziału");
+define("LAN_FORUM_3050", "Miejsce podziału");
 define("LAN_FORUM_3051", "Nowa lokalizacja");
 define("LAN_FORUM_3052", "Podziel wątek");
 define("LAN_FORUM_4001", "Istnieją nie przeczytane posty");
@@ -198,7 +194,7 @@ define("LAN_FORUM_4012", "Odklej temat");
 define("LAN_FORUM_4013", "Zablokuj temat");
 define("LAN_FORUM_4014", "Odblokuj temat");
 define("LAN_FORUM_CLOSE", "Temat zablokowany.");
-define("LAN_FORUM_OPEN", "Temat ponownie otwwarty.");
+define("LAN_FORUM_OPEN", "Temat ponownie otwarty.");
 define("LAN_FORUM_STICK", "Temat został przyklejony.");
 define("LAN_FORUM_UNSTICK", "Temat odklejony.");
 define("LAN_FORUM_5001", "Ankieta została usunięta.");
@@ -241,31 +237,29 @@ define("LAN_FORUM_8001", "Nowy post został złożony przez [x] w temacie [y] w 
 define("LAN_FORUM_8002", "Proszę kliknąć na poniższy link, aby zobaczyć cały post ...");
 define("LAN_FORUM_8003", "Powiadomienia e-mail na ten temat są obecnie włączone.");
 define("LAN_FORUM_8004", "Powiadomienia e-mail na ten temat są obecnie wyłączone.");
-define("LAN_FORUM_8005", "Teraz śledzisz ten temat.");
-define("LAN_FORUM_8006", "Już nie śledzisz tego tematu.");
+define("LAN_FORUM_8005", "Aktualnie śledzisz ten wątek.");
+define("LAN_FORUM_8006", "Przestałeś śledzić ten wątek.");
 define("LAN_FORUM_8007", "Przyklej");
 define("LAN_FORUM_8008", "Odklej");
 define("LAN_FORUM_8009", "Zablokuj");
 define("LAN_FORUM_8010", "Odblokuj");
-define("LAN_FORUM_8011", "Status");
-define("LAN_FORUM_8012", "Przeglądany przez");
+define("LAN_FORUM_8011", "Oznaczenia");
+define("LAN_FORUM_8012", "Oglądane przez:");
 define("LAN_FORUM_8013", "Opcje");
-define("LAN_FORUM_8014", "Ten post, oraz każdy post poniżej zostanie przeniesiony do nowego wątku / tematu.");
-define("LAN_FORUM_8015", "Ostrzeżenie!");
+define("LAN_FORUM_8014", "Ten post i każdy post pod nim zostanie przeniesiony do nowego wątku/tematu.");
+define("LAN_FORUM_8015", "Uwaga!");
 define("LAN_FORUM_8016", "(Aktualny)");
-define("LAN_FORUM_8017", "Wystąpił problem z wyłączeniem śledzenia.");
+define("LAN_FORUM_8017", "Wystąpił problem podczas wyłączania śledzenia.");
 define("LAN_FORUM_8018", "Wystąpił problem.");
 define("LAN_FORUM_8019", "Nie można usunąć tematu!");
-define("LAN_FORUM_8020", "Temat usunięty");
-define("LAN_FORUM_8021", "Wpis usunięty");
-define("LAN_FORUM_8022", "Nie można usunąć wpisu.");
-define("LAN_FORUM_8023", "Błąd zamknięcia wątku.");
-define("LAN_FORUM_8024", "Błąd otwierania wątku.");
-define("LAN_FORUM_8025", "Błąd przyklejenia wątku.");
-define("LAN_FORUM_8026", "Błąd odklejenia wątku.");
-define("LAN_FORUM_8027", "Brak wybranej akcji.");
+define("LAN_FORUM_8020", "Usunięty temat");
+define("LAN_FORUM_8021", "Usunięty post");
+define("LAN_FORUM_8022", "Post nie może zostać usunięty");
+define("LAN_FORUM_8023", "Wątek nie może zostać usunięty");
+define("LAN_FORUM_8024", "Wątek nie może zostać otworzony");
+define("LAN_FORUM_8025", "Wątek nie może zostać przyklejony");
+define("LAN_FORUM_8026", "Wątek nie może zostać odklejony");
+define("LAN_FORUM_8027", "Nie została zaznaczona żadna akcja");
 define("LAN_FORUM_8028", "Powrót");
-define("LAN_FORUM_8029", "Utworzono nowy wątek !");
-
-
-?>
+define("LAN_FORUM_8029", "Utworzono nowy temat!");
+define("LAN_FORUM_8030", "Post nie może zostać usunięty (wymagane są uprawnienia moderatora)");

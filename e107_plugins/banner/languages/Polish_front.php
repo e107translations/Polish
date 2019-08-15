@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -24,7 +21,4 @@ define("BANNERLAN_28", "Pozostało wyświetleń");
 define("BANNERLAN_30", "Bez limitu");
 define("BANNERLAN_31", "Nie dotyczy");
 define("BANNERLAN_35", "Adresy IP klikających");
-define("BANNERLAN_39", "Brak obrazu przypisanego do tego banera");
-
-
-?>
+define("BANNERLAN_39", "Brak obrazu przypisanego do tego banera.");

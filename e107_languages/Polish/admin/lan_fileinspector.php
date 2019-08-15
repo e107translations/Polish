@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_fileinspector.php              *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -27,19 +24,19 @@ define("FC_LAN_19", "Pokaż numer linii");
 define("FC_LAN_20", "Pokaż powiązane linie");
 define("FC_LAN_21", "stare pliki rdzenia");
 define("FC_LAN_23", "Wyklucz pliki językowe");
-define("FC_LAN_24", "Folder rdzenia (Pozytywna integralność)");
-define("FC_LAN_25", "Folder rdzenia (Błędna integralność)");
-define("FC_LAN_26", "Folder rdzenia (Brakujące)");
-define("FC_LAN_27", "Folder rdzenia (Stare)");
-define("FC_LAN_28", "Folder inny niż rdzenia");
-define("FC_LAN_29", "Plik rdzenia (Pozytywna integralność)");
-define("FC_LAN_30", "Plik rdzenia (Nie zaznaczone)");
-define("FC_LAN_31", "Plik rdzenia (Błędna integralność)");
-define("FC_LAN_32", "Plik rdzenia (Brakujący)");
-define("FC_LAN_33", "Plik rdzenia (Stary)");
-define("FC_LAN_34", "Plik rdzenia (Nieoszacowany)");
-define("FC_LAN_35", "Znane problemy dotyczące zabezpieczeń");
-define("FC_LAN_36", "Plik inny niż rdzenia");
+define("FC_LAN_24", "Folder główny (poprawne)");
+define("FC_LAN_25", "Folder główny (błędne)");
+define("FC_LAN_26", "Folder główny (brakujące)");
+define("FC_LAN_27", "Folder główny (przestarzałe)");
+define("FC_LAN_28", "Folder inny niż główny");
+define("FC_LAN_29", "Plik główny (poprawne)");
+define("FC_LAN_30", "Plik główny (niesprawdzone)");
+define("FC_LAN_31", "Plik główny (błędne)");
+define("FC_LAN_32", "Plik główny (brakujące)");
+define("FC_LAN_33", "Plik główny (przestarzałe)");
+define("FC_LAN_34", "Plik główny (nieobliczalne)");
+define("FC_LAN_35", "Znany problem bezpieczeństwa");
+define("FC_LAN_36", "Plik inny niż główny");
 define("FC_LAN_37", "Klucz pliku");
 define("FR_LAN_1", "Skanowanie");
 define("FR_LAN_2", "Wynik skanowania");
@@ -68,7 +65,7 @@ define("FR_LAN_25", "Spójność niesprawdzona");
 define("FR_LAN_26", "Uwaga! Wykryto zagrożenie bezpieczeństwa!");
 define("FR_LAN_27", "Na Twoim serwerze znajdują się pliki rozpoznane jako exploity w celu zachowania bezpieczeństwa usuń je niezwłocznie.");
 define("FR_LAN_28", "Rozpoznane niebezpieczne pliki");
-define("FR_LAN_32", "Najpierw musisz uruchomić skanowanie");
+define("FR_LAN_32", "Musisz najpierw przeskanować zawartość!");
 define("FS_LAN_1", "Tworzenie zrzutu ekranowego");
 define("FS_LAN_2", "Bezwzględna ścieżka do katalogu głównego do tworzenia obrazu z");
 define("FS_LAN_3", "Utwórz obraz dla wtyczki: (Twoja wtyczka będzie wymieniona gdy zapisywalny plik e_inspect.php będzie istnieć w głównym folderze wtyczek.)");
@@ -81,6 +78,3 @@ define("FS_LAN_9", "Migawka");
 define("FS_LAN_10", "Migawka została utworzona");
 define("FS_LAN_11", "Migawka została pomyślnie utworzona.");
 define("FS_LAN_12", "Powrót do strony głównej");
-
-
-?>

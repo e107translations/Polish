@@ -4,34 +4,21 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file - admin/lan_eurl.php                       *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 
-/**
- *	e107 Alternate authorisation plugin
- *
- *	@package	e107_plugins
- *	@subpackage	alt_auth
- *	@version 	$Id$;
- */
-
 define('LAN_RADIUS_01', 'Adres serwera');
-define('LAN_RADIUS_02', 'Wspólne hasło');
+define('LAN_RADIUS_02', 'Klucz współdzielony');
 define('LAN_RADIUS_03', 'Użytkownik serwera');
 define('LAN_RADIUS_04', 'Hasło serwera');
-define('LAN_RADIUS_06', 'Konfigurowanie uwierzytelniania RADIUS');
-define('LAN_RADIUS_11', 'UWAGA:  Wydaje się, że moduł RADIUS nie jest aktualnie dostępny; Ustawienia metody uwierzytelniających RADIUS prawdopodobnie nie działają!');
+define('LAN_RADIUS_06', 'Konfiguracja uwierzytelniania RADIUS');
+define('LAN_RADIUS_11', 'OSTRZEŻENIE: Wygląda na to, że moduł RADIUS nie jest obecnie dostępny; ustawienie metody autoryzacji na RADIUS prawdopodobnie nie zadziała!');
 
 
-define('LAN_AUTHENTICATE_HELP','Ta metoda uwierzytelniania jest używana z zewnętrznego serwera RADIUS. Wymaga ona włączonego rozszerzenia PHP RADIUS. <br />
-  Należy pamiętać, że serwer RADIUS może zezwolić na dostęp z określonego zakresu adresów IP.');
+define('LAN_AUTHENTICATE_HELP','Ta metoda uwierzytelniania jest używana z zewnętrznym serwerem RADIUS. Wymaga włączenia rozszerzenia RADIUS PHP.<br />Pamiętaj, że serwer RADIUS może zezwalać na dostęp tylko z określonego zakresu adresów IP.');
 
 
 ?>

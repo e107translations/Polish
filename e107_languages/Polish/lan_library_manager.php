@@ -3,12 +3,9 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file - admin/lan_eurl.php                       *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2017/03/20                                               *
-	* $Author: JacekCich                                              *
+   * Polish language file - lan_eurl.php                	         *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -23,14 +20,11 @@ define("LAN_LIBRARY_MANAGER_08", "niezgodna zależność");
 define("LAN_LIBRARY_MANAGER_10", "nie wykryto");
 define("LAN_LIBRARY_MANAGER_11", "Nieobsługiwany");
 define("LAN_LIBRARY_MANAGER_13", "Biblioteka");
-define("LAN_LIBRARY_MANAGER_21", "Dostarcza");
-define("LAN_LIBRARY_MANAGER_25", "Inne biblioteki");
-define("LAN_LIBRARY_MANAGER_27", "Nazwa maszyny: [x]");
+define("LAN_LIBRARY_MANAGER_21", "Autor");
+define("LAN_LIBRARY_MANAGER_25", "Biblioteki zewnętrzne");
+define("LAN_LIBRARY_MANAGER_27", "Nazwa silnika: [x]");
 define("LAN_LIBRARY_MANAGER_28", "Ścieżka do biblioteki: [x]");
-define("LAN_LIBRARY_MANAGER_29", "Ścieżka do biblioteki");
+define("LAN_LIBRARY_MANAGER_29", "Adres biblioteki");
 define("LAN_LIBRARY_MANAGER_30", "Ustawienia CDN");
-define("LAN_LIBRARY_MANAGER_31", "Użyj ustawień biblioteki CDN rdzenia");
-define("LAN_LIBRARY_MANAGER_32", "Dostarcza CDN");
-
-
-?>
+define("LAN_LIBRARY_MANAGER_31", "Używane CDN w bibliotekach systemu");
+define("LAN_LIBRARY_MANAGER_32", "Autor CDN");

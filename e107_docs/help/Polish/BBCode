@@ -1,0 +1,12 @@
+
+Q>	Co to jest BBCode?
+A>	BBCode stanowi zbiór skrótowych znaczników HTML, na przykład wpisując &#91;b] To jest pogrubiony tekst! &#91;/b] w jednym z pól tekstowych panelu administracyjnego spowodujesz, że tekst umieszczony pomiędzy znacznikami &#91;b] oraz &#91;/b] zostanie pogrubiony, w związku z czym wyrażenie [b]To jest pogrubiony tekst![/b] zostanie wyświetlone na ekranie w stylu pogrubionym.
+
+Q>	Do czego służy?
+A>	Narzędzie to zaoszczędzi Ci czas podczas wpisywania znaczników HTML. Możesz używać normalnych znaczników HTML w polach przeznaczonych do tego, lecz używając BBCode rzeczywiście przyspieszysz wprowadzanie swojego tekstu.
+
+Q>	Kiedy klikam w jeden z przycisków znaczników BBCode, aby wprowadzić kod, to zostaje on umieszczony na końcu mojego tekstu, a nie tam gdzie jest aktualnie kursor - dlaczego tak się dzieje?
+A>	Jest to spowodowane błędem w działaniu Internet Explorer&#39;a, który może ulec destabilizacji przy próbie wprowadzenia kody w miejscu kursora, w związku z czym w celu zachowania kompatybilności kod jest umieszczany na końcu edytowanego tekstu.
+
+Q>	Jakich znaczników BBCodes mogę używać?
+A>	Najeżdżając wskaźnikiem myszy na jeden z przycisków BBCode, ujrzysz krótkie wyjaśnienie pokazane tuż nad tymi przyciskami. Wśród znaczników są tagi dla linków URL - &#91;url] &#91;/url] oraz email - &#91;email] &#91;/email]. Pomimo tego używanie normalnych znaczników HTML jest możliwe i wskazane według konieczności. Wszystkie wprowadzone adresy internetowe oraz adresy email zostaną automatycznie przerobione na klikalne linki (hiperłącza).

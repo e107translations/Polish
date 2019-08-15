@@ -1,18 +1,17 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_cron.php                       *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
+
+if (!defined("PAGE_NAME")) { define("PAGE_NAME", "Harmonogram zadań"); }
+
 define("LAN_CRON_M_02", "Odśwież");
 define("LAN_CRON_2", "Funkcja");
 define("LAN_CRON_3", " Tab");
@@ -43,7 +42,7 @@ define("LAN_CRON_16", "Użyj panelu kontrolnego swojego serwera (eg. cPanel, Dir
 define("LAN_CRON_20_1", "Sprawdzenie aktualizacji e107");
 define("LAN_CRON_20_2", "Kontrola e107.org w celu sprawdzenia aktualizacji systemu");
 define("LAN_CRON_20_3", "Zalecane, aby utrzymywać system aktualny.");
-define("LAN_CRON_20_4", "Zaktualizuj Git repository");
+define("LAN_CRON_20_4", "Zaktualizuj repozytorium Github");
 define("LAN_CRON_20_5", "Zaktualizuj e107 najnowszymi plikami z github.");
 define("LAN_CRON_20_6", "Zalecane tylko dla programistów.");
 define("LAN_CRON_20_8", "Może spowodować niestabilność systemu!");
@@ -65,14 +64,16 @@ define("LAN_CRON_51", "Godzina(godziny):");
 define("LAN_CRON_52", "Dzień(dni):");
 define("LAN_CRON_53", "Miesiąc(miesięcy):");
 define("LAN_CRON_54", "Dzień tygodnia(dni):");
-define("LAN_CRON_60", "Odwiedź cPanel");
-define("LAN_CRON_61", "Wygeneruj nowe hasło cron");
-define("LAN_CRON_62", "Wykonywanie funkcji konfiguracyjnych [b][x][/b]");
-define("LAN_CRON_63", "Funkcje konfiguracyjne [b][x][/b] NIE znalezione");
-define("LAN_CRON_64", "Administrator może zautomatyzować zadania przy użyciu zadań harmonogramu e107. [br] Na karcie Zarządzanie można edytować, usuwać i uruchamiać zadania. [br] Podczas edytowania zadania można ustawić minuty, godziny, dni, miesiąc lub dzień tygodnia, na które ma być uruchamiane zadanie. Użyj *, aby uruchomić dla każdego okresu. Użyj właściwości Aktywność, aby włączyć zadanie. [br] Uwaga: Zaleca się, aby nie usuwać standardowych zadań. [br]");
+define("LAN_CRON_55", "Kopia bazy danych - nieudana");
+define("LAN_CRON_56", "Kopia bazy danych - kompletna");
+define("LAN_CRON_60", "Przejdź do cPanel");
+define("LAN_CRON_61", "Wygeneruj nowe hasło dla cron");
+define("LAN_CRON_62", "Wykonywanie funkcji konfiguracyjnej [b][x][/b]");
+define("LAN_CRON_63", "Konfiguracja funkcji [b][x][/b] nie została znaleziona.");
+define("LAN_CRON_64", "Administrator może automatyzować zadania za pomocą Harmonogramu zadań. [br] W zakładce Harmonogram zadań możesz edytować, usuwać i uruchamiać zadania. [br] Podczas edycji zadania można ustawić minuty, godziny, dni, miesiące lub dni tygodnia, w których zadanie ma zostać uruchomione. Użyj *, aby uruchomić zadanie dla każdego okresu. Użyj właściwości Active, aby włączyć zadanie. [b]Uwaga: Zaleca się, aby nie usuwać standardowych zadań.[/b]");
 define("LAN_CRON_BACKUP", "Kopia");
 define("LAN_CRON_LOGGING", "Logowanie");
-define("LAN_CRON_RUNNING", "Działający");
-
-
-?>
+define("LAN_CRON_RUNNING", "Bieg");
+define("LAN_CRON_65", "Zaktualizuj repozytorium motywu git");
+define("LAN_CRON_66", "Brak repozytorium motywu git");
+define("LAN_CRON_67", "Brak repozytorium motywu git w folderze szablonu");

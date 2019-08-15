@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_header.php                     *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -20,5 +17,3 @@ define("LAN_HEADER_04", "Panel administratora");
 define("LAN_HEADER_05", "Język panelu admina: ");
 define("LAN_HEADER_06", "Informacje o wtyczkach");
 
-
-?>

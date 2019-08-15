@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_news.php                             *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -28,7 +24,7 @@ define("LAN_NEWS_17", " b.");
 define("LAN_NEWS_18", "Informacje:");
 define("LAN_NEWS_19", "Teraz");
 define("LAN_NEWS_23", "Kategorie aktualności");
-define("LAN_NEWS_24", "Pobierz w postaci pdf");
+define("LAN_NEWS_24", "Pobierz w postaci pliku pdf");
 define("LAN_NEWS_31", "Przypięty");
 define("LAN_NEWS_82", "Newsy - Kategoria");
 define("LAN_NEWS_83", "Obecnie nie ma żadnych nowości - zajrzyj tu później.");
@@ -37,10 +33,8 @@ define("LAN_NEWS_85", "Powrót do listy kategorii");
 define("LAN_NEWS_86", "Starsze newsy");
 define("LAN_NEWS_87", "Nowsze newsy");
 define("LAN_NEWS_462", "Brak wiadomości dla wskazanego miesiąca");
-define("LAN_NEWS_463", "Brak wiadomości w zaznaczonej kategorii - proszę sprawdzić wkrótce");
+define("LAN_NEWS_463", "W tej kategorii nie ma jeszcze newsów. Sprawdź ją za jakiś czas.");
 define("LAN_NEWS_100", "dnia");
 define("LAN_NEWS_307", "Wszystkich postów w kategorii:");
-define("LAN_NEWS_308", "Być może zainteresuje Cię któraś z tych wiadomości ?");
-
-
-?>
+define("LAN_NEWS_308", "Może szukasz jednej z poniższych wiadomości?");
+define("LAN_NEWS_309", "Tagi");

@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - e107_languages/Polish/Polish.php         *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -42,14 +38,14 @@ define("EMESSLAN_TITLE_ERROR", "Błąd");
 define("EMESSLAN_TITLE_SUCCESS", "Sukces");
 define("EMESSLAN_TITLE_WARNING", "Ostrzeżenie");
 define("EMESSLAN_TITLE_DEBUG", "System Debuger");
-define("LAN_NO_PERMISSIONS", "Nie posiadasz odpowiednich uprawnień do przeglądania tej strony.");
+define("LAN_NO_PERMISSIONS", "Nie masz uprawnień do przeglądania tej strony.");
 define("LAN_EDIT", "Edytuj");
 define("LAN_DELETE", "Skasuj");
 define("LAN_DEFAULT", "Domyślny");
 define("LAN_MORE", "Więcej..");
 define("LAN_LESS", "..Mniej");
 define("LAN_READ_MORE", "Czytaj całość..");
-define("LAN_GOPAGE", "Idź do strony [x]");
+define("LAN_GOPAGE", "Idź do strony");
 define("LAN_GOTOPAGEX", "Idź do strony [x]");
 define("LAN_GO", "Przejdź");
 define("LAN_SUBMIT", "Wyślij");
@@ -61,7 +57,7 @@ define("LAN_EMAIL_SUBS", "-e-mail-");
 define("LAN_ACTIVE", "Aktywny");
 define("LAN_YES", "Tak");
 define("LAN_NO", "Nie");
-define("LAN_OK", " OK.");
+define("LAN_OK", "OK.");
 define("LAN_ACTIONS", "Akcje");
 define("LAN_THANK_YOU", "Dziękujemy");
 define("LAN_CONTINUE", "Kontynuacja");
@@ -69,8 +65,8 @@ define("LAN_ENTER", "Wpisz");
 define("LAN_ENTER_CODE", "Wpisz kod");
 define("LAN_INVALID_CODE", "Błędnie wpisany kod.");
 define("LAN_SEARCH", "Szukaj");
-define("LAN_VIEW", "Podgląd");
-define("LAN_CLICK_TO_VIEW", "Kliknij by zobaczyć");
+define("LAN_VIEW", "Pogdląd");
+define("LAN_CLICK_TO_VIEW", "Podgląd");
 define("LAN_SORT", "Sortowanie");
 define("LAN_ORDER_BY", "Kolejność jako");
 define("LAN_ASCENDING", "Rosnąco");
@@ -82,12 +78,13 @@ define("LAN_DESCRIPTION", "Opis");
 define("LAN_CANCEL", "Zrezygnuj");
 define("LAN_DATE", "Data");
 define("LAN_DATE_POSTED", "Napisano");
-define("LAN_POSTED_BY", "Napisane przez");
+define("LAN_POSTED_BY", "Autor");
 define("LAN_JSCONFIRM", "Czy jesteś pewien ?");
-define("LAN_IP", " IP");
+define("LAN_IP", "Adres IP");
 define("LAN_IP_ADDRESS", "Adres IP");
 define("LAN_AUTHOR", "Autor");
 define("LAN_CATEGORY", "Kategoria");
+define("LAN_CATEGORIES", "Kategorie");
 define("LAN_GUEST", "Gość");
 define("LAN_NEXT", "Następne");
 define("LAN_PREVIOUS", "Poprzednie");
@@ -99,14 +96,15 @@ define("LAN_INCORRECT_PASSWORD", "Nieprawidłowe hasło");
 define("LAN_TYPE", "Typ");
 define("LAN_SCREENSHOT", "Zrzut ekranowy");
 define("LAN_FILE", "Plik");
-define("LAN_YOUTUBE_VIDEO", "Wideo Youtube");
-define("LAN_YOUTUBE_PLAYLIST", "Playlista Youtube");
+define("LAN_YOUTUBE_VIDEO", "Wideo You Tube");
+define("LAN_YOUTUBE_PLAYLIST", "Playlista You Tube");
 define("LAN_FILETYPES", "Typ pliku");
 define("LAN_FILE_NOT_FOUND", "Plik nie znaleziony");
 define("LAN_FILES", "Pliki");
 define("LAN_SIZE", "Rozmiar");
 define("LAN_VERSION", "Wersja");
 define("LAN_DOWNLOAD", "Pobierz");
+define("LAN_DOWNLOAD_NO_PERMISSION", "Plik nie istnieje lub nie masz uprawnień do jego pobrania!");
 define("LAN_WEBSITE", "Strona www");
 define("LAN_COMMENTS", "Komentarze");
 define("LAN_LOCATION", "Lokalizacja");
@@ -115,22 +113,23 @@ define("LAN_RATING", "Ocena");
 define("LAN_IMAGE", "Obraz");
 define("LAN_ABOUT", "Informacje");
 define("LAN_TITLE", "Tytuł");
-define("LAN_MESSAGE", "Wiadamość");
+define("LAN_MESSAGE", "Wiadomość");
 define("LAN_USER", "Użytkownik");
 define("LAN_EMAIL", "Adres e-mail");
 define("LAN_WROTE", "napisał/a");
 define("LAN_RE_ORDER", "Ponowne sortowanie");
 define("LAN_RELATED", "Powiązany");
 define("LAN_CLOSE", "Zamknij");
-define("LAN_EXPAND", "Rozszerz");
-define("LAN_ENTER_USRNAME_EMAIL", "Proszę wpisać swoją nazwę użytkownikalub e-mail");
+define("LAN_EXPAND", "Rozwiń");
+define("LAN_LIST", "Lista");
+define("LAN_DATESTAMP", "Data");
+define("LAN_SUBJECT", "Podrzędny");
+define("LAN_ENTER_USRNAME_EMAIL", "Proszę wpisać swoją nazwę użytkownika lub e-mail");
 define("LAN_PWD_REQUIRED", "Hasło jest wymagane");
 define("LAN_SHOW", "Pokaż");
 define("LAN_GENERATE", "Wygeneruj");
 define("LAN_SUMMARY", "Podsumowanie");
 define("LAN_REQUIRED_BLANK", "Wymagane pole/a zostały puste.");
-define("LAN_PLEASEWAIT", "Proszę czekać");
+define("LAN_PLEASEWAIT", "Proszę poczekać...");
 define("LAN_CHOOSE_FILE", "Wybierz plik");
-
-
-?>
+define("LAN_REQUIRED", "Wymagane");

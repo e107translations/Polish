@@ -4,24 +4,21 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_upload.php                     *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 define("UPLLAN_1", "Nadesłany plik usunięto z listy.");
 define("UPLLAN_2", "Ustawienia zapisano w bazie danych");
-define("UPLLAN_4", "Nic się niezmieniło - nic nie zaktualizowano");
+define("UPLLAN_4", "Nic się nie zmieniło - nic nie zaktualizowano");
 define("UPLLAN_5", "Nadawca");
 define("UPLLAN_7", "Strona domowa");
 define("UPLLAN_14", " Demo");
 define("UPLLAN_16", "Kopiuj do formularza aktualności");
 define("UPLLAN_17", "usuń nadesłane pliki z listy");
 define("UPLLAN_18", "Wyświetl szczegóły");
-define("UPLLAN_19", "Obeznie nie ma żadnych plików do sprawdzenia");
+define("UPLLAN_19", "Obecnie nie ma żadnych plików do sprawdzenia");
 define("UPLLAN_20", "Obecnie");
 define("UPLLAN_21", "Niezweryfikowane pliki przesłane przez użytkowników");
 define("UPLLAN_24", "Rodzaj pliku");
@@ -39,7 +36,7 @@ define("UPLAN_IS", "jest");
 define("UPLAN_ARE", "są");
 define("UPLAN_COPYTODLS", "Kopiuj do działu pobierania");
 define("UPLLAN_51", "Lista nadesłanych");
-define("UPLLAN_52", "Strona ta umożliwia utworzenie pliku do zarządzania uprawnieniami przesyłania plików. Plik zostanie zapisany jako --SOURCE--, i musi być skopiowany --DEST-- zanim będzie widoczne.");
+define("UPLLAN_52", "Strona ta umożliwia utworzenie pliku do zarządzania uprawnieniami przesyłania plików. Plik zostanie zapisany jako [x], i musi być skopiowany [y] zanim będzie widoczne.");
 define("UPLLAN_54", "Rozszerzenia plików");
 define("UPLLAN_55", "Maksymalny rozmiar pliku");
 define("UPLLAN_56", "Generowanie pliku");
@@ -52,8 +49,5 @@ define("UPLLAN_63", "Przeniesiono do działu pobrań. [x]");
 define("UPLLAN_64", "Zarządzanie downloadem");
 define("UPLLAN_66", "Błąd ścieżki pobierania");
 define("UPLLAN_68", "Błąd SQL:");
-define("UPLLAN_69", "Zaimportowane");
+define("UPLLAN_69", "Zaimportowano");
 define("UPLLAN_70", "Wyślij do [x]");
-
-
-?>

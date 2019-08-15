@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/03/22                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -37,7 +34,7 @@ define('ADLAN_PM_21', "Powiadomienia w oknie popup dla nowych wiadomości");
 define('ADLAN_PM_22', "Opóźnienie wyskakującego okienka");
 define('ADLAN_PM_23', "Ogranicz używanie Wiadomości Prywatnych do");
 define('ADLAN_PM_24', "Ilość wiadomości prywatnych wyświetlanych na stronie");
-define('ADLAN_PM_25', "Aktywuj powiadomienia email o wiadomościach prywatnych");
+define('ADLAN_PM_25', "Aktywuj powiadomienia e-mail o wiadomościach prywatnych");
 define('ADLAN_PM_26', "Zezwalaj użytkownikom na żądanie potwierdzenia przeczytania wiadomości za pośrednictwem powiadomień email");
 define('ADLAN_PM_27', "Zezwól na dołączanie załączników");
 define('ADLAN_PM_28', "Maksymalny rozmiar załącznika");
@@ -73,7 +70,7 @@ define("ADLAN_PM_64", "Wiadomości otrzymane");
 define("ADLAN_PM_65", "Zablokowani użytkownicy");
 define("ADLAN_PM_66", "Brak zaplanowanych zadań konserwacji");
 define("ADLAN_PM_67", "Rozpocznij konserwację WP bazy danych");
-define("ADLAN_PM_68", "--COUNT-- blokad zablokowannych użytkowników usunięto.");//blocks to deleted users removed
+define("ADLAN_PM_68", "--COUNT-- blokad zablokowanych użytkowników usunięto.");//blocks to deleted users removed
 define("ADLAN_PM_69", "--COUNT-- blokad ze skasowanych użytkowników usunięto.");//blocks from deleted users removed
 define("ADLAN_PM_70", "Błąd bazy danych --NUM--: --TEXT-- usuwanie blokad użytkowników.");
 define("ADLAN_PM_71", "Komunikaty o upłynięciu terminu");

@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Language name="Polish" compatibility="2.1.5" date="2017-03-31" >
-<author name ="JacekCich" email="jacek_cich@poczta.fm" url="www.it-es.pl" />
+<e107Language name="Polish" compatibility="2.2.1" date="2019-08-14" >
+<author name ="JacekCich and akogo" email="nakogo@gmail.com" url="https://e107.org/" />
 </e107Language>

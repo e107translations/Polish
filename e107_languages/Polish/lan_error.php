@@ -1,20 +1,16 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_error.php                            *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 define("PAGE_NAME", "Błąd");
-define("LAN_ERROR_TITLE", "Coś nie tak ?!");
+define("LAN_ERROR_TITLE", "Coś poszło nie tak!");
 define("LAN_ERROR_1", "Błąd 401 - Uwierzytelnienie nie powiodło się");
 define("LAN_ERROR_2", "Żądany adres WWW wymaga poprawnego loginu i hasła. Wprowadzono nieprawidłowy login i hasło, albo używana przeglądarka nie wspiera tej funkcji.");
 define("LAN_ERROR_3", "Prosimy poinformować administratora strony odsyłającej, jeśli sądzisz, że ta strona błędu została wyświetlona przez pomyłkę.");
@@ -59,7 +55,8 @@ define("LAN_ERROR_42", "Dodatkowe informacje o błędzie:");
 define("LAN_ERROR_43", "Strona chwilowo niedostępna");
 define("LAN_ERROR_44", "Logo strony");
 define("LAN_ERROR_45", "Co możesz teraz zrobić?");
-define("LAN_ERROR_46", "Sprawdź logi aby uzuskać więcej informacji.");
-
-
-?>
+define("LAN_ERROR_46", "Sprawdź logi aby uzyskać więcej informacji.");
+define("LAN_ERROR_47", "News powinien posiadać tytuł!");
+define("LAN_ERROR_48", "Pole SEF URL newsa powinno zostać uzupełnione!");
+define("LAN_ERROR_49", "Pole SEF URL newsa powinno zawierać unikalną wartość. Ta którą właśnie wpisałeś została już użyta. Zmień ją koniecznie.");
+define("LAN_ERROR_50", "Kategoria newsa nie może być pusta!");

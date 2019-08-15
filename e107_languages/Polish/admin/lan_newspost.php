@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_newspost.php                   *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -87,9 +84,9 @@ define("NWSLAN_120", "Wiadomość dla osób nasyłających aktualności");
 define("NWSLAN_121", "Nic nie znaleziono dla %s");
 define("NWSLAN_123", "Napisane");
 define("NWSLAN_127", "Domyślny szablon");
-define("NWSLAN_128", "Ustaw ciąg URL do wykorzystania na stronach wiadomości. Będzie prawidłowo działał tylko wtedy gdy reguły w .htaccess oraz <a href='%s'>eURL config</a><br />zapisano na podstawie bierzącej wartości:");
+define("NWSLAN_128", "Ustaw ciąg URL do wykorzystania na stronach wiadomości. Będzie prawidłowo działał tylko wtedy gdy reguły w .htaccess oraz <a href='%s'>eURL config</a><br />zapisano na podstawie bieżącej wartości:");
 define("LAN_NEWS_23", "Wybierz grafikę dla tej aktualności");
-define("LAN_NEWS_28", "Przyklej");
+define("LAN_NEWS_28", "News przyklejony?");
 define("LAN_NEWS_29", "Wybierz jeśli chcesz, aby aktualność była przyklejona");
 define("LAN_NEWS_30", "Jeśli zaznaczysz, aktualność będzie pokazywana ponad wszystkimi innymi");
 define("LAN_NEWS_32", "Data dodania");
@@ -101,11 +98,8 @@ define("LAN_NEWS_49", "Metoda prezentacji");
 define("LAN_NEWS_51", "Modyfikacja autora nowości może być wykonane przez:");
 define("LAN_NEWS_52", "Informacje ogólne");
 define("LAN_NEWS_53", "Zaawansowane opcje");
-define("LAN_NEWS_54", "pozostań w trybie edycji");
 define("LAN_NEWS_55", "Konserwacja");
-define("LAN_NEWS_56", "Ponownie przelicz ilość komentarzy");
 define("LAN_NEWS_57", "Wykonaj");
-define("LAN_NEWS_58", "Zaktualizowano pomyślnie - --UPDATE-- komentarzy zaktualizowano, --DELETED-- niedozwolonych komentarzy usunięto");
 define("LAN_NEWS_59", "Konserwacja nowości");
 define("LAN_NEWS_60", "Łącznie komentarzy");
 define("LAN_NEWS_61", "Usuń również niedozwolone komentarze");
@@ -113,7 +107,6 @@ define("LAN_NEWS_62", "Błąd dostępu do bazy danych lub brak pozycji nowości"
 define("LAN_NEWS_63", "Utwórz kategorię");
 define("LAN_NEWS_64", "Starsze nadesłane");
 define("LAN_NEWS_65", "Proszę wybrać unikalny SEF URL ciąg dla tej kategorii");
-define("LAN_NEWS_66", " ");
 define("LAN_NEWS_67", "Zamknij");
 define("LAN_NEWS_68", "Nadesłane pozycje");
 define("LAN_NEWS_69", "Domyślny obszar");
@@ -133,21 +126,18 @@ define("LAN_NEWS_93", "Lista zawartości");
 define("LAN_NEWS_94", "Pozycje przypisane do tych szablonów będą wyświetlane na liście.");
 define("LAN_NEWS_95", "Jeszcze jedna pozycja aktualności używa adresu SEF: [x]");
 define("LAN_NEWS_96", "Zatwierdź");
-define("LAN_NEWS_97", "Menu aktualności");
-define("LAN_NEWS_98", "Pingowanie serwisu");
+define("LAN_NEWS_97", "Siatka w menu wiadomości");
+define("LAN_NEWS_98", "Usługi pingowania");
 define("LAN_NEWS_99", "Akceptuj tylko obrazy większe niż");
 define("LAN_NEWS_100", "Dowolny rozmiar");
-define("LAN_NEWS_101", "Prześlij wiadomości");
-define("LAN_NEWS_102", "Otwórz w nowej karcie");
-define("LAN_NEWS_103", "Powiadomienia e-mail");
-define("LAN_NEWS_104", "Wywoływanie powiadomienia e-mail po przesłaniu tego formularza.");
-define("LAN_NEWS_105", "Wyświetlenie powiadomienia e-mailowego");
-define("LAN_NEWS_106", "Widoczność elementów wiadomości musi zawierać 'wszyscy' dla powiadomień e-mail .");
-define("LAN_NEWS_107", "Sprawdzanie statusu pingowania");
-define("LAN_NEWS_108", "Adres url SEF jest inny niż tytuł wiadomości.");
-define("LAN_NEWS_109", "Wywoływanie powiadomienia e-mail po przesłaniu tego formularza.");
-define("LAN_NEWS_110", "Limit czasu pamięci Cache ");
-define("LAN_NEWS_111", "Czas w min. Dotyczy tylko wtedy, gdy jest włączona pamięć podręczna systemu.");
-
-
-?>
+define("LAN_NEWS_101", "Przesyłanie aktualności");
+define("LAN_NEWS_102", "Otwórz w nowej zakładce");
+define("LAN_NEWS_103", "Powiadomienie e-mail");
+define("LAN_NEWS_104", "Wymuszaj powiadomienie e-mail po przesłaniu tego formularza.");
+define("LAN_NEWS_105", "Uruchomiono powiadomienie e-mail!");
+define("LAN_NEWS_106", "Widoczność wiadomości musi zawierać „Wszyscy” dla powiadomień e-mail.");
+define("LAN_NEWS_107", "Sprawdzanie statusu ping");
+define("LAN_NEWS_108", "Adres URL SEF jest inny niż tytuł wiadomości.");
+define("LAN_NEWS_109", "Wymuszaj powiadomienie e-mail po przesłaniu tego formularza.");
+define("LAN_NEWS_110", "Limit czasu pamięci podręcznej wiadomości");
+define("LAN_NEWS_111", "Czas w minutach. Dotyczy tylko gdy włączona jest pamięć podręczna systemu.");

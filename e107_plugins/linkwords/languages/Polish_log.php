@@ -3,15 +3,11 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
-
 // Admin log related
 define("LAN_AL_LINKWD_00", "Linki wyrazowe-powiązane wiadomości");
 define("LAN_AL_LINKWD_01", "Dodane linki wyrazowe");

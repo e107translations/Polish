@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_signup.php                           *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -27,7 +23,7 @@ define("LAN_SIGNUP_8", "Dziękujemy!");
 define("LAN_SIGNUP_9", "Nie można kontynuować.");
 define("LAN_SIGNUP_11", " .");
 define("LAN_SIGNUP_12", "Proszę zachować swoje hasło i login w bezpiecznym miejscu, ponieważ w wypadku zgubienia podanych danych, odzyskanie ich będzie niemożliwe.");
-define("LAN_SIGNUP_13", "Możesz się teraz zalogować za pomocą Menu Login lub ze strony [here].");
+define("LAN_SIGNUP_13", "Możesz się teraz zalogować za pomocą Menu Login lub ze strony [tutaj].");
 define("LAN_SIGNUP_14", "tutaj");
 define("LAN_SIGNUP_15", "Proszę skontaktować się z głównym administratorem witryny");
 define("LAN_SIGNUP_16", "jeśli wymagana jest pomoc.");
@@ -46,7 +42,7 @@ define("LAN_SIGNUP_37", "Ten etap rejestracji został zakończony. Administrator
 define("LAN_SIGNUP_38", "Wpisano dwa różne adresy e-mail. Wprowadź identyczne adres e-mail w wymaganych polach");
 define("LAN_SIGNUP_39", "Powtórz adres e-mail:");
 define("LAN_SIGNUP_40", "Aktywacja nie jest wymagana");
-define("LAN_SIGNUP_41", "Twoje konto zostało juz aktywowane.");
+define("LAN_SIGNUP_41", "Twoje konto zostało już aktywowane.");
 define("LAN_SIGNUP_42", "Wystąpił problem, e-mail rejestracyjny nie został wysłany, proszę skontaktować się z administratorem strony.");
 define("LAN_SIGNUP_43", "E-mail został wysłany");
 define("LAN_SIGNUP_44", "E-mail aktywacyjny został wysłany na adres:");
@@ -68,8 +64,6 @@ define("LAN_SIGNUP_64", "Podane informacje nie pasują do żadnego użytkownika"
 define("LAN_SIGNUP_65", "Został przypisany login");
 define("LAN_SIGNUP_66", "Proszę to sobie zapisać.");
 define("LAN_SIGNUP_67", "Zostanie przydzielone przez system po rejestracji.");
-define("LAN_SIGNUP_69", " ");
-define("LAN_SIGNUP_70", " ");
 define("LAN_SIGNUP_71", "Został przekroczony limit rejestracji kont. Zaloguj się na jedno ze swoich wcześniejszych kont.");
 define("LAN_SIGNUP_72", "Dziękujemy za zarejestrowanie się na stronie [sitename]! Właśnie wysłaliśmy e-maila potwierdzającego na adres [email]. Proszę kliknąć na odnośnik weryfikacyjny w e-mailu, aby zakończyć rejestrację i aktywować konto.");
 define("LAN_SIGNUP_73", "Dziękujemy");
@@ -96,9 +90,9 @@ define("LAN_SIGNUP_97", "Witaj w");
 define("LAN_SIGNUP_98", "Potwierdź swój adres e-mail");
 define("LAN_SIGNUP_99", "Napotkano problem");
 define("LAN_SIGNUP_100", "Oczekuj na zatwierdzenie przez administratora");
-define("LAN_SIGNUP_101", "Bład zapisu danych - proszę skontaktować się z administratowem serwisu");
+define("LAN_SIGNUP_101", "Błąd zapisu danych - proszę skontaktować się z administratorem serwisu");
 define("LAN_SIGNUP_103", "Ten adres IP jest używany przez zbyt wielu użytkowników:");
-define("LAN_SIGNUP_105", "Nie można wykonać polecenia - proszę skontaktować się z administratowem serwisu.");
+define("LAN_SIGNUP_105", "Nie można wykonać polecenia - proszę skontaktować się z administratorem serwisu.");
 define("LAN_SIGNUP_106", "Nie mogę wykonać żądania - czy na pewno posiadasz konto na tej stronie?");
 define("LAN_LOGINNAME", "Login");
 define("LAN_USERNAME", "Nazwa wyświetlana");
@@ -108,14 +102,15 @@ define("LAN_SIGNUP_109", "Może być ZmIeNnA wielkość liter bez spacji");
 define("LAN_SIGNUP_110", "Pełna nazwa");
 define("LAN_SIGNUP_111", "Wpisz adres www do swojego zdjęcia lub użyj istniejącego.");
 define("LAN_SIGNUP_112", "Aktualnie jesteś zalogowany jako Główny Administrator.");
-define("LAN_SIGNUP_113", "Subskrypcja");
-define("LAN_SIGNUP_114", "Rejestracja nowego użytkownika jest obecnie wyłączona.");
-define("LAN_SIGNUP_115", "Podgląd e-maila aktywacyjnego.");
-define("LAN_SIGNUP_116", "Podgląd po wysłaniu.");
-define("LAN_SIGNUP_117", "Testowe wysłanie aktywacji.");
+define("LAN_SIGNUP_113", "Subskrypcje");
+define("LAN_SIGNUP_114", "System rejestracji jest aktualnie wyłączony.");
+define("LAN_SIGNUP_115", "Podgląd aktywacyjnej wiadomości e-mail");
+define("LAN_SIGNUP_116", "Podgląd po przesłaniu formularza");
+define("LAN_SIGNUP_117", "Wyślij testową wiadomość aktywacyjną");
 define("LAN_SIGNUP_118", "Do [x]");
-define("LAN_SIGNUP_119", "Nie wysyłać e-maila");
-define("LAN_SIGNUP_120", "LUB");
-
-
-?>
+define("LAN_SIGNUP_119", "Nie wysyłaj wiadomości");
+define("LAN_SIGNUP_120", "lub");
+define("LAN_SIGNUP_121", "Użyj innego adresu e-mail ");
+define("LAN_SIGNUP_122", "Polityka prywatności");
+define("LAN_SIGNUP_123", "Regulamin");
+define("LAN_SIGNUP_124", "Rejestrując się, zgadzasz się na nasze - [x] oraz [y].");

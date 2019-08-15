@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_db.php                         *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -47,10 +43,10 @@ define("DBLAN_39", "Walidacja wpisów w Bazie Danych");
 define("DBLAN_40", "Walidacja wpisów :");
 define("DBLAN_41", "tabele");
 define("DBLAN_43", "uwaga");
-define("DBLAN_45", "Id nie znalezione !");
+define("DBLAN_45", "Id nie zostały znalezione!");
 define("DBLAN_46", "Tabela nie znaleziona");
 define("DBLAN_49", "Brak wpisów w tabeli, więc nic nie poddano walidacji");
-define("DBLAN_50", "Walidacja zapisów Sql");
+define("DBLAN_50", "Walidacja zapisów sql");
 define("DBLAN_51", "Wykonaj zaznaczone");
 define("DBLAN_52", "Usuń duplikaty");
 define("DBLAN_53", "Proszę wybrać.");
@@ -83,7 +79,7 @@ define("DBLAN_79", "Silnik");
 define("DBLAN_80", "Porównanie");
 define("DBLAN_81", " Status");
 define("DBLAN_82", "Ta funkcja trwale zmodyfikuje tabele w bazie danych. ([database])");
-define("DBLAN_83", "Jest [b]WYSOCE[/b] wskazane aby jako pierwsze wykonać kopię zapasową bazy danych po przełaczeniu strony w tryb konserwacji.");
+define("DBLAN_83", "Jest [b]WYSOCE[/b] wskazane aby jako pierwsze wykonać kopię zapasową bazy danych po przełączeniu strony w tryb konserwacji.");
 define("DBLAN_84", "Należy pamiętać:");
 define("DBLAN_85", "Proces konwersji może trwać od minuty do wiele, wiele dłużej, w zależności od wielkości bazy danych.");
 define("DBLAN_86", "Konwersja nie działa w serializowanych tablicach array.");
@@ -96,7 +92,7 @@ define("DBLAN_92", "Tabele używają właściwego zestawu znaków kodowych.");
 define("DBLAN_93", "Baza Danych została pomyślnie przekonwertowana do UTF-8.");
 define("DBLAN_94", "Proszę się upewnić, że niżej podana linia znajduje się w pliku e107_config.php :");
 define("DBLAN_95", "Opcje eksportu");
-define("DBLAN_97", "Tebele");
+define("DBLAN_97", "Tabele");
 define("DBLAN_98", "Kolumny");
 define("DBLAN_99", "Dane tabeli:");
 define("DBLAN_100", "Konwertowanie ścieżki, paczek obrazów oraz pliku xml do:");
@@ -111,16 +107,13 @@ define("DBLAN_108", "Utworzony:");
 define("DBLAN_109", "Skopiowany:");
 define("DBLAN_110", "Nie można skopiować:");
 define("DBLAN_111", "Tabele wydają się być w porządku!");
-define("DBLAN_112", "Synchro z Github");
-define("DBLAN_113", "Nadpisz pliki");
-define("DBLAN_114", "Tylko tryb programisty");
-define("DBLAN_115", "Nadpisuj lokalne pliki z najnowszej wersji z github");
+define("DBLAN_112", "Zsynchronizuj z Github");
+define("DBLAN_113", "Zastąp pliki");
+define("DBLAN_114", "Tryb tylko dla dewelopera");
+define("DBLAN_115", "Zastąp lokalne pliki najnowszymi z github.");
 define("DBLAN_116", "Spowoduje to pobranie najnowszego pliku .zip z github do");
-define("DBLAN_117", "a następnie rozpakuje je nadpisując istniejące pliki, które istnieją na serwerze. Zostaną uwzględnione wszystkie dodatkowe katalogi, które są ustawione w pliku e107_config.php");
-define("DBLAN_118", "Nie można było pobrać pliku .zip");
-define("DBLAN_119", "Kopia zapasowa");
-define("DBLAN_120", "Rozpoczynam wykonywanie kopii zapasowej ...");
-define("DBLAN_121", "Przenoszę [x] do [y]");
-
-
-?>
+define("DBLAN_117", "a następnie rozpakowanie i zastąpienie wszystkich istniejących plików, które znajdują się na serwerze. Uwzględnione będą wszelkie niestandardowe foldery ustawione w pliku e107_config.php.");
+define("DBLAN_118", "Nie można pobrać pliku .zip");
+define("DBLAN_119", "Kopia");
+define("DBLAN_120", "Uruchamianie kopii...");
+define("DBLAN_121", "Przeniesienie [x] do [y].");

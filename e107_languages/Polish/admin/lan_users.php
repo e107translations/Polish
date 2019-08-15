@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_users.php                      *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -97,8 +94,8 @@ define("USRLAN_136", "Znaleziono wielu użytkowników wykorzystujących adres IP
 define("USRLAN_137", "Zablokowano użytkowników o adresie IP {IP}.");
 define("USRLAN_138", "Konta bez weryfikacji");
 define("USRLAN_139", "Twoje konto zostało aktywowane.\n\nOd tej chwili możesz się zalogować na stronie {SITEURL} używając danych podanych podczas procesu rejestracji.");
-define("USRLAN_140", "Ponownie wysłano emaila do");
-define("USRLAN_141", "Nieudana próba wysłania ponownego emaila aktywacyjnego do");
+define("USRLAN_140", "Ponownie wysłano e-mail do");
+define("USRLAN_141", "Nieudana próba wysłania ponownego e-maila aktywacyjnego do");
 define("USRLAN_142", "z następującym odnośnikiem aktywacyjnym");
 define("USRLAN_143", "Sprawdź odbicia");
 define("USRLAN_144", "Ponownie wyślij e-maile weryfikacyjne do wszystkich");
@@ -112,39 +109,35 @@ define("USRLAN_151", "Wyczyść odbite, wymagające aktywacji");
 define("USRLAN_152", "Wyczyść odbite i aktywuj");
 define("USRLAN_153", "Usuń nieodbite wiadomości");
 define("USRLAN_154", "Wyczyść wiadomość dla wybranych");
-define("USRLAN_155", "Znaleziono {TOTAL} wiadomości e-mail. Usunięto {DELCOUNT}.<br />{DELUSER} użytkowników oznaczono jako 'odbici' (na podstawie {FOUND} wiadomości e-mail)");
+define("USRLAN_155", "Znaleziono [w] wiadomości e-mail. Usunięto [x].<br />[y] użytkowników oznaczono jako niedostępni - 'odbici' (na podstawie [z] wiadomości e-mail)");
 define("USRLAN_156", "Adres e-mail jest już w użyciu");
-define("USRLAN_160", "Łącznie --COUNT-- użytkowników typu --TYPE-- wyczyszczonych");
-define("USRLAN_161", "ID użytkownika --UID-- nazwa --NAME-- zablokowany");
-define("USRLAN_162", "ID użytkownika --UID-- nazwa --NAME-- odblokowany");
-define("USRLAN_163", "ID użytkownika --UID-- skasowany");
-define("USRLAN_164", "ID użytkownika --UID-- nazwa --NAME-- (--EMAIL--) jest adminem");
-define("USRLAN_165", "ID użytkownika --UID-- nazwa --NAME-- odwołano status admina");
-define("USRLAN_166", "ID użytkownika --UID-- nazwa --NAME-- zatwierdzono");
-define("USRLAN_167", "Sprawdzanie poprawności email ID --ID-- wysłano do --NAME-- adres --EMAIL--");
-define("USRLAN_168", "Ponownie wysłane --COUNT-- e-maile sprawdzające");
-define("USRLAN_169", "Łcznie --COUNT-- skasowanych odbitych e-maili");
+define("USRLAN_161", "ID użytkownika [x] nazwa [y] zablokowany");
+define("USRLAN_162", "ID użytkownika [x] nazwa [y] odblokowany");
+define("USRLAN_164", "ID użytkownika [x] nazwa [y] ([z]) jest adminem");
+define("USRLAN_165", "ID użytkownika [x] nazwa [y] odwołano status admina");
+define("USRLAN_166", "ID użytkownika [x] nazwa [y] zatwierdzono");
+define("USRLAN_167", "Sprawdzanie poprawności e-mail ID [x] wysłano do [y] adres [z]");
+define("USRLAN_169", "Łącznie [x] skasowanych odbitych e-maili");
 define("USRLAN_170", "Losowa nazwa użytkownika");
 define("USRLAN_171", "Losowe hasło");
 define("USRLAN_172", "Konto użytkownika zostało utworzone za pomocą poniższych danych:");
-define("USRLAN_175", "Sesja");
 define("USRLAN_179", "Użytkownik zablokowany:");
 define("USRLAN_180", "Adres IP {IP} znajduje się na białej liście; IP nie będzie zablokowany.");
 define("USRLAN_181", "Wybierz opcję dla statusu użytkownika i wysyłanie wiadomości e-mail z potwierdzeniem dla użytkownika");
 define("USRLAN_182", "Nieprawidłowe znaki w nazwie logowania");
 define("USRLAN_183", "Ta nazwa użytkownika jest już w użyciu");
 define("USRLAN_184", "Długość nazwy logowania poza limitami");
-define("USRLAN_185", "Twoje konto użytkownika zostało utworzone na {SITEURL} z następującym loginem:<br /><br /><b>Nazwa logowania:</b> {LOGINNAME}<br /><b>Hasło:</b> {PASSWORD}<br/><b>Odnośnik do aktywacji:</b> {ACTIVATION_LINK}<br /><br />");
-define("USRLAN_186", "Proszę odwiedzić serwis jak najszybciej i się zalogować, następnie zmienić swoje hasło używając opcji \"Ustawienia\" .<br /><br />W tym czasie również możesz zmienić pozostałe ustawienia.<br /><br />Należy pamiętać, że hasło nie może zostać odzyskane, jeśli je stracisz.");
+define("USRLAN_185", "Twoje konto użytkownika zostało utworzone na {SITEURL} z następującym loginem:<br /><br /><b>Nazwa logowania:</b> {LOGINNAME}<br /><b>Hasło:</b> {PASSWORD}<br/><b>Odnośnik do aktywacji:</b>{ACTIVATION_LINK}<br /><br />");
+define("USRLAN_186", "Proszę odwiedzić serwis jak najszybciej i się zalogować, następnie zmienić swoje hasło używając opcji \"Ustawienia\".<br /><br />W tym czasie również możesz zmienić pozostałe ustawienia.<br /><br />Należy pamiętać, że hasło nie może zostać odzyskane, jeśli je stracisz.");
 define("USRLAN_187", "Dostęp do strony:");
 define("USRLAN_188", "E-mail wysłany pomyślnie");
 define("USRLAN_189", "Błąd wysyłania e-mail");
-define("USRLAN_190", "Okres testowy nowego użytkownika (days)");
+define("USRLAN_190", "Okres testowy nowego użytkownika (dni)");
 define("USRLAN_191", "Administrator może nałożyć ograniczenia w tym okresie w niektórych obszarach");
-define("USRLAN_192", " ");
+define("USRLAN_192", "?");
 define("USRLAN_193", "Nic nie zmieniono - nic nie zapisano");
 define("USRLAN_194", "Sygnatura może być zmieniana przez");
-define("USRLAN_195", "Ostatni wpis");
+define("USRLAN_195", "Ostatni post");
 define("USRLAN_198", "Nazwa pola");
 define("USRLAN_199", "Operacja");
 define("USRLAN_200", "Wartość");
@@ -171,7 +164,7 @@ define("LAN_UI_3_HOURS", "3 godz.");
 define("LAN_UI_6_HOURS", "6 godz.");
 define("LAN_UI_12_HOURS", "12 godz.");
 define("LAN_UI_24_HOURS", "24 godz.");
-define("LAN_UI_48_HOURS", "48 godz.");
+define("LAN_UI_48_HOURS", "24 godz.");
 define("LAN_UI_3_DAYS", "3 dni");
 define("USRLAN_220", "Wszystkie klasy użytkownika");
 define("USRLAN_221", "Edycja uprawnień admina");
@@ -181,7 +174,7 @@ define("USRLAN_224", "E-mail został wysłany do:");
 define("USRLAN_225", "Błąd wysyłania e-mail do:");
 define("USRLAN_226", "Nie masz wystarczających uprawnień, aby to zrobić.");
 define("USRLAN_227", "Nieznany błąd. Akcja nie powiodła się.");
-define("USRLAN_228", "Czy chcesz dodać użytkownika #[b][x][/b] : [b][y][/b] ([z]) jako [b]administratora ?[/b].");
+define("USRLAN_228", "Czy chcesz dodać użytkownika #[b][x][/b] : [b][y][/b] ([z]) jako [b]administratora?[/b].");
 define("USRLAN_229", "Ustaw uprawnienia oraz kliknij [b]Aktualizacja[/b] aby wykonać lub [b]cofnij[/b] by anulować.");
 define("USRLAN_230", "Aktualizacja administratora [x] ([y])");
 define("USRLAN_231", "Niewystarczające uprawnienia, operacja przerwana.");
@@ -197,18 +190,18 @@ define("USRLAN_240", "Aktywuj, nie powiadamiaj");
 define("USRLAN_241", "Aktywuj, powiadamiaj (hasło)");
 define("USRLAN_242", "Wymaga aktywacji, powiadomienia (hasło oraz odnośnik aktywacyjny)");
 define("USRLAN_243", "Ustawiania uprawnień");
-define("USRLAN_244", "Naruszenie bezpieczeństwa (brak wystarczających uprawnień) - Administrator --ADMIN_UID-- (--ADMIN_NAME--, --ADMIN_EMAIL--) próbował usunąć status administratora --UID-- (--NAME--, --EMAIL--)");
-define("USRLAN_245", "Naruszenie bezpieczeństwa (brak wystarczających uprawnień) - Administrator --ADMIN_UID-- (--ADMIN_NAME--, --ADMIN_EMAIL--) próbował nabrać uprawnień --UID-- (--NAME--, --EMAIL--) administratora systemu");
-define("USRLAN_246", "(Nie wymagane)");
+define("USRLAN_244", "Naruszenie bezpieczeństwa (brak wystarczających uprawnień) - Administrator [x] ([y], [z]) próbował usunąć status administratora [u] ([v], [w])");
+define("USRLAN_245", "Naruszenie bezpieczeństwa (brak wystarczających uprawnień) - Administrator [x] ([y], [z]) próbował nabrać uprawnień [u] ([v], [w]) administratora systemu");
+define("USRLAN_246", "Nas");
 define("USRLAN_247", "Nas");
 define("USRLAN_248", "Nas");
 define("USRLAN_249", "Nas");
 define("USRLAN_250", "Nas");
-define("USRLAN_251", "Zostaw puste by nie wprowadzać zmian.");
-define("USRLAN_252", "Wyślij ponownie wiadomość e-mail z aktywacją konta do nieaktywowanych użytkowników.");
-define("USRLAN_253", "Starsze niż.");
-define("USRLAN_254", "Resetuj wszystkie hasła.");
-define("USRLAN_255", "Powiadom użytkownika.");
+define("USRLAN_251", "Pozostaw puste, aby nie wprowadzać zmian");
+define("USRLAN_252", "Wyślij ponownie e-mail aktywacyjny do nieaktywnych użytkowników.");
+define("USRLAN_253", "Starszy niż");
+define("USRLAN_254", "Resetuj wszystkie hasła");
+define("USRLAN_255", "Powiadom użytkownika");
 define("USRLAN_256", "Drogi");
 define("UCSLAN_1", "Wysyłanie wiadomości e-mail z powiadomieniem");
 define("UCSLAN_2", "Aktualizacja uprawnień");
@@ -218,7 +211,7 @@ define("UCSLAN_6", "Ustaw klasę dla użytkownika");
 define("UCSLAN_7", "Ustawienia klas");
 define("UCSLAN_9", "Zaktualizowano klasę.");
 define("UCSLAN_10", "Pozdrowienia,");
-define("UCSLAN_11", "Klasa dla użytkownika ID --UID-- zmieniono na --CLASSES--");
+define("UCSLAN_11", "Klasa dla użytkownika ID [x] zmieniono na [x]");
 define("UCSLAN_12", "Tylko z uprawnieniami użytkownika");
 define("USFLAN_1", "Nie można znaleźć adres IP piszącego - nie ma dostępnych informacji.");
 define("USFLAN_3", "Wiadomości wysłane z adresu IP");
@@ -229,6 +222,3 @@ define("USFLAN_7", "Informacje o użytkowniku");
 define("USRLAN_AS_1", "Zalogowany jako [x]");
 define("USRLAN_AS_2", "Wylogował się [x] z konta");
 define("USRLAN_AS_3", "Jesteś już zalogowany jako inny użytkownik. Najpierw wyloguj się.");
-
-
-?>

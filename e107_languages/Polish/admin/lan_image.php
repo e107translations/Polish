@@ -4,33 +4,24 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_image.php                      *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 define("LAN_IMA_M_01", "Biblioteka mediów");
-define("LAN_IMA_M_02", "Multimedia Dodaj/Importuj");
-define("LAN_IMA_M_03", "Kategorie Mediów");
+define("LAN_IMA_M_02", "Importuj multimedia");
+define("LAN_IMA_M_03", "Kategorie mediów");
 define("LAN_IMA_M_04", "Utwórz kategorie");
 define("LAN_IMA_M_05", "Awatary");
 define("LAN_IMA_001", "Modyfikacja nie jest dozwolona.");
 define("LAN_IMA_002", "Za mało pamięci, aby obrócić");
 define("LAN_IMA_003", "Obrócony");
 define("LAN_IMA_004", "Zmiana rozmiaru");
-define("LAN_IMA_O_001", "Grafika nowości");
-define("LAN_IMA_O_002", "Aktualności [img] bbcode");
-define("LAN_IMA_O_003", "Strony [img] bbcode");
-define("LAN_IMA_O_004", "Grafiki Featurebox");
-define("LAN_IMA_O_005", "Wiadomości specjalne [img] bbcode");
-define("LAN_IMA_O_006", " [img] bbcode");
 define("IMALAN_1", "Wyświetlanie grafik");
 define("IMALAN_2", "Wyświetlane grafiki będą dodane w całej szerokości strony (komentarze, chatbox itp.) aby używać grafik używaj [img] bbcode");
 define("IMALAN_3", "Metoda zmiany rozmiaru");
-define("IMALAN_4", "Matoda używana do zmiany rozmiaru grafiki, biblioteki GD1/2, lub ImageMagick");
+define("IMALAN_4", "Metoda używana do zmiany rozmiaru grafiki, biblioteki GD1/2, lub ImageMagick");
 define("IMALAN_5", "Ścieżka do ImageMagick (jeśli zaznaczono)");
 define("IMALAN_6", "Pełna ścieżka do konwertora ImageMagick");
 define("IMALAN_7", "Ustawienia grafik");
@@ -38,7 +29,7 @@ define("IMALAN_8", "Ustawienia aktualizacji grafik");
 define("IMALAN_9", "Ustawienia grafik zaktualizowano");
 define("IMALAN_10", "Uprawniona klasa użytkowników");
 define("IMALAN_11", "Ogranicza wyświetlanie elementów graficznych do wybranej klasy użytkowników (tylko wówczas gdy jest aktywna powyższa opcja)");
-define("IMALAN_12", "Gdy wyłaczono grafiki");
+define("IMALAN_12", "Gdy wyłączono grafiki");
 define("IMALAN_13", "Co zrobić, gdy opcja wyświetlania jest nieaktywna?");
 define("IMALAN_14", "Pokazuj adres URL grafiki");
 define("IMALAN_15", "Nic nie pokazuj");
@@ -78,6 +69,7 @@ define("IMALAN_66", "Nazwa pliku");
 define("IMALAN_68", "Zamknij");
 define("IMALAN_69", "Katalog");
 define("IMALAN_70", "Nie znaleziono folderów nie systemowych!");
+define("IMALAN_72", "Ikony");
 define("IMALAN_73", "Jakość Miniaturek");
 define("IMALAN_74", "Ustaw tak nisko jak tylko możliwe by nie utracić jakości wyświetlania. Maks. 100");
 define("IMALAN_75", "Szerokość awataru");
@@ -133,57 +125,60 @@ define("IMALAN_125", "Kasowanie zaznaczonych plików");
 define("IMALAN_126", "Proszę sprawdzić, co najmniej jeden plik.");
 define("IMALAN_127", "Nie można było pobrać informacji o pliku:");
 define("IMALAN_128", "Importowanie mediów:");
-define("IMALAN_129", "Zamierzasz skasować [x] wpisów oraz <strong> WSZYSTKIE PLIKI </strong> ! Proszę potwierdzić aby kontynuować !");
+define("IMALAN_129", "Zamierzasz usunąć rekordy [x] i <strong>WSZYSTKIE POWIĄZANE PLIKI!</strong> Potwierdź, aby kontynuować!");
 define("IMALAN_130", "Poprzednia strona");
 define("IMALAN_131", "Następna strona");
-define("IMALAN_132", "Tagi/Słowa kluczowe");
-define("IMALAN_133", "Prawy dół");
-define("IMALAN_134", "Lewy dół");
-define("IMALAN_135", "Prawa Góra");
-define("IMALAN_136", "Lewa Góra");
+define("IMALAN_132", "Tagi/słowa kluczowe");
+define("IMALAN_133", "Dół po prawej");
+define("IMALAN_134", "Dół po lewej");
+define("IMALAN_135", "Góra po prawej");
+define("IMALAN_136", "Góra po lewej");
 define("IMALAN_137", "Środek");
 define("IMALAN_138", "Prawo");
-define("IMALAN_139", "Lewo");
-define("IMALAN_140", "Góra");
+define("IMALAN_139", "Od lewej");
+define("IMALAN_140", "Od prawej");
 define("IMALAN_141", "Dół");
-define("IMALAN_142", "Kafelki");
+define("IMALAN_142", "Tytuł");
 define("IMALAN_143", "Obrazek");
 define("IMALAN_144", "Plik");
-define("IMALAN_145", "Ze swojego komputera");
-define("IMALAN_146", "Nie wspiera HTML 5");
-define("IMALAN_147", "Ze zdalnej lokalizacji");
-define("IMALAN_148", "url grafiki/pliku");
-define("IMALAN_149", "Wyślij");
-define("IMALAN_150", "Wyślij plik");
+define("IMALAN_145", "Z komputera");
+define("IMALAN_146", "Brak wsparcia dla HTML5");
+define("IMALAN_147", "Z zewnętrznej lokalizacji");
+define("IMALAN_148", "URL obrazka/pliku");
+define("IMALAN_149", "Start");
+define("IMALAN_150", "Wstaw plik");
 define("IMALAN_151", "Wybierz z biblioteki");
 define("IMALAN_152", "Wygląd");
-define("IMALAN_153", "Grafika w użyciu");
-define("IMALAN_154", "Nie używane");
-define("IMALAN_155", "Wstępnie wybrany katalog z awatarami");
-define("IMALAN_156", "Skasuj wszystkie nie używane grafiki");
-define("IMALAN_157", "Pole tekstowe");
+define("IMALAN_153", "Zdjęcia w użyciu");
+define("IMALAN_154", "Nieużywane");
+define("IMALAN_155", "Folder tymczasowego awatara");
+define("IMALAN_156", "Usuń wszystkie nieużywane obrazki");
+define("IMALAN_157", "Przepływ tekstu");
 define("IMALAN_158", "Lewy margines");
 define("IMALAN_159", "Prawy margines");
 define("IMALAN_160", "Górny margines");
 define("IMALAN_161", "Dolny margines");
-define("IMALAN_162", "Wyświetlanie [x] - [y] z [z] grafik.");
+define("IMALAN_162", "Wyświetlonych  [x] - [y] z [z] obrazków.");
 define("IMALAN_163", "Wideo");
-define("IMALAN_164", "Skasowano ikony z menadżera mediów");
-define("IMALAN_165", "Brak grafik");
-define("IMALAN_166", "Nadesłane grafiki lub pliki");
-define("IMALAN_167", "Brak plików");
-define("IMALAN_168", "Kliknij w awatar aby go zmienić");
+define("IMALAN_164", "Usuń ikony z Menedżera Mediów");
+define("IMALAN_165", "Brak obrazków");
+define("IMALAN_166", "Wstaw obrazki lub wideo");
+define("IMALAN_167", "Brak pliku");
+define("IMALAN_168", "Kliknij na awatar, aby go zmienić");
 define("IMALAN_169", "Brak dostępnych awatarów");
-define("IMALAN_170", "Wybierz ten awatar");
-define("IMALAN_171", "Wiadomość dla administratorów: Katalog");
-define("IMALAN_172", "jest pusty. Prześlij niektóre domyślne obrazy awatarów do tego folderu, aby użytkownicy mogli wybrać.");
+define("IMALAN_170", "Zmień awatar");
+define("IMALAN_171", "Informacja dla Administratora: Folder");
+define("IMALAN_172", "jest pusty. Prześlij kilka awatarów do tego folderu, aby użytkownicy mogli wybrać jeden z nich.");
 define("IMALAN_173", "Nie znaleziono właściciela mediów.");
-define("IMALAN_174", "Wyszukiwarka YouTube wymaga klucza api. [br] Ten klucz nie jest wymagany, chyba że chcesz wykonać wyszukiwanie słów kluczowych, playlist lub kanałów. [br] Wprowadzenie adresu URL filmu Youtube bezpośrednio do powyższego pola nadal będzie działało bez użycia przycisku api. [br] [x]");
-define("IMALAN_175", "Wyszukiwarka Youtube. Wklej adres url do określonego wideo/playlisty/kanału");
-define("IMALAN_176", "Podczas pobierania pliku wystąpił problem.");
-define("IMALAN_177", "Kliknij tutaj, aby uzyskać więcej informacji i wprowadzić swój klucz api");
-define("IMALAN_178", "Folder awatarów (wybrany przez użytkownika)");
+define("IMALAN_174", "Wyszukiwanie w YouTube wymaga (bezpłatnego) klucza api YouTube v3. [br] Ten klucz nie jest wymagany, chyba że chcesz skorzystać ze słowa kluczowego, listy odtwarzania lub wyszukiwania kanałów. [br][br] Wprowadzenie dokładnego adresu URL wideo YouTube bezpośrednio w powyższym polu będzie nadal działać bez posiadania klucza api. [br] [x]");
+define("IMALAN_175", "Znajdź w YouTube swój film/listę/kanał i wklej tutaj pełny adres URL");
+define("IMALAN_176", "Wystąpił problem podczas pobierania pliku");
+define("IMALAN_177", "Kliknij tutaj, aby uzyskać więcej informacji i wprowadzić klucz api");
+define("IMALAN_178", "Folder awatarów (wybieranych przez użytkownika)");
 define("IMALAN_179", "Folder awatarów (prywatny)");
-
-
-?>
+define("IMALAN_180", "Znaleziono 0 bajtowy plik w:");
+define("IMALAN_181", "Proszę usunąć przed kontynuowaniem.");
+define("IMALAN_182", "Konwertuj do formatu jpeg podczas importu");
+define("IMALAN_183", "Pliki PNG i GIF zostaną automatycznie przekonwertowane do formatu JPEG (z wykluczeniem ikon).");
+define("IMALAN_184", "Domyślne wymiary obrazka");
+define("IMALAN_185", "Maks. wysokość w px");

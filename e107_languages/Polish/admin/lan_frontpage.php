@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_frontpage.php                  *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -19,7 +16,7 @@ define("FRTLAN_30", "Własna strona");
 define("FRTLAN_35", "Strona po zalogowaniu");//Post-login page
 define("FRTLAN_42", "Dodaj nową regułę");
 define("FRTLAN_43", "Klasa");
-define("FRTLAN_46", "Edycja istniejących regół");
+define("FRTLAN_46", "Edycja istniejących reguł");
 define("FRTLAN_49", "Strona Główna");
 define("FRTLAN_51", "Inne");
 define("FRTLAN_PAGE_TITLE", "Strona Główna");
@@ -48,4 +45,3 @@ define("FRTLAN_61", "Wybór");
 //define("FRTLAN_54", "Are you sure?");
 //define("FRTLAN_55", "Confirm delete rule?");
 
-?>

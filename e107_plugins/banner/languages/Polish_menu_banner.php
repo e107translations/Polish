@@ -1,9 +1,12 @@
 <?php
 /*
- * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
- *
- * Banner Menu Language File
- *
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
++--------------------------------------------------------------------+
++====================================================================+
 */
 
 // DEPRECATED - ENTIRE LANGUAGE FILE MOVED INTO English_admin_banner.php 

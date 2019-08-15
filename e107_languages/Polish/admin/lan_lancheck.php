@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_lancheck.php                   *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -24,10 +21,14 @@ define("LAN_CHECK_19", "Znaleziono znaki nie-UTF-8!");
 define("LAN_CHECK_20", "Generuj pakiet językowy");
 define("LAN_CHECK_21", "Weryfikuj ponownie");
 define("LAN_CHECK_23", "Znaleziono błędy");
-define("LAN_CHECK_26", "Przód");
+define("LAN_CHECK_26", "Główne");
 define("LAN_CHECK_PAGE_TITLE", "Języki");
 define("LAN_CHECK_27", "Liczba błędów znalezionych w pakiecie językowym");
-define("LAN_CHECK_28", "Identyczny");
+define("LAN_CHECK_28", "Identyczne");
+define("LAN_CHECK_29", "Identyczna sekwencja");
+define("LAN_CHECK_30", "Brakujące bbcodes");
+define("LAN_CHECK_31", "Brakujące [ i/lub ] znaki");
+define("LAN_CHECK_32", "Brakuje tagów HTML");
 define("LANG_LAN_23", "Utwórz pakiet językowy (zip)");
 define("LANG_LAN_30", "Data wypuszczenia");
 define("LANG_LAN_31", "Zgodność");
@@ -41,6 +42,3 @@ define("LANG_LAN_117", "Należy skorygować pozostałe błędy, przed wysłaniem
 define("LANG_LAN_119", "Proszę sprawdzić czy CORE_LC oraz CORE_LC2 mają wartości [x] i spróbuj ponownie.");
 define("LANG_LAN_120", "Upewnij się, że korzystasz z nazwy domyślnej nazwy folderu w e107_config.php (np. e107_languages/, e107_plugins/ itp.) i spróbuj ponownie.");
 define("LANG_LAN_AGR", "Uwaga: Używając tych narzędzi, użytkownik wyraża zgodę na udostępnianie pakietów językowych dla społeczności E107.");
-
-
-?>

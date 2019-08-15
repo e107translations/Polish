@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/07/22                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -34,8 +31,8 @@ define("ADLAN_PM_21", "Powiadomienia w oknie popup dla nowych wiadomości");
 define("ADLAN_PM_22", "Opóźnienie wyskakującego okienka");
 define("ADLAN_PM_23", "Ogranicz używanie Wiadomości Prywatnych do");
 define("ADLAN_PM_24", "Ilość wiadomości prywatnych wyświetlanych na stronie");
-define("ADLAN_PM_25", "Aktywuj powiadomienia email o wiadomościach prywatnych");
-define("ADLAN_PM_26", "Zezwalaj użytkownikom na żądanie potwierdzenia przeczytania wiadomości za pośrednictwem powiadomień email");
+define("ADLAN_PM_25", "Aktywuj powiadomienia e-mail o wiadomościach prywatnych");
+define("ADLAN_PM_26", "Zezwalaj użytkownikom na żądanie potwierdzenia przeczytania wiadomości za pośrednictwem powiadomień e-mail");
 define("ADLAN_PM_27", "Zezwól na dołączanie załączników");
 define("ADLAN_PM_28", "Maksymalny rozmiar załącznika");
 define("ADLAN_PM_29", "Zezwalaj na wysyłanie do wszystkich użytkowników");
@@ -59,31 +56,28 @@ define("ADLAN_PM_64", "Wiadomości otrzymane");
 define("ADLAN_PM_65", "Zablokowani użytkownicy");
 define("ADLAN_PM_66", "Brak zaplanowanych zadań konserwacji");
 define("ADLAN_PM_67", "Rozpocznij konserwację WP bazy danych");
-define("ADLAN_PM_68", "--COUNT-- blokad zablokowannych użytkowników usunięto.");
-define("ADLAN_PM_69", "--COUNT-- blokad ze skasowanych użytkowników usunięto.");
-define("ADLAN_PM_70", "Błąd bazy danych --NUM--: --TEXT-- usuwanie blokad użytkowników.");
+define("ADLAN_PM_68", "[x] blokad zablokowanych użytkowników usunięto.");
+define("ADLAN_PM_69", "[x] blokad ze skasowanych użytkowników usunięto.");
+define("ADLAN_PM_70", "Błąd bazy danych [y]: [z] usuwanie blokad użytkowników.");
 define("ADLAN_PM_71", "Komunikaty o upłynięciu terminu");
 define("ADLAN_PM_72", "Nie ustawiono limitu czasu dla WP");
-define("ADLAN_PM_73", "--COUNT-- limitów czasu dla WP usunięto");
-define("ADLAN_PM_74", "Usunięto --COUNT-- wiadomości wysłanych przez skasowanych użytkowników.");
-define("ADLAN_PM_75", "Usunięto --COUNT-- wiadomości wysłanych przez skasowanych użytkowników.");
+define("ADLAN_PM_73", "[x] limitów czasu dla WP usunięto");
+define("ADLAN_PM_74", "Usunięto [x] wiadomości wysłanych przez skasowanych użytkowników.");
+define("ADLAN_PM_75", "Usunięto [x] wiadomości wysłanych przez skasowanych użytkowników.");
 define("ADLAN_PM_77", "(Wyczyść wszystkie pola i zaktualizuj aby usunąć ograniczenia)");
 define("ADLAN_PM_78", "Sprawdź załączniki");
-define("ADLAN_PM_79", "--ORPHANS-- niewykorzystane załączniki usunięto. --MISSING-- brakujące załączniki zapisano.");
+define("ADLAN_PM_79", "[x] niewykorzystanych załączników usunięto. [y] brakujących załączników zapisano.");
 define("ADLAN_PM_80", "Formy preferencji zaktualizowano.");
 define("ADLAN_PM_81", "Maksymalna ilość Wiadomości Prywatnych do natychmiastowego wysłania.");
 define("ADLAN_PM_82", "W przypadku wysyłania większej ilości niż podana, są one dodawane do kolejki i wysyłane za pomocą zadania cron");
 define("ADLAN_PM_83", "Użytkownicy mogą wysyłać wiadomości tylko do innych z tej klasy.");
 define("ADLAN_PM_84", "Maksymalna długość wiadomości");
 define("ADLAN_PM_85", "0 = nieograniczona");
-define("ADLAN_PM_86", "VIP klasa");
-define("ADLAN_PM_87", "Użytkownicy tej klasy mogą otrzymywać wiadomości od innych osób w tej klasie. Zastępuje powyższe preferencje.");
-define("ADLAN_PM_88", "Użytkownik może wysłać PM do");
-define("ADLAN_PM_89", "(Każdy użytkownik z tej samej klasy)");
-define("ADLAN_PM_90", "Wprowadź odbiorcę w polu 'Do'.");
-define("ADLAN_PM_91", "Próba");
-define("ADLAN_PM_92", "Wysłano próbny e-mail !");
-define("ADLAN_PM_93", "Wysyłanie próbnego e-maila się nie powiodło !");
-
-
-?>
+define("ADLAN_PM_86", "Klasa VIP");
+define("ADLAN_PM_87", "Użytkownicy w tej klasie mogą odbierać wiadomości tylko od innych w tej klasie. Zastępuje powyższe preferencje.");
+define("ADLAN_PM_88", "Użytkownik może wysyłać wiadomości PM do");
+define("ADLAN_PM_89", "(Każdy użytkownik o tej samej klasie)");
+define("ADLAN_PM_90", "Wprowadź odbiorcę w polu „Do”.");
+define("ADLAN_PM_91", "Test");
+define("ADLAN_PM_92", "Wyślij testowego e-maila!");
+define("ADLAN_PM_93", "Wysłanie e-maila testowego nie powiodło się!");

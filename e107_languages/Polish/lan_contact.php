@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file - Contact language file                    *
-   *                                                                 *
- 	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+   * Polish language file - lan_contact.php      		             *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -29,11 +25,12 @@ define("LANCONTACT_12", "Wiadomość jest za krótka.");
 define("LANCONTACT_13", "Proszę uwzględnić temat.");
 define("LANCONTACT_14", "Wyślij wiadomość do:");
 define("LANCONTACT_15", "Wprowadzono niepoprawny kod");
-define("LANCONTACT_16", "Musisz być [registered] oraz zarejestrowanym, aby skorzystać z tej formy");
-define("LANCONTACT_17", "Proszę wpisać swoje imię");
-define("LANCONTACT_18", "Proszę wpisać swój adres e-mail");
-define("LANCONTACT_19", "Proszę wpisać tytuł wiadomości");
-define("LANCONTACT_20", "Proszę wpisać swoją wiadomość");
-
-
-?>
+define("LANCONTACT_16", "Musisz być [registered] oraz zalogowanym, aby skorzystać z tej formy");
+define("LANCONTACT_17", "Imię");
+define("LANCONTACT_18", "Twój adres e-mail");
+define("LANCONTACT_19", "Temat wiadomości");
+define("LANCONTACT_20", "Wyślij wiadomość.");
+define("LANCONTACT_21", "Zanim pojawi się odpowiedź na Twoją wiadomość, prosimy o wyrażenie zgody na przechowywanie przekazanych przez Ciebie informacji.");
+define("LANCONTACT_22", "Polityka prywatności");
+define("LANCONTACT_23", "Naszą politykę prywatności znajdziesz w tym miejscu: [x]");
+define("LANCONTACT_24", "Umowa GDPR");

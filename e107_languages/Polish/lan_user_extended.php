@@ -1,15 +1,12 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file - lan_user_exttended.php                   *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/07/20                                               *
-	* $Author: JacekCich                                              *
+   * Polish language file - lan_user_extended.php                    *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -23,9 +20,10 @@ define("UE_LAN_8", "Język");
 define("UE_LAN_9", "Wstępnie zdefiniowana lista");
 define("UE_LAN_10", "Pola wyboru");
 define("UE_LAN_13", "Kraj");
+define("UE_LAN_14", "Edytor tekstu (WYSIWYG)");
 define("UE_LAN_21", "Nazwa");
 define("UE_LAN_22", "Typ");
-define("UE_LAN_23", "Użyj");
+define("UE_LAN_23", "Ustaw");
 define("UE_LAN_HIDE", "Ukryty dla użytkowników");
 define("UE_LAN_LOCATION", "Miejscowość");
 define("UE_LAN_LOCATION_DESC", "Miejscowość użytkownika");
@@ -38,7 +36,7 @@ define("UE_LAN_YAHOO_DESC", "Adres Yahoo!");
 define("UE_LAN_MSN", " MSN");
 define("UE_LAN_MSN_DESC", "Adres MSN");
 define("UE_LAN_HOMEPAGE", "Strona domowa");
-define("UE_LAN_HOMEPAGE_DESC", "Strona domowa  (url)");
+define("UE_LAN_HOMEPAGE_DESC", "Strona domowa (url)");
 define("UE_LAN_BIRTHDAY", "Urodziny");
 define("UE_LAN_BIRTHDAY_DESC", "Data urodzenia");
 define("UE_LAN_LANGUAGE", "Język");
@@ -52,10 +50,7 @@ define("UE_LAN_SKYPE", " Skype");
 define("UE_LAN_SKYPE_DESC", "Adres Skype");
 define("UE_LAN_GENDER", "Płeć");
 define("UE_LAN_GENDER_DESC", "Płeć");
-define("UE_LAN_MALE", "Męższczyzna");
+define("UE_LAN_MALE", "Mężczyzna");
 define("UE_LAN_FEMALE", "Kobieta");
 define("UE_LAN_COMMENT", "Komentarzy");
 define("UE_LAN_COMMENT_DESC", "Obszar komentarzy");
-
-
-?>

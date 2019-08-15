@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_search.php                     *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -63,5 +60,3 @@ define("SEALAN_47", "Tylko pełne wyrazy:");
 define("SEALAN_48", "Tego ustawienie używaj tylko, kiedy metodą sortowania wyszukiwań jest PHP. Jeśli witryna zawiera języki ideograficzne, takie jak chiński oraz japoński, musisz tę opcję wyłączyć.");
 define("SEALAN_49", "Jeśli witryna zawiera języki ideograficzne, takie jak chiński oraz japoński, musisz używać metody sortowania PHP.");
 
-
-?>

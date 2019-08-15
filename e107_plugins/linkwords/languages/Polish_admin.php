@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -62,7 +59,7 @@ define("LWLAN_51", "Nieaktywne");
 define("LWLAN_52", "Tylko linki wyrazowe");
 define("LWLAN_53", "Tylko podpowiedzi");
 define("LWLAN_54", "Linki wyrazowe oraz podpowiedzi");
-define("LWLAN_55", "Otwórz link w nowym okniew");
+define("LWLAN_55", "Otwórz link w nowym oknie");
 define("LWLAN_56", "Otwórz w nowej karcie");
 //define("LWLAN_57", "Error writing new values");
 define("LWLAN_58", "Prefiks zamieniony na format 0.8 ");		// Used in 0.7-compatible stub only //Pref hook converted to 0.8 format
@@ -72,7 +69,7 @@ define("LWLAN_60", " LW ID");
 define("LWLAN_62", "Podpowiedź ID (LW ID)");
 define("LWLAN_63", "Tylko dodatnie liczby całkowite");
 define("LWLAN_64", "Wyłącza link na bieżącej stronie");
-define("LWLAN_65", "Po zaznaczeniu, klikalne linki będą wyłaczone jeżeli będą przekierowywać do aktualnej strony");
+define("LWLAN_65", "Po zaznaczeniu, klikalne linki będą wyłączone jeżeli będą przekierowywać do aktualnej strony");
 
 
 // Installation-related

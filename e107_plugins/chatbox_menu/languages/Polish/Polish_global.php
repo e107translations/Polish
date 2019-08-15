@@ -3,18 +3,15 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 
-define("LAN_PLUGIN_CHATBOX_MENU_NAME",		 	"Czat");
-define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", 	"Meenu Czatu");
-define("LAN_PLUGIN_CHATBOX_MENU_POSTS",			"Wpisy czatu");
+define("LAN_PLUGIN_CHATBOX_MENU_NAME", "Czat");
+define("LAN_PLUGIN_CHATBOX_MENU_DESCRIPTION", "Menu Czatu");
+define("LAN_PLUGIN_CHATBOX_MENU_POSTS",	"Wpisy czatu");
 
 // Admin Log
 //FIXME - Global LANS must begin with LAN_PLUGIN_{FOLDER_NAME}_

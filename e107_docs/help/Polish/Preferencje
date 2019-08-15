@@ -1,0 +1,15 @@
+
+Q>	Jak zmieniać tematy?
+A>	Odpowiednia sekcja jest na stronie <i>Preferencji</i>, pozwoli Ci ona dokonać zmiany tematu. Proszę najpierw podejrzeć wybrany temat, jako że starsze tematy są niekompatybilne i mogą spowodować błędy w generowaniu strony, a co za tym idzie stanie się ona niezdatna do użytku.
+
+Q>	Dlaczego należy włączyć opcję "Zastrzeżenie o ochronie danych osobowych"?
+A>	W związku z ustawą o ochronie danych osobowych z 1997 roku, każdy rejestrujący ma obowiązek potwierdzić przetwarzanie danych osobowych. Aby być w zgodzie z prawem obowiązującym w Polsce, należy poinformować użytkownika o tym iż będą prżechowywane przez serwis rejestrujący dane podane w formularzu rejestracyjnym. Każdy użytkownik, który chce się zarejestrować, musi wyrazić zgodę na przetwarzanie danych osobowych. http://www.bip.gov.pl/files/download/18/Ustawa_o_ochronie_danych_osobowych.pdf.
+
+Q>	Co to jest zabezpieczenie przeciwko atakom <i>flood</i>?
+A>	Zapobiegnie zapchaniu strony przez odwołania HTTP (często ataki flood), które mogą spowodować przerwę w działaniu Twojego serwisu.
+
+Q>	Powinienem używać plików cookies czy sesji do śledzenia użytkowników?
+A>	To jest Twój wybór, jeśli Twoja strona działa dobrze z plikami cookies (domyślnie), to pozostaw to tak jak jest. Jeśli preferujesz używanie sesji PHP, to używaj ich (e107 używa własnych nagłówków sesji do przechowywania i zarządzania sesjami).
+
+Q>	Dlaczego powinienem uruchomić swoją stronę w trybie standardowym?
+A>	Jeśli udoskonaliłeś temat i masz problemy z otrzymaniem poprawnie wygenerowanej strony w przeglądarce Firefox/Mozilla oraz IE, spróbuj zaznaczyć to pole. Wówczas IE zostanie uruchomiony w trybie standardowym i użyje poprawnego modelu pól.

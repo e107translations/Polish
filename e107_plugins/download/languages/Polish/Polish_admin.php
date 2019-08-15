@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/03/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -15,6 +12,7 @@ define("LAN_DL_OPTIONS", "Opcje");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Ogólne");
 define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Zgłoszone");
 define("LAN_DL_DOWNLOAD_OPT_AGREE", "Zatwierdzone");
+define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Chronione");
 define("LAN_DL_UPLOAD", "Nadesłane");
 define("LAN_DL_USE_PHP", "Z użyciem PHP");
 define("LAN_DL_USE_PHP_INFO", "Zaznaczenie tego spowoduje, że wszystkie żądane pliki będą pobierane przez funkcje PHP");
@@ -38,12 +36,12 @@ define("DOWLAN_18", "Opis");
 define("DOWLAN_19", "Główny obraz");
 define("DOWLAN_20", "Miniatura");
 define("DOWLAN_21", " Status");
-define("DOWLAN_22", "Lista nedesłanych");
+define("DOWLAN_22", "Lista nadesłanych");
 define("DOWLAN_23", "Typ pliku");
 define("DOWLAN_24", "Aktualizuj plik");
 define("DOWLAN_25", "Wyślij plik");
 define("DOWLAN_27", "Plik");
-define("DOWLAN_29", "Żądana");
+define("DOWLAN_29", "Wymagane");
 define("DOWLAN_31", "Kategorie");
 define("DOWLAN_32", "Opcje downloadu");
 define("DOWLAN_33", "Czy na pewno chcesz usunąć wskazany plik?");
@@ -94,12 +92,12 @@ define("DOWLAN_140", "Załaduj obrazki do lokalnego folderu e107_files/downloadi
 define("DOWLAN_141", "Lokalizacja");
 define("DOWLAN_142", "Aktualizuj mirror");
 define("DOWLAN_143", "Dodaj mirror");
-define("DOWLAN_144", "Nie ustawiono jeszcze zadnych mirrorów.");
+define("DOWLAN_144", "Nie ustawiono jeszcze żadnych mirrorów.");
 define("DOWLAN_145", "Plik widoczny dla");
 define("DOWLAN_146", "Treść wiadomości wyświetlanej w wypadku odmowy pobierania lub adres URL");
 define("DOWLAN_148", "Zaznacz, aby zaktualizować datę dodania do aktualnego czasu");
 define("DOWLAN_149", "Albo kliknij tutaj, aby użyć pliku umieszczonego na zewnętrznym serwerze");
-define("DOWLAN_150", "Wiadomość email do administratora, gdy zgłoszono uszkodzony plik");
+define("DOWLAN_150", "Wiadomość e-mail do administratora, gdy zgłoszono uszkodzony plik");
 define("DOWLAN_151", "Zgłaszanie uszkodzonych plików do pobrania dostępne dla");
 define("DOWLAN_152", "Nie mogę przenieść pliku");
 define("DOWLAN_153", "Przenieś plik do folderu downloads");
@@ -118,7 +116,7 @@ define("DOWLAN_169", "Nieaktywne");
 define("DOWLAN_171", "Log zmian");
 define("DOWLAN_172", "Brak wpisów");
 define("DOWLAN_173", "Czy jesteś pewien, że chcesz usunąć ten plik?");
-define("DOWLAN_174", "Nie znaleziono plików osoeroconych");
+define("DOWLAN_174", "Nie znaleziono plików osieroconych");
 define("DOWLAN_175", "Lokalne");
 define("DOWLAN_176", "Zewnętrzne");
 define("DOWLAN_178", "Brak kategorii");
@@ -142,12 +140,18 @@ define("DOWLAN_HELP_1", "Pomoc");
 define("DOWLAN_HELP_2", "<p>Utwórz/edytuj download.</p><p>Wpisz jedno z: Plik, adres url lub mirror.</p><p>Aby dodać plik do pobrania, najpierw utwórz dział główny a następnie utwórz podkategorię do utworzonego działu głównego. Po wykonaniu przedstawionych czynności, będziesz mógł udostępnić pliki do pobrania.</p>");
 define("DOWLAN_HELP_3", "Pomoc dla kategorii");
 define("DOWLAN_HELP_4", "Pomoc dla opcji");
-define("DOWLAN_HELP_5", "Na stronie Konserwacja, możesz znaleźć duplikaty plików, osierocone, brakujące pliki. Możesz zarządzać nieaktywnymi plikami, odświerzać ich rozmiar oraz przeglądać dziennik logów.");
+define("DOWLAN_HELP_5", "Na stronie Konserwacja, możesz znaleźć duplikaty plików, osierocone, brakujące pliki. Możesz zarządzać nieaktywnymi plikami, odświeżać ich rozmiar oraz przeglądać dziennik logów.");
 define("DOWLAN_HELP_6", "Pomoc dla limitów");
 define("DOWLAN_HELP_7", "Pomoc dla mirrorów");
 define("DOWLAN_HELP_8", "Pomoc dla nadsyłanych plików");
 define("DOWLAN_HELP_9", "Pomoc dla typów pliku");
 define("DOWLAN_HELP_10", "Pomoc dla opcji uploadu");
-
-
-?>
+define("LAN_DL_SECURITY_DESCRIPTION", "Pliki do pobrania mogą korzystać z funkcji ochrony adresów URL po stronie serwera, aby zapobiec hotlinkowaniu i/lub wymusić wygaśnięcie łącza. „.” Ta sekcja powinna zostać skonfigurowana, zanim serwer pobierania zostanie skonfigurowany tak, aby zmniejszyć ryzyko zakłóceń dla pobierających.");
+define("LAN_DL_SECURITY_MODE", "Tryb ochrony URL");
+define("LAN_DL_SECURITY_MODE_NONE", "Brak (domyślnie)");
+define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "secure_link_md5 NGINX");
+define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Kliknij, aby przełączyć listę obsługiwanych zmiennych NGINX");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION", "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>Wyrażenie NGINX secure_link_md5</a>");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "To samo wyrażenie, co skonfigurowane na serwerze");
+define("LAN_DL_SECURITY_LINK_EXPIRY", "Czas ważności w sekundach");
+define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Liczba sekund, w ciągu których link do pobrania powinien być aktywny po wygenerowaniu. „.” Działa tylko wtedy, gdy wyrażenie obsługuje czas wygaśnięcia. „.” Domyślnie bardzo długi czas, jeśli to pole pozostanie puste.");

@@ -3,21 +3,11 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
-
-/**
- *	Language file for list_new plugin admin
- *
- *	@package e107_plugins
- *	@subpackage list_new
- */
 
 if (!defined("PAGE_NAME")) { define("PAGE_NAME", "Lista nowości"); }
 
@@ -71,7 +61,7 @@ define("LIST_ADMIN_SECT_17", "Wybierz w celu ustawienia ilości pozycji wyświet
 define("LIST_ADMIN_SECT_18", "");
 
 define("LIST_ADMIN_SECT_19", "Kolejność pozycji");
-define("LIST_ADMIN_SECT_20", "Wybierz w celu ustawienia kolejności, w jakiej powinny byc wyświetlane sekcje");
+define("LIST_ADMIN_SECT_20", "Wybierz w celu ustawienia kolejności, w jakiej powinny być wyświetlane sekcje");
 define("LIST_ADMIN_SECT_21", "");
 
 define("LIST_ADMIN_SECT_22", "Ikona");

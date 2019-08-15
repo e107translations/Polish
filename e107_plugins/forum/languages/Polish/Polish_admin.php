@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/03/30                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -22,20 +19,20 @@ define("FORLAN_30", "Aktualne fora");
 define("FORLAN_34", "Wybierz grupę użytkowników, która będzie mogła moderować to forum");
 define("FORLAN_44", "Ogranicz tabelą");
 define("FORLAN_45", "Zaznacz to, aby wyświetlać forum wewnątrz tabeli tematu");
-define("FORLAN_47", "Włącz powiadamianie emailem");
-define("FORLAN_48", "Zaznacz to, aby umożliwić użytkownikom otrzymywanie powiadomień email, gdy ktoś odpowie na ich wypowiedź");
+define("FORLAN_47", "Włącz powiadamianie e-mailem");
+define("FORLAN_48", "Zaznacz to, aby umożliwić użytkownikom otrzymywanie powiadomień e-mail, gdy ktoś odpowie na ich wypowiedź");
 define("FORLAN_49", "Włącz ankiety dla");
 define("FORLAN_50", "Wybierz klasę użytkowników uprawnioną do tworzenia ankiet na forum");
 define("FORLAN_51", "Włącz śledzenie");
-define("FORLAN_52", "Zaznacz to, aby zezwolić użytkownikom na śledzenie tematów i otrzymywanie emaili, gdy ktoś odpowie w danym temacie");
-define("FORLAN_53", "Prefiks wiadomości email");
-define("FORLAN_54", "Tekst który wprowadzisz zostanie dodany jako przedrostek tematu do wszystkich emaili wysyłanych bezpośrednio przez forum");
+define("FORLAN_52", "Zaznacz to, aby zezwolić użytkownikom na śledzenie tematów i otrzymywanie e-maili, gdy ktoś odpowie w danym temacie");
+define("FORLAN_53", "Prefiks wiadomości e-mail");
+define("FORLAN_54", "Tekst który wprowadzisz zostanie dodany jako przedrostek tematu do wszystkich e-maili wysyłanych bezpośrednio przez forum");
 define("FORLAN_55", "Próg popularności tematu");
 define("FORLAN_56", "Ilość postów w temacie zanim zostanie on oznaczony jako popularny");
 define("FORLAN_57", "Postów na stronie");
 define("FORLAN_58", "Ilość postów wyświetlanych na jednej stronie");
 define("FORLAN_60", "Z poziomu tej strony możesz usunąć wszystkie tematy, które nie otrzymały odpowiedzi w przeciągu podanej przez Ciebie ilości dni. <br /><b> Proszę zachować ostrożność podczas używania tej funkcji!</b>");
-define("FORLAN_63", "Pokaż Rangi");
+define("FORLAN_63", "Wyświetl rangi");
 define("FORLAN_65", "Nagłówek forum");
 define("FORLAN_66", "Nie zainstalowane");
 define("FORLAN_70", "Włącz załączanie obrazków oraz plików");
@@ -101,8 +98,8 @@ define("FORLAN_172", "Usuń ten raport");
 define("FORLAN_173", "Nazwa tematu");
 define("FORLAN_174", "Raport dostarczył(a)");
 define("FORLAN_175", "Raport dostarczono dnia");
-define("FORLAN_177", "Powiadomienia email domyślnie WŁĄCZONE");
-define("FORLAN_178", "Zaznacz to, aby pole powiadomień email było domyślnie zaznaczone.");
+define("FORLAN_177", "Powiadomienia e-mail domyślnie WŁĄCZONE");
+define("FORLAN_178", "Zaznacz to, aby pole powiadomień e-mail było domyślnie zaznaczone.");
 define("FORLAN_179", "Dodanie * na samym początku nazwy forum, uczyni to forum kontenerem tylko dla subforum. Szablon forum musi wspierać tę funkcję.");
 define("FORLAN_182", "również przelicza odpowiedzi dla wszystkich tematów w wybranym forum");
 define("FORLAN_183", "(ta funkcja nie jest dozwolona, kiedy jest wybrana opcja 'wszystkie fora dyskusyjne' ze względu na ilość zapytań jaką ta funkcja wygeneruje)");
@@ -111,23 +108,26 @@ define("FORLAN_185", "Wskazuje, kto może tworzyć nowe wątki");
 define("FORLAN_186", "Wątków na stronie");
 define("FORLAN_187", "Ilość wyświetlanych wątków na stronie");
 define("FORLAN_189", "Kliknij w przycisk 'usuń' aby usunąć raport.<br /><br />Kliknij w przycisk 'podgląd', aby wyświetlić temat / wątek");
-define("FORLAN_200", "Śledzenie tematów");
-define("FORLAN_201", "Włącz tę opcję, aby umożliwić użytkownikom śledzenie tematów.");
-define("FORLAN_202", "Powiadamianie e-mailem o śledzonych tematach");
-define("FORLAN_203", "Włącz tę opcję, aby umożliwić użytkownikom otrzymywanie powiadomień e-mailowych, gdy inni odpowiadają na śledzony temat.");
-define("FORLAN_204", "Użytkownik");
-define("FORLAN_205", "Uprawnienia do pisania");
-define("FORLAN_206", "Klasa tworzenia nowych wątków");
-define("FORLAN_207", "Forum i wątki");
-define("FORLAN_208", "Tylko forum");
+define("FORLAN_200", "Śledzenie wątków");
+define("FORLAN_201", "Umożliwia śledzenie wątków.");
+define("FORLAN_202", "Powiadamianie e-mail o nowych wypowiedziach");
+define("FORLAN_203", "Włączenie tej opcji umożliwi otrzymywanie powiadomień e-mail o odpowiedziach do wątku.");
+define("FORLAN_204", "Anonimowy użytkownik");
+define("FORLAN_205", "Uprawnienia wpisu");
+define("FORLAN_206", "Klasa tworzenia wątku");
+define("FORLAN_207", "Fora i wątki");
+define("FORLAN_208", "Tylko fora");
 define("FORLAN_209", "Temat");
 define("FORLAN_210", "Kwestia");
-define("FORLAN_211", "Napisane przez");
+define("FORLAN_211", "Wysłany przez");
 define("FORLAN_212", "Załączniki");
-define("FORLAN_213", " Post");
-define("FORLAN_214", "Zostaw puste, aby automatycznie wygenerować z tytułu powyżej.");
-define("FORLAN_215", "Nie zainstalowane!");
-define("FORLAN_216", "(Nowy nadrzędny)");
-
-
-?>
+define("FORLAN_213", "Post");
+define("FORLAN_214", "Pozostaw puste, aby automatycznie wygenerować go z powyższego tytułu.");
+define("FORLAN_215", "Nie zainstalowano!");
+define("FORLAN_216", "(Nowy rodzic)");
+define("FORLAN_217", "Domyślne ustawienie systemowe");
+define("FORLAN_218", "Obszar tekstu");
+define("FORLAN_219", "Zaawansowany edytor tekstu");
+define("FORLAN_220", "Edytor postów");
+define("FORLAN_221", "Którego edytora należy używać do tworzenia/edytowania postów?");
+define("FORLAN_222", "Podstawowy edytor tekstu");

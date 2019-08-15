@@ -4,43 +4,37 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_notify.php                     *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
-
+define("NA_LAN_1", "Aktualizacja hasła");
+define("NA_LAN_2", "Tworzenie nowego użytkownika");
+define("NA_LAN_3", "Aktywacja nowego użytkownika");
 define("NT_LAN_1", "Powiadomienia");
 define("NT_LAN_2", "Wysyłaj powiadomienia e-mailem o");
-//define("NT_LAN_3", "Off");
-//define("NT_LAN_4", "Head admin");
-//define("NT_LAN_5", "Class");
-//define("NT_LAN_6", "Email");
-
 define("NU_LAN_1", "Użytkownikach");
-define("NU_LAN_2", "Nowej rejestracji");
-define("NU_LAN_3", "Weryfikacji konta");
-define("NU_LAN_4", "Zalogowaniu się");
-define("NU_LAN_5", "Wylogowaniu się");
-
-define("NS_LAN_1", "Bezpieczeństwie");
-define("NS_LAN_2", "Adresach IP zablokowanych w wyniku ataków przez przepełnienie");
-
-define("NN_LAN_1", "Aktualnościach");
-define("NN_LAN_2", "Nadesłanych przez użytkowników");
-define("NN_LAN_3", "Dodanych przez administratorów");
-define("NN_LAN_4", "Przeredagowanych przez administratorów");
-define("NN_LAN_5", "Usuniętych przez administratorów");
-
-define("NM_LAN_1", "E-mailach");
-define("NM_LAN_2", "Masowych wiadomościach e-mail");
-
-define("NF_LAN_1", "Nowych plikach");
-define("NF_LAN_2", "Załadowanych przez użytkowników");
-
-define("LAN_NOTIFY_01", "Wydarzeniach");
-
-?>
+define("NU_LAN_2", "Nowa rejestracja");
+define("NU_LAN_3", "Weryfikacja konta");
+define("NU_LAN_4", "Zalogowanie");
+define("NU_LAN_5", "Wylogowanie");
+define("NU_LAN_6", "Logowanie użytkownika przez Social");
+define("NU_LAN_7", "Rejestracja użytkownika przez Social");
+define("NU_LAN_8", "Odsłony profilu użytkownika");
+define("NU_LAN_9", "Edycja profilu użytkownika");
+define("NS_LAN_1", "Bezpieczeństwo");
+define("NS_LAN_2", "Adresy IP zablokowane w wyniku ataków przez przepełnienie");
+define("NS_LAN_3", "Zablokowane IP z powodu zbyt wielu nieudanych prób logowania");
+define("NN_LAN_1", "Aktualności");
+define("NN_LAN_2", "Nadesłane aktualności przez użytkowników");
+define("NN_LAN_3", "Aktualności wstawione przez administratorów");
+define("NN_LAN_4", "Aktualności przeredagowane przez administratorów");
+define("NN_LAN_5", "Aktualności usunięte przez administratorów");
+define("NN_LAN_6", "Uruchomione powiadomienie o aktualnościach");
+define("NM_LAN_1", "E-maile");
+define("NM_LAN_2", "Masowe wiadomości e-mail");
+define("NM_LAN_3", "Adres E-mail =>");
+define("NF_LAN_1", "Nowe pliki");
+define("NF_LAN_2", "Pliki załadowane przez użytkowników");
+define("LAN_NOTIFY_01", "- zdarzenia");

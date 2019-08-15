@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_email.php                            *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -34,7 +30,4 @@ define("LAN_EMAIL_187", "Docelowy adres e-mail");
 define("LAN_EMAIL_188", "Witaj!<br /><br />Sądzę, że zainteresuje Cię wiadomość znaleziona na stronie -");
 define("LAN_EMAIL_189", "Witaj!<br /><br />Sądzę, że zainteresuje Cię artykuł znaleziony na stronie -");
 define("LAN_EMAIL_190", "Wprowadź kod");
-define("LAN_SOCIAL_LINK_CHK", "Sprawdź ten link");
-
-
-?>
+define("LAN_SOCIAL_LINK_CHK", "Sprawdź ten link:");

@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_menus.php                      *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -40,21 +37,18 @@ define("MENLAN_41", "Pozycje dla wszystkich menu zostaną utracone, czy chcesz k
 define("MENLAN_43", "Aktywowano predefiniowane ustawienia menu");
 define("MENLAN_44", "Parametry menu");
 define("MENLAN_45", "Parametry (format ciągu kwarendy):");
-define("MENLAN_46", "[x] obiekt nie znaleziony. Spróbuj ponownie przeszukać katalogi wtyczek w Narzędziach > Baza Danych");
-define("MENLAN_47", "Brak pól w");
-define("MENLAN_48", "Nie można załadować menu");
+define("MENLAN_46", "[x] nie został znaleziony. Przeskanuj dane wtyczki w zakładce narzędzia > Baza danych.");
+define("MENLAN_47", "Brak ustawionych wartości w");
+define("MENLAN_48", "Menu nie może się załadować");
 define("MENLAN_49", "Twoje menu");
 define("MENLAN_50", "Menu wtyczek");
-define("MENLAN_51", "Ten układ NIE zawiera żadnych dynamicznych obszarów {MENU}");
-define("MENLAN_52", "Zawiera następujące niestandardowe menu:");
-define("MENLAN_53", "Przejdź do obszaru menu niestandardowego");
-define("MENLAN_54", "Wygląd szablonu");
-define("MENLAN_55", "Wygląd menu");
-define("MENLAN_56", "Własne strony");
-define("MENLAN_57", "Przeciągnij i upuść menu");
-define("MENLAN_58", "Menu-Manager umożliwia umieszczanie i porządkowanie menu w szablonie motywów. Najedź myszą na podrozdziały, aby zmodyfikować istniejące pozycje menu");
+define("MENLAN_51", "Ten szablon nie jest w stanie uruchomić dynamicznych obszarów {MENU}.");
+define("MENLAN_52", "Istniejące w szablonie niestandardowe menu:");
+define("MENLAN_53", "Przejdź do własnego obszaru menu");
+define("MENLAN_54", "Szablon");
+define("MENLAN_55", "Menu");
+define("MENLAN_56", "Strony");
+define("MENLAN_57", "Złap i przeciągnij menu");
+define("MENLAN_58", "Manager menu umożliwia wstawienie i dowolne rozmieszczenie menu w szablonie motywu. Najedź kursorem na podobszary, aby zmodyfikować istniejące elementy menu.");
 define("MENLAN_59", "Obszar [x]");
-define("MENLAN_60", "Temat ten wykorzystuje przestarzałe elementy. Wszystkie znaczniki [x] HEADER i [x] FOOTER powinny zostać usunięte z pliku theme.php.");
-
-
-?>
+define("MENLAN_60", "Ten motyw używa nieaktualnych elementów. Wszystkie [x] HEADER i [x] FOOTER należy usunąć z pliku theme.php");

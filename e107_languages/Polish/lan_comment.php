@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_comment.php                          *
-   *                                                                 *
- 	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -86,7 +82,7 @@ define("COMLAN_TYPE_8", "Profil użytkownika");
 define("COMLAN_TYPE_PAGE", "Treści");		// Really custom page, but use a 'non-technical' description
 
 define("COMLAN_500", "Proszę się [sign in] aby napisać komentarz.");
-define("COMLAN_501", "Jeżeli nie jesteś zarejestrowanym użytkownikiem, możesz zrobić to klikając w link [click here to register].");
+define("COMLAN_501", "Jeżeli nie jesteś zarejestrowanym użytkownikiem, możesz zrobić to klikając w link [kliknij tutaj i zarejestruj].");
 
 
 ?>

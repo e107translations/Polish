@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_userclass.php                        *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -24,8 +20,5 @@ define("UC_LAN_7", "Moderatorzy Forum");
 define("UC_LAN_8", "Administratorzy");
 define("UC_LAN_9", "Nowi użytkownicy");
 define("UC_LAN_10", "Roboty wyszukiwarek");
-define("UC_LAN_INVERT", "Bez --CLASS--");
+define("UC_LAN_INVERT", "Brak [x]");
 define("UC_LAN_INVERTLABEL", "Ktokolwiek, ale ...");
-
-
-?>

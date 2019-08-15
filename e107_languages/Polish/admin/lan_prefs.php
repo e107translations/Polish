@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_prefs.php                      *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/07/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -97,10 +94,10 @@ define("PRFLAN_101", "Generowanie treści");
 define("PRFLAN_102", "Zastąpić aktywne adresy URL");
 define("PRFLAN_103", "Jeśli ta opcja oraz powyższa będzie aktywna, wówczas wstawione adresy URL oraz e-mail zostaną wyświetlone jako hiperłącza z wykorzystaniem tekstu z poniższych pól tekstowych. Włączenie tego zapobiega naruszeniu struktury strony przez zbyt długie adresy URL/e-mail.");
 define("PRFLAN_104", "Fraza zastępująca adresy URL");
-define("PRFLAN_105", "Fraza zastępująca prezentowany adres URL w hiperłączu. Grafika może być stosowana przy użyciu znacznika <img> z uwzględnieniem pełnej ścieżki do pliku graficznego");
+define("PRFLAN_105", "Fraza zastępująca prezentowany adres URL w hiperłączu. Grafika może być stosowana przy użyciu znacznika &lt;img&gt; z uwzględnieniem pełnej ścieżki do pliku graficznego");
 define("PRFLAN_106", "Ustawienia zapisano w bazie danych.");
 define("PRFLAN_107", "Fraza zastępująca adresy e-mail");
-define("PRFLAN_108", "Fraza zastępująca prezentowany adres e-mail w hiperłączu. Grafika może być stosowana przy użyciu znacznika <img> z uwzględnieniem pełnej ścieżki do pliku graficznego");
+define("PRFLAN_108", "Fraza zastępująca prezentowany adres e-mail w hiperłączu. Grafika może być stosowana przy użyciu znacznika &lt;img&gt; z uwzględnieniem pełnej ścieżki do pliku graficznego");
 define("PRFLAN_109", "Zawijaj długie wyrazy w tekście");
 define("PRFLAN_110", "wyrazy dłuższe niż zdefiniowanej długości będą zawijane do nowej linii");
 define("PRFLAN_111", "Zawijaj długie wyrazy w menu");
@@ -166,7 +163,7 @@ define("PRFLAN_177", "Adres dla odpowiedzi zwrotnych.");
 define("PRFLAN_178", "Metoda przesyłania hasła");
 define("PRFLAN_179", "(Obsługiwane tylko w przypadku korzystania z sesji do śledzenia użytkownika.)");
 define("PRFLAN_180", "Zwykły tekst");
-define("PRFLAN_181", "CHAP, zwykły text rezerwowy");
+define("PRFLAN_181", "CHAP, zwykły tekst rezerwowy");
 define("PRFLAN_182", "CHAP tylko");
 define("PRFLAN_183", " CHAP wymaga włączenia JS w przeglądarce użytkownika");
 define("PRFLAN_184", "Metoda logowania użytkownika");
@@ -190,15 +187,15 @@ define("PRFLAN_203", "Nazwa użytkownika/E-mail i hasło");
 define("PRFLAN_204", "Odseparuj wtyczki wewnątrz ich menu.");
 define("PRFLAN_205", "Po włączeniu wtyczki zostaną wyświetlone w swoim menu nawigacyjnym, podobnie jak w e107 v0.7 oraz wcześniej.");
 define("PRFLAN_206", "Wyjątki url tylko dla użytkowników");
-define("PRFLAN_207", "Tylko dla zarejestrowanych użytkowników, ten tryb zostanie wyłaczony dla adresów url spełniających te warunki. Jeden wpis w lini.");
+define("PRFLAN_207", "Tylko dla zarejestrowanych użytkowników, ten tryb zostanie wyłączony dla adresów url spełniających te warunki. Jeden wpis w linii.");
 define("PRFLAN_208", "Klasa użytkowników, która może dodawać linki e-mail na stronie");
 define("PRFLAN_209", "Pozostałe opcje");
 define("PRFLAN_210", "Komentarze/posty");
 define("PRFLAN_211", "Nie można używać opcjonalnego adresu e-mail gdy jest wymagany w celu weryfikacji lub logowania");
-define("PRFLAN_212", "Wartość dla --FIELD-- zbyt wysoka - zmiana na --VALUE--");
-define("PRFLAN_213", "Wartość dla --FIELD-- zbyt niska - zmiana na --VALUE--");
+define("PRFLAN_212", "Wartość dla [x] zbyt wysoka - zmiana na [y]");
+define("PRFLAN_213", "Wartość dla [x] zbyt niska - zmiana na [y]");
 define("PRFLAN_214", "Logo serwisu");
-define("PRFLAN_215", "Klasa użytkowników, która może używać znacznika <script> oraz podobnych tagów");
+define("PRFLAN_215", "Klasa użytkowników, która może używać znacznika &lt;script&gt; oraz podobnych tagów");
 define("PRFLAN_216", "(Wymaga również uprawnień do pisania w HTML=u)");
 define("PRFLAN_217", "Filtr treści HTML");
 define("PRFLAN_218", "Jeśli 'wyłączone' lub wersja e107 < 0.7.24, użytkownicy z powyższej klasy zostaną potraktowani jako użytkownicy zwiększonego ryzyka wykorzystania ataków XSS");
@@ -237,7 +234,7 @@ define("PRFLAN_250", "Właczona konsolidowana obsługa skryptów skompresowanych
 define("PRFLAN_251", "Używany tylko wtedy, gdy włączona jest konsolidacja skrypt");
 define("PRFLAN_252", "Wyłącz skrypty skonsolidowanych pamięci podręcznej serwera:");
 define("PRFLAN_253", "Wyłącz skrypty skonsolidowanych pamięci podręcznej przeglądarki:");
-define("PRFLAN_254", "E-mail & Kontakt");
+define("PRFLAN_254", "E-mail &amp; Kontakt");
 define("PRFLAN_255", "Przesyłanie pliku");
 define("PRFLAN_256", "Zaawansowane opcje");
 define("PRFLAN_257", " Javascript Framework");
@@ -250,15 +247,21 @@ define("PRFLAN_263", "Powinna być unikalna dla tej witryny.");
 define("PRFLAN_264", "Strona główna jest stroną logowania (login.php)");
 define("PRFLAN_265", "Strona główna jest stroną powitalną (membersonly.php)");
 define("PRFLAN_266", "Na którą stronę ma być przekierowany użytkownik po wylogowaniu się ?");
-define("PRFLAN_267", "Metoda e-mailowa");
-define("PRFLAN_268", "Edycja obszaru przedniego");
-define("PRFLAN_269", "Administratorzy z tą klasą użytkowników (i odpowiednimi uprawnieniami administratora) będą mogli edytować html bezpośrednio w obszarze przednim.");
+define("PRFLAN_267", "Metoda wysyłania e-mail");
+define("PRFLAN_268", "Edycja frontendowa");
+define("PRFLAN_269", "Administratorzy z tą klasą użytkownika (i odpowiednimi uprawnieniami administratora) będą mogli edytować html bezpośrednio przez obszar interfejsu.");
 define("PRFLAN_270", "Filtrowanie formularza kontaktowego");
-define("PRFLAN_271", "Ignoruj zgłaszanie formularzy zawierających te słowa lub frazy. Po jednym w wierszu.");
+define("PRFLAN_271", "Ignoruj przesyłane formularze zawierające te słowa lub wyrażenia. Jeden na linię.");
 define("PRFLAN_272", "Czas trwania sesji");
-define("PRFLAN_273", "Czas trwania w sekundach. 0 = do czasu zamknięcia okna przeglądarki.");
+define("PRFLAN_273", "Czas sesji w sekundach. 0 = dopóki przeglądarka nie zostanie zamknięta.");
 define("PRFLAN_274", "Formularz kontaktowy będzie widoczny tylko dla tej grupy użytkowników.");
-define("PRFLAN_275", "Zobacz tę stronę za pomocą protokołu HTTPS (SSL), aby zmodyfikować tę opcję");
-
-
-?>
+define("PRFLAN_275", "Aby zmodyfikować tę opcję wyświetl tę stronę za pomocą https (SSL)");
+define("PRFLAN_276", "Domyślne PHP (preferowane)");
+define("PRFLAN_277", "Ustawienia GDPR");
+define("PRFLAN_278", "Polityka prywatności - Adres URL");
+define("PRFLAN_279", "Upewnij się, że adres URL istnieje! Najlepiej użyć absolutnego adresu URL. To ustawienie będzie używane we wszystkich miejscach wymagających zgody użytkownika (np. Rejestracja, formularz kontaktowy / menu itp.).");
+define("PRFLAN_280", "Zasady użytkowania ze strony (Regulamin) - Adres URL");
+define("PRFLAN_281", "Dwa powyższe linki są używane na różnych stronach tej witryny (np. Rejestracja i formularz kontaktowy/menu).
+Utwórz dwie strony (jeśli jeszcze ich nie ma), które zawierają Twoją „Politykę prywatności” oraz „Regulamin”.
+Istnieje kilka stron internetowych, które mogą wygenerować ten tekst dla Ciebie.
+Skopiuj adresy URL tych stron na powyższe pola (np. / strona / polityka prywatności lub /page/terms-and-conditions). Ale upewnij się, że strony i adresy URL istnieją i działają!");

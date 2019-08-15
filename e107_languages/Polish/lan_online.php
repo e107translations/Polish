@@ -1,20 +1,15 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_online.php                           *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 
-//v.616
 define("ONLINE_EL1", "Gości: ");
 define("ONLINE_EL2", "Użytkowników: ");
 define("ONLINE_EL3", "Na tej stronie: ");
@@ -68,4 +63,3 @@ define("CONTENT", "Publikacje");
 define("REVIEW", "Recenzja");
 define('OTHER', 'Pozostałe strony: ');
 
-?>

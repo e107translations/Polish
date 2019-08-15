@@ -1,22 +1,18 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_user.php                             *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 define("LAN_USER_01", "Nazwa wyświetlana");
 define("LAN_USER_02", "Nick");
 define("LAN_USER_03", "Prawdziwe imię");
-define("LAN_USER_04", "Własny Tutuł");
+define("LAN_USER_04", "Własny Tytuł");
 define("LAN_USER_06", "Zdjęcie");
 define("LAN_USER_07", "Awatar");
 define("LAN_USER_09", "Podpis");
@@ -25,7 +21,7 @@ define("LAN_USER_12", "Klasa użytkowników");
 define("LAN_USER_13", " ID");
 define("LAN_USER_14", "Dołączył");
 define("LAN_USER_15", "Ostatnia wizyta");
-define("LAN_USER_16", "Aktualnie");
+define("LAN_USER_16", "Aktualna wizyta");
 define("LAN_USER_18", "Adres IP");
 define("LAN_USER_19", "Blokada");
 define("LAN_USER_20", "Pref.");
@@ -66,16 +62,16 @@ define("LAN_USER_63", "Prawdziwe Imię:");
 define("LAN_USER_64", "Statystyki użytkownika");
 define("LAN_USER_65", "Ostatnia wizyta");
 define("LAN_USER_66", "Wizyt w serwisie od rejestracji");
-define("LAN_USER_67", "Postów w chatbox");
+define("LAN_USER_67", "Postów w Chatbox");
 define("LAN_USER_68", "Napisanych komentarzy");
 define("LAN_USER_69", "Wpisów na Forum");
 define("LAN_USER_71", "Podpis:");
 define("LAN_USER_72", "Awatar:");
 define("LAN_USER_73", "Zapisać do listy e-mail");
 define("LAN_USER_74", "Nazwa skrócona");
-define("LAN_USER_75", "Twój --SOMETHING-- jest wymagany");
+define("LAN_USER_75", "Twój [x] jest wymagany");
 define("LAN_USER_76", "Subskrybowane");
-define("LAN_USER_77", "Hasło musi składać się z --COUNT-- znaków.");
+define("LAN_USER_77", "Hasło musi składać się z [x] znaków.");
 define("LAN_USER_78", " Min.");
 define("LAN_USER_79", "znaków");
 define("LAN_USER_80", "nazwa wyświetlana na stronie");
@@ -84,14 +80,17 @@ define("LAN_USER_82", "Nazwa użytkownika używana do zalogowania się");
 define("LAN_USER_83", "Ukrywać adres E-mail ?:");
 define("LAN_USER_84", "Twój adres E-mail nie będzie pokazywany na stronach");
 define("LAN_USER_85", "Jeżeli chcesz zmienić swoją nazwę użytkownika musisz powiadomić administratora serwisu");
-define("LAN_USER_86", "Maksymalny rozmiar awataru to --WIDTH-- x --HEIGHT-- pikseli");
-define("LAN_USER_87", "Zaloguj się, aby ocenić tego użytkownika.");
-define("LAN_XUP_ERRM_01", "Błąd rejestracji. Ta funkcja jest wyłączona.");
-define("LAN_XUP_ERRM_02", "Błąd rejestracji. Błędna usługa.");
-define("LAN_XUP_ERRM_03", "Błąd logowania. Błędna usługa.");
-define("LAN_XUP_ERRM_04", "Błąd rejestracji. Taki użytkownik już istnieje.");
-define("LAN_XUP_ERRM_05", "Błąd rejestracji. Użytkownik już istnieje. Proszę się zalogować.");
-define("LAN_XUP_ERRM_06", "Błąd rejestracji. Nie można uzyskać dostępu do adresu e-mail - rejestracja bez podania adresu e-mail jest nie możliwa.");
-
-
-?>
+define("LAN_USER_86", "Maksymalny rozmiar awataru to [x]- x [y] pikseli");
+define("LAN_USER_87", "Zaloguj się, aby ocenić tego użytkownika!");
+define("LAN_XUP_ERRM_01", "Rejestracja nie powiodła się! Ta funkcja jest wyłączona.");
+define("LAN_XUP_ERRM_02", "Rejestracja nie powiodła się! Błędny właściciel.");
+define("LAN_XUP_ERRM_03", "Logowanie nie powiodło się! Błędny właściciel.");
+define("LAN_XUP_ERRM_04", "Rejestracja nie powiodła się! Użytkownik jest już zalogowany.");
+define("LAN_XUP_ERRM_05", "Rejestracja nie powiodła się! Użytkownik już istnieje. Zamiast tego spróbuj się zalogować.");
+define("LAN_XUP_ERRM_06", "Rejestracja nie powiodła się! Nie można uzyskać dostępu do poczty elektronicznej użytkownika - rejestracja bez wiadomości e-mail jest niemożliwa.");
+define("LAN_XUP_ERRM_07", "Tester logowania dla portali społecznościowych");
+define("LAN_XUP_ERRM_08", "Wyloguj się z e107 przed przetestowaniem procedury logowania/rejestracji nowego użytkownika.");
+define("LAN_XUP_ERRM_09", "Testuj logowanie tylko za pomocą [x]");
+define("LAN_XUP_ERRM_10", "Testuj rejestrację/logowanie tylko za pomocą [x]");
+define("LAN_XUP_ERRM_11", "Zalogowany:");
+define("LAN_XUP_ERRM_12", "Test wylogowania");

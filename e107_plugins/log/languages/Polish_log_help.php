@@ -1,24 +1,18 @@
 <?php
 /*
-+==========================================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)*
-+------------------------------------------------------------------------------------------+
-   * Spolszczenie systemu CMS e107                                                         *
-   * Polish language file - e107_plugins/log/languages/admin/Polish.php                    *
-   *                                                                                       *
-	* e107 Polish Team                                                                      *
-	* Polskie wsparcie: www.e107poland.org                                                  *
-	* $Date: 2015/01/10                                                                     *
-	* $Author: JacekCich                                                                    *
-+------------------------------------------------------------------------------------------+
-+==========================================================================================+
++====================================================================+
++--------------------------------------------------------------------+
+   * Spolszczenie systemu CMS e107                                   *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
++--------------------------------------------------------------------+
++====================================================================+
 */
-
 define("LAN_STAT_HELP_01","Statystyki");
 define("LAN_STAT_HELP_02","Ta opcja, usunie wszystkie wcześniejsze statystyki z bazy danych.  To niema wpływu na dane \"cały czas\" .<br /><br />
 Uwaga! Po usunięciu danych nie można ich odzyskać. Wcześniej, wykonaj kopię zapasową lub eksport danych.");
 define("LAN_STAT_HELP_03","Opcja ta pozwala na usunięcie danych odnoszących się do konkretnej strony serwisu.");
-define("LAN_STAT_HELP_04","Ta opcja pozwala na eksport danych statystycznych w formacie CSV. Można je zaimportować do innych aplikacji w celu głębszej analizy. Więcej na temat wtyczki lub formatu oliku, możesz przeczytać na stronie wiki - plugin stats logging.");
+define("LAN_STAT_HELP_04","Ta opcja pozwala na eksport danych statystycznych w formacie CSV. Można je zaimportować do innych aplikacji w celu głębszej analizy. Więcej na temat wtyczki lub formatu pliku, możesz przeczytać na stronie wiki - plugin stats logging.");
 define("LAN_STAT_HELP_05","<b>Statystyki włączone</b><br />Rejestrowanie statystyk będzie nie możliwy, gdy wyłączone.<br /><br />
 <b>Dostęp do stron statystyk</b><br />
 Określa, kto może przeglądać strony statystyk<br /><br />

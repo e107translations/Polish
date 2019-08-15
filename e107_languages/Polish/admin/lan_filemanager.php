@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_filemanager.php                *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -67,6 +64,3 @@ define("FMLAN_49", "Proszę potwierdzić chęć PRZENIESIENIA zaznaczonych plik�
 define("FMLAN_50", "Przenieś");
 define('FMLAN_51', 'Niezidentyfikowany błąd: ');
 
-
-
-?>

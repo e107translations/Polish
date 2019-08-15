@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_userclass2.php                 *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -29,7 +26,7 @@ define("UCSLAN_46", "(ignorowanie, jeśli bez weryfikacji)");
 define("UCSLAN_47", "Wstępna rejestracja");
 define("UCSLAN_48", "Weryfikacja przez e-mail lub admina");
 define("UCSLAN_49", "Te klasy są dla wszystkich nowo zarejestrowanych użytkowników - dodanych natychmiast lub tych którzy zostali zweryfikowani.");
-define("UCSLAN_53", "Uwaga! Należy używać tylko te opcje, jeśli rozumiesz co one robią");
+define("UCSLAN_53", "Skorzystaj z tych opcji tylko wtedy jeśli jesteś pewny, że wiesz co robisz!");
 define("UCSLAN_54", "Ustawienia hierarchii domyślnego użytkownika");
 define("UCSLAN_55", "Wyczyść hierarchię użytkownika");
 define("UCSLAN_56", "(te ustawienia są 'płaskimi' strukturami klas użytkownika)");
@@ -59,7 +56,4 @@ define("UCSLAN_87", "Ostatnio dołączyli użytkownicy");
 define("UCSLAN_88", "Rozpoznanych przez roboty wyszukiwarek");
 define("UCSLAN_89", "Sprawdzone klasy są członkami grupy");
 define("UCSLAN_90", "Nie można edytować pewnych klas użytkowników systemu!");
-define("UCSLAN_91", "Struktura klasy.");
-
-
-?>
+define("UCSLAN_91", "Struktura klasy");

@@ -4,11 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_plugin.php                     *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -59,7 +56,7 @@ define("EPL_ADLAN_45", "Menu zostało pomyślnie przesłane oraz rozpakowane, ab
 define("EPL_ADLAN_46", "PCLZIP - Błąd dekompresji:");
 define("EPL_ADLAN_47", "PCLTAR - Błąd dekompresji:");
 define("EPL_ADLAN_48", "kod:");
-define("EPL_ADLAN_49", "Podczas procesu deinstalacji nie usunięto tabel na właasne życzenie");
+define("EPL_ADLAN_49", "Podczas procesu deinstalacji nie usunięto tabel na własne życzenie");
 define("EPL_WEBSITE", "Strona domowa");
 define("EPL_NOINSTALL", "Nie wymaga instalacji - wystarczy je aktywować. Aby odinstalować, skasuj");
 define("EPL_DIRECTORY", "katalog.");
@@ -87,7 +84,7 @@ define("EPL_ADLAN_77", "Nie można znaleźć plugin.xml");
 define("EPL_ADLAN_78", "Kasowanie klasy użytkowników utworzone przez wtyczkę:");
 define("EPL_ADLAN_79", "Skasuj tylko wtedy gdy nie jest używane do innych celów.");
 define("EPL_ADLAN_80", "Kasowanie dodatkowe pola dla użytkowników utworzone przez wtyczkę:");
-define("EPL_ADLAN_81", " Xhtml");
+define("EPL_ADLAN_81", " XHTML");
 define("EPL_ADLAN_82", "Ikona");
 define("EPL_ADLAN_83", "Uwagi");
 define("EPL_ADLAN_84", "Zainstaluj zaznaczone");
@@ -110,7 +107,7 @@ define("EPL_ADLAN_100", "kliknij tutaj, aby zainstalować niektóre");
 define("EPL_ADLAN_101", "Nie zainstalowanych wtyczek - [x].");
 define("EPL_ADLAN_102", "Ten Kreator zbuduje obszar administracyjny dla wtyczki i wygeneruje dane metapliku plugin.xml. Zanim zaczniesz:");
 define("EPL_ADLAN_103", "Utwórz nowy zapisywalny katalog w [x] np. [b]myplugin[/b]");
-define("EPL_ADLAN_105", "Utwórz tabele w bazie danych phpMyAdmin i wklej dane sql a następnie zapisz. (zobacz [b]e107_myplugin[/b] dla przykładu)");
+define("EPL_ADLAN_105", "Utwórz tabele w bazie danych phpMyAdmin i wklej dane sql a następnie zapisz. (zobacz [b]e107_plugins/_blank/_blank_sql.php[/b] dla przykładu)");
 define("EPL_ADLAN_106", "Wybierz folder wtyczek, aby rozpocząć.");
 define("EPL_ADLAN_107", "Utwórz obszar administracyjny oraz plik xml dla:");
 define("EPL_ADLAN_108", "Sprawdź pliki językowe:");
@@ -135,7 +132,7 @@ define("EPL_ADLAN_128", "Plik");
 define("EPL_ADLAN_129", "Nazwa preferencji");
 define("EPL_ADLAN_130", "Wartość domyślna");
 define("EPL_ADLAN_131", "Typ pola...");
-define("EPL_ADLAN_132", "[x] został wygenerewany");
+define("EPL_ADLAN_132", "[x] został wygenerowany");
 define("EPL_ADLAN_133", "[x] brakuje!");
 define("EPL_ADLAN_134", "Proszę utworzyć [b][x][/b] w katalogu wtyczek o następującej treści: [y]");
 define("EPL_ADLAN_135", "Nazwa Twojej wtyczki. (Musi być napisana in English)");
@@ -145,7 +142,7 @@ define("EPL_ADLAN_138", "Wersja Twojej wtyczki. Format: x.x");
 define("EPL_ADLAN_139", "Kompatybilne z wersją e107");
 define("EPL_ADLAN_140", "Nazwa autora");
 define("EPL_ADLAN_141", "Strona URL autora");
-define("EPL_ADLAN_142", "Krótki wtyczki opis w jednej lini");
+define("EPL_ADLAN_142", "Krótki wtyczki opis w jednej linii");
 define("EPL_ADLAN_143", "(Musi być napisane in English)");
 define("EPL_ADLAN_144", "Słowo kluczowe / Tag dla tej wtyczki");
 define("EPL_ADLAN_145", "Pełen opis Twojej wtyczki");
@@ -221,7 +218,7 @@ define("EPL_ADLAN_215", "Ukryty");
 define("EPL_ADLAN_216", "Kliknij tutaj");
 define("EPL_ADLAN_217", "[x] aby zobaczyć swój wygenerowany obszar administracji");
 define("EPL_ADLAN_218", "Nie można zapisać do [x]");
-define("EPL_ADLAN_219", "Żadne pliki nie zostały utworzone. Proszzę skopiować & oraz wkleić kod umieszczony poniżej.");
+define("EPL_ADLAN_219", "Żadne pliki nie zostały utworzone. Proszę skopiować &amp; oraz wkleić kod umieszczony poniżej.");
 define("EPL_ADLAN_220", "Znajdź Wtyczki");
 define("EPL_ADLAN_221", "Sprawdzanie plików językowych");
 define("EPL_ADLAN_222", "Pliki wtyczki");
@@ -233,38 +230,37 @@ define("EPL_ADLAN_227", "Skanowanie w poszukiwaniu zmian");
 define("EPL_ADLAN_228", "Katalogi wtyczek są skanowane co [x] minut w poszukiwaniu zmian. Kliknij, aby przeskanować teraz.");
 define("EPL_ADLAN_229", "Odśwież");
 define("EPL_ADLAN_230", "Pobieranie i instalowanie");
-define("EPL_ADLAN_231", "Kasowanie ikon z Menadżera Mediów");
-define("EPL_ADLAN_232", "Utwórz pliki");
-define("TPVLAN_81", "Pobieranie ...");
-define("TPVLAN_82", "Pobieranie ukończone !");
-define("EPL_ADLAN_233", "Dodawanie linku:");
-define("EPL_ADLAN_234", "Usuwanie linku:");
-define("EPL_ADLAN_235", "Automatyczne pobieranie jest niemożliwe.");
-define("EPL_ADLAN_236", "Proszę pobrać ręcznie");
+define("EPL_ADLAN_231", "Usuń ikony z Menedżera mediów");
+define("EPL_ADLAN_232", "Stwórz pliki");
+define("EPL_ADLAN_233", "Dodawanie odnośnika:");
+define("EPL_ADLAN_234", "Usuwanie odnośnika:");
+define("EPL_ADLAN_235", "Automatyczne pobieranie nie jest możliwe.");
+define("EPL_ADLAN_236", "Pobierz ręcznie");
 define("EPL_ADLAN_237", "Pobieranie");
-define("EPL_ADLAN_238", "Instalacja ukończona !");
-define("EPL_ADLAN_239", "Dodawanie tabeli :");
-define("EPL_ADLAN_240", "Usuwanie tabeli :");
-define("EPL_ADLAN_241", "Dodawanie prefiksu :");
-define("EPL_ADLAN_242", "Usuwanie prefiksu :");
-define("EPL_ADLAN_243", "Aktualizacja prefiksu :");
-define("EPL_ADLAN_244", "Dopuszczalne jest tylko 5 kategorii mediów podczas instalacji");
-define("EPL_ADLAN_245", "Dodawanie kategorii mediów : [x]");
-define("EPL_ADLAN_246", "Usuwanie wszystkich mediów należących do : [x]");
-define("EPL_ADLAN_249", "Dodawanie rozszerzonego pola :");
-define("EPL_ADLAN_250", "Usuwanie rozszerzonego pola :");
-define("EPL_ADLAN_251", "Pole rozszerzone zostało na swoim miejscu :");
-define("EPL_ADLAN_252", "Uprawnienia:");
-define("EPL_ADLAN_253", "Kompletny");
-define("LAN_RELEASED", "Wydany");
-define("LAN_REPAIR_PLUGIN_SETTINGS", "Naprawa ustawień wtyczki");
-define("LAN_SYNC_WITH_GIT_REPO", "Synchronizacja z Repo Git");
+define("EPL_ADLAN_238", "Instalacja zakończona powodzeniem!");
+define("EPL_ADLAN_239", "Dodawanie tabeli:");
+define("EPL_ADLAN_240", "Usuwanie tabeli");
+define("EPL_ADLAN_241", "Dodawanie ustawień:");
+define("EPL_ADLAN_242", "Usuwanie ustawień:");
+define("EPL_ADLAN_243", "Aktualizowanie ustawień:");
+define("EPL_ADLAN_244", "Podczas instalacji dozwolonych jest tylko 5 kategorii mediów.");
+define("EPL_ADLAN_245", "Dodawanie kategorii mediów: [x]");
+define("EPL_ADLAN_246", "Usuwanie wszystkich kategorii mediów należących do: [x]");
+define("EPL_ADLAN_247", "Aktualizacje do zainstalowania");
+define("EPL_ADLAN_249", "Dodawanie rozszerzonego pola:");
+define("EPL_ADLAN_250", "Usuwanie rozszerzonego pola:");
+define("EPL_ADLAN_251", "Rozszerzone pole pozostawione w miejscu:");
+define("EPL_ADLAN_252", "Ustawienia:");
+define("EPL_ADLAN_253", "Zakończone");
+define("LAN_RELEASED", "W trakcie");
+define("LAN_REPAIR_PLUGIN_SETTINGS", "Napraw ustawienia wtyczki");
+define("LAN_SYNC_WITH_GIT_REPO", "Zsynchronizuj z zasobami Git");
 define("LAN_ADDONS", "Dodatki");
 define("LAN_UPGRADE_SUCCESSFUL", "Uaktualnienie udane");
 define("LAN_INSTALL_SUCCESSFUL", "Instalacja udana");
 define("LAN_INSTALL_FAIL", "Instalacja nie powiodła się");
-define("LAN_UNINSTALL_FAIL", "Nie można odinstalować !");
-define("LAN_PLUGIN_IS_USED", "[x] wtyczka jest używana przez :");
-
-
-?>
+define("LAN_UNINSTALL_FAIL", "Instalacja nie jest możliwa!");
+define("LAN_PLUGIN_IS_USED", "[x] używany jest przez:");
+define("EPL_ADLAN_254", "Spowoduje to sprawdzenie plików językowych wtyczki pod kątem błędów oraz wspólnych lub zduplikowanych sekwencji.");
+define("EPL_ADLAN_255", "Nadpisywanie plików");
+define("EPL_ADLAN_256", "Pominięto [x] (już istnieją)");

@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/03/22                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -15,7 +12,7 @@
 //define("POLL_ADLAN01", "Poll");
 //define("POLL_ADLAN02", "The poll plugin allows you to define polls in either a menu or forum post.");
 define("POLL_ADLAN03", "Konfiguracja ankiet");
-define("POLL_ADLAN04", "Plugin ankiet został pomyślnie zainstalowany. Aby dodać ankietę kliknij na ikonę Ankiety w sekcji pluginów na stronie głównej administratora oraz pamiętaj aby po jej dodaniu aktyować menu pool na stronie konfiguracji menu.");
+define("POLL_ADLAN04", "Plugin ankiet został pomyślnie zainstalowany. Aby dodać ankietę kliknij na ikonę Ankiety w sekcji pluginów na stronie głównej administratora oraz pamiętaj aby po jej dodaniu aktywować menu pool na stronie konfiguracji menu.");
 
 define("POLL_ADLAN05", "Ankieta główna: ");
 define("POLL_ADLAN06", "Temat forum: ");

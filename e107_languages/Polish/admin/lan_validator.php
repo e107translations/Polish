@@ -4,12 +4,8 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_validator.php                  *
-   * Validator Handler - Language File                               *
-	* Default error messages by Error code number                     *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -50,4 +46,4 @@ define("LAN_VALIDATE_204", "Rozmiar pliku jest mniejszy niż dozwolony minimalny
 // define("LAN_VALIDATE_FAILMSG", "<strong>&quot;%1$s&quot;</strong> validation error: [#%2$d] %3$s.");
 
  //FIXME - use this instead:
-define("LAN_VALIDATE_FAILMSG", "[x] bład walidacji: [y] [z].");
+define("LAN_VALIDATE_FAILMSG", "[x] błąd walidacji: [y] [z].");

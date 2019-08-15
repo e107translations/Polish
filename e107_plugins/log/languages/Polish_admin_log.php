@@ -3,15 +3,11 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
-
 //define("ADSTAT_ON", "On");
 //define("ADSTAT_OFF", "Off");
 define("ADSTAT_L1", "Ten plugin będzie zapisywał wszystkie wizyty na Twojej stronie, a następnie wykona szczegółowe zestawienie bazujące na zebranych informacjach.");
@@ -55,7 +51,7 @@ define ('ADSTAT_L38', "Musisz ustawić katalog e107_plugins/log/logs na zapisywa
 define ('ADSTAT_L39', 'Funkcje statystyk');
 define ('ADSTAT_L40', 'Eksport danych');
 define ('ADSTAT_L41', 'Wybór danych');
-define ('ADSTAT_L42', 'Pojedyńczy dzień');
+define ('ADSTAT_L42', 'Pojedynczy dzień');
 define ('ADSTAT_L43', 'Codziennie przez miesiąc');
 define ('ADSTAT_L44', 'Miesięcznie przez rok');
 define ('ADSTAT_L45', 'Cały czas');

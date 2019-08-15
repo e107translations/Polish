@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file - admin/lan_admin_log.php                  *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+   * Polish language file - admin/lan_db.php                         *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -42,11 +38,11 @@ define("RL_LAN_046", "dni");
 define("RL_LAN_047", "Potwierdź skasowanie zdarzeń admina starszych niż");
 define("RL_LAN_049", "Kasuj starsze wpisy");
 define("RL_LAN_050", "Błąd parametru - nic nie skasowano");
-define("RL_LAN_052", "Admin logaaa");
+define("RL_LAN_052", "Log Admina");
 define("RL_LAN_053", "Logi użytkowników");
 define("RL_LAN_054", "Nie ma nic do skasowania, lub nastąpił błąd wewnątrz bazy danych");
-define("RL_LAN_057", " - zdarzenia starsze niż --OLD-- (--NUM-- entries) zostały skasowane");
-define("RL_LAN_058", "Filtr prioryteru:");
+define("RL_LAN_057", " - zdarzenia starsze niż [x] ([y] entries) zostały skasowane");
+define("RL_LAN_058", "Filtr priorytetu:");
 define("RL_LAN_059", "Filtr rozmówcy:");
 define("RL_LAN_060", "Filtr adresu IP:");
 define("RL_LAN_061", "Dopuszczalny symbol wieloznaczny (*) na końcu.");
@@ -72,7 +68,7 @@ define("RL_LAN_083", "Resetowanie odbitych e-maili");
 define("RL_LAN_084", "Konta tymczasowe");
 define("RL_LAN_087", "Szczegóły");
 define("RL_LAN_090", "ID download");
-define("RL_LAN_091", "Szczegułowe czasy");
+define("RL_LAN_091", "Szczegółowe czasy");
 define("RL_LAN_092", "Okres czasu");
 define("RL_LAN_093", "(min)");
 define("RL_LAN_094", "Analiza okresu czasu");
@@ -100,10 +96,7 @@ define("RL_LAN_123", "Ślad klasy użytkownika");
 define("RL_LAN_124", "Działania klasy użytkownika");
 define("RL_LAN_125", "Konserwacja systemu logów");
 define("RL_LAN_126", "Łącznie [x] pasujących wyników wyszukiwania");
-define("RL_LAN_132", "Informacyjny");
-define("RL_LAN_133", "Nota");
-define("RL_LAN_134", "Uwaga");
-define("RL_LAN_135", "Fatalny");
-
-
-?>
+define("RL_LAN_132", "Informacja");
+define("RL_LAN_133", "Uwaga");
+define("RL_LAN_134", "Ostrzeżenie");
+define("RL_LAN_135", "Fatalnie!");

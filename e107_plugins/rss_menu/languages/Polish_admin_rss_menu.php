@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/03/30                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -53,7 +50,7 @@ define("RSS_LAN_ADMINMENU_4", "Importowanie");
 
 define("RSS_LAN_ERROR_1", "To nie jest poprawny kanał rss[br][br][Powrót do listy]");
 define("RSS_LAN_ERROR_2", "Twój plik e107_config.php lub pliki językowe zawierają spacje bądź znaki &#65279;i&#187;&#191; przed znakami &lt;?. Powinieneś je usunąć przy pomocy edytora tekstu w formacie nie-utf8 jeśli chcesz dysponować poprawnym modułem RSS.");
-define("RSS_LAN_ERROR_3", "Obecnie nie ma jeszcze kanałów rss.[br]Proszę użyć funkcię importu do zaimportowania dostępnych kanałów rss lub utworzyć kanał rss ręcznie.");
+define("RSS_LAN_ERROR_3", "Obecnie nie ma jeszcze kanałów rss.[br]Proszę użyć funkcji importu do zaimportowania dostępnych kanałów rss lub utworzyć kanał rss ręcznie.");
 define("RSS_LAN_ERROR_4", "Nie ma jeszcze dostępnych kanałów rss");
 define("RSS_LAN_ERROR_5", "Wpis rss nie istnieje");
 define("RSS_LAN_ERROR_6", "Nie ma obecnie kanałów rss do importowania");

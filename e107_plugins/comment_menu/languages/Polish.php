@@ -1,18 +1,15 @@
-  <?php
+<?php
 /*
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 define("CM_L1", "Nie ma jeszcze żadnych komentarzy.");
-define("CM_L2", " ");
+define("CM_L2", "");
 define("CM_L3", "Nagłówek");
 define("CM_L4", "Ilość wyświetlanych komentarzy");
 define("CM_L5", "Ilość wyświetlanych znaków");

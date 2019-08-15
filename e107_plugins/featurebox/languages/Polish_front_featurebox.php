@@ -3,15 +3,12 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/02/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 
-// define("FBLAN_01", "Feature Box");
-// define("FBLAN_02", "read more"); // Already used in admin area.
+// define("FBLAN_01", "Wiadomości specjalne");
+// define("FBLAN_02", "czytaj więcej"); // Already used in admin area.
 ?>

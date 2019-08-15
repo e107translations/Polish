@@ -4,18 +4,15 @@
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - admin/lan_users_extended.php             *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
 define("EXTLAN_1", "Nazwa");
 define("EXTLAN_2", "Podgląd");
 define("EXTLAN_3", "Wartość");
-define("EXTLAN_4", "Wyma<br />gane");
+define("EXTLAN_4", "Wymagane");
 define("EXTLAN_5", "Mogą stosować");
 define("EXTLAN_6", "Widoczność");
 define("EXTLAN_7", "Modyfikacja");
@@ -88,15 +85,15 @@ define("EXTLAN_74", "jest zarezerwowaną nazwą pola i nie może być użyta.");
 define("EXTLAN_75", "Wystąpił błąd podczas dodawania pola do bazy danych.");
 define("EXTLAN_76", "Niedozwolone znaki w nazwie pola - tylko znaki A-Z, a-z, 0-9, '_' są dozwolone.");
 define("EXTLAN_77", "Kategorii nie usunięto - najpierw musisz usunąć elementy kategorii:");
-define("EXTLAN_78", "Nie można znaleźć pliku --FILE-- potrzebnego do utworzenia tabeli danych");
+define("EXTLAN_78", "Nie można znaleźć pliku [x] potrzebnego do utworzenia tabeli danych");
 define("EXTLAN_79", "Etykieta");
 define("EXTLAN_80", "Błąd sprawdzania poprawności - przerwana.");
-define("EXTLAN_81", "Dodaj nowe pole");
-define("EXTLAN_82", "Wartość");
-define("EXTLAN_83", "Zastępczy");
-define("EXTLAN_84", "Pomoc");
-define("EXTLAN_86", "Dodatkowa kolumna użytkownika została skasowana");
-define("EXTLAN_87", "Wartość sortowania");
+define("EXTLAN_81", "Dodaj pole");
+define("EXTLAN_82", "Wartości");
+define("EXTLAN_83", "Symbol zastępczy");
+define("EXTLAN_84", "Wskazówka");
+define("EXTLAN_86", "Rozszerzona kolumna użytkownika została usunięta z tabeli");
+define("EXTLAN_87", "Uporządkuj wartości");
 define("EXTLAN_HELP_1", "<b><i>Parametry:</i></b><br />size - rozmiar pola<br />maxlength - maksymalna długość pola<br /><br />class - klasa stylu css<br />style - styl css<br /><br />regex - kod walidacji wyrażeniem regularnym<br />regexfail - komunikat nieudanej walidacji");
 define("EXTLAN_HELP_2", "Wprowadź tekst dla opcji w pole 'Wartość' - jedno pole na opcję. Dodaj nowe pola jeśli ich potrzebujesz.");
 define("EXTLAN_HELP_3", "Wprowadź tekst dla opcji w pole 'Wartość' - jedno pole na opcję. Dodaj nowe pola jeśli ich potrzebujesz.");
@@ -106,6 +103,3 @@ define("EXTLAN_HELP_6", "Umożliwia użytkownikom wpisywanie wartości liczbowyc
 define("EXTLAN_HELP_7", "Umożliwia podanie daty przez użytkownika.");
 define("EXTLAN_HELP_8", "Umożliwia użytkownikowi wybór jednego z zainstalowanych języków.");
 define("EXTLAN_HELP_9", "Określ predefiniowaną listę. Pole wartości wybiera rodzaj listy - obecnie tylko 'stref czasowych' jest poprawny wpis");
-
-
-?>

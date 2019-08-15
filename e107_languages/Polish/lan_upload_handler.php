@@ -1,15 +1,11 @@
 <?php
 /*
 +====================================================================+
-* Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
    * Polish language file - lan_upload_handler.php                   *
-   *                                                                 *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/01/20                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -33,5 +29,3 @@ define("LANUPLOAD_17", "Niepoprawna nazwa przesyłanego pliku");
 define("LANUPLOAD_18", "Przesłany plik przekracza dopuszczalną wielkość.");
 define("LANUPLOAD_19", "Przesłano zbyt wiele plików - nadmiar usunięto.");
 
-
-?>

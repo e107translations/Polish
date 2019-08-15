@@ -3,11 +3,8 @@
 +====================================================================+
 +--------------------------------------------------------------------+
    * Spolszczenie systemu CMS e107                                   *
-   * Polish language file                                            *
-	* e107 Polish Team                                                *
-	* www.d4e.pl                                                      *
-	* $Date: 2016/07/22                                               *
-	* $Author: JacekCich                                              *
+	* $Date: 2019/08/14                                              *
+	* $Author: JacekCich & akogo 									 *
 +--------------------------------------------------------------------+
 +====================================================================+
 */
@@ -21,7 +18,7 @@ define("LAN_PM_6", "Wiadomość");
 define("LAN_PM_7", "Emoty");
 define("LAN_PM_8", "Załącznik");
 define("LAN_PM_9", "Potwierdzenie odbioru");
-define("LAN_PM_10", "Wyślij do mnie emaila potwierdzającego przeczytanie tej wiadomości");
+define("LAN_PM_10", "Wyślij do mnie e-maila potwierdzającego przeczytanie tej wiadomości");
 define("LAN_PM_11", "dodaj nowy plik");
 define("LAN_PM_12", "Nie masz uprawnień do używania systemu Wiadomości Prywatnych");
 define("LAN_PM_13", "Twoja skrzynka odbiorcza jest zapełniona w {PERCENT}% - nie możesz wysyłać wiadomości prywatnych dopóki czegoś nie usuniesz");
@@ -78,7 +75,7 @@ define("LAN_PM_67", "Brak zablokowanych użytkowników");
 define("LAN_PM_68", "Nazwa");
 define("LAN_PM_69", "Zablokowano dnia");
 define("LAN_PM_70", "Usuwanie blokady użytkownika");
-define("LAN_PM_71", "[x] usunięto załącznik(i). [y] niepowodzeń");
+define("LAN_PM_71", "Usunięto [x] załącznik(i/ów). [y] niepowodzeń");
 define("LAN_PM_100", "Nowa wiadomość na stronie");
 define("LAN_PM_101", "Otrzymałeś nową wiadomość na stronie");
 define("LAN_PM_102", "Nadawcą wiadomości jest:");
@@ -91,9 +88,6 @@ define("LAN_PM_108", "Wiadomość wysłana dnia:");
 define("LAN_PM_109", "Nowa wiadomość");
 define("LAN_PM_111", "Czytaj");
 define("LAN_PM_112", "Użytkownik");
-define("LAN_PM_113", "Czytaj wiadomość");
-define("LAN_PM_114", "Nie masz dostępu, aby wysłać do tego użytkownika.");
-define("LAN_PM_115", "Użytkownik nie znaleziony.");
-
-
-?>
+define("LAN_PM_113", "Odczyt wiadomości");
+define("LAN_PM_114", "Nie masz dostępu do wysłania wiadomości temu użytkownikowi.");
+define("LAN_PM_115", "Użytkownik nie został znaleziony");
