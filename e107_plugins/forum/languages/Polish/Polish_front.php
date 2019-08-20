@@ -104,7 +104,7 @@ define("LAN_FORUM_2002", "Następny temat");
 define("LAN_FORUM_2003", "Moderatorzy");
 define("LAN_FORUM_2004", "Ten temat jest zamknięty");
 define("LAN_FORUM_2005", "Utwórz nowy temat");
-define("LAN_FORUM_2006", "Odpowiedz w temacie");
+define("LAN_FORUM_2006", "Odpowiedź rozbudowana");
 define("LAN_FORUM_2007", "Szybka odpowiedź");
 define("LAN_FORUM_2008", "UKRYTY - ZALOGUJ I ODPOWIEDZ");
 define("LAN_FORUM_2009", "Czy jesteś pewien, że chcesz usunąć wszystkie tematy razem z odpowiedziami?");
